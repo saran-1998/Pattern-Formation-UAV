@@ -49,7 +49,7 @@ __builtin__.port_heading = 60194
 
 # Connect to the Vehicle
 print('{} - Connecting to vehicle...'.format(time.ctime()))
-connection_address = local_host + port
+connection_address = local_host +  ":" + port
 vehicle_temp = connect(connection_address, baud=57600, wait_ready=True)
 
 while not 'vehicle_temp' in locals():

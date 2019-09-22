@@ -1,0 +1,6 @@
+Sun Sep 22 13:34:24 2019 - This is a leader drone.
+Sun Sep 22 13:34:24 2019 - local_host = 192.168.0.103.
+Sun Sep 22 13:34:24 2019 - This drone is iris3
+Sun Sep 22 13:34:24 2019 - local_host = 192.168.0.103.
+Sun Sep 22 13:34:24 2019 - This drone is iris3
+Sun Sep 22 13:34:24 2019 - Connecting to vehicle...
