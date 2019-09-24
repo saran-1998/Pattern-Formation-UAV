@@ -81,7 +81,7 @@ arm_no_RC()
 # IP list:
 iris_host = list()
 drone_address_identifier = int(local_host.split('.')[-1])
-host_prefix = local_host[:-3]
+host_prefix = local_host[:10]
 for i in range(total_no_of_drones):
     iris_host.append(host_prefix + str(drone_address_identifier))
     drone_address_identifier += 1
@@ -143,7 +143,8 @@ if remainder_no_of_drones == 0:
     edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*10) ** 2))
                            for i in range(1, no_of_drones_per_edge+1)]
     edge3_angles = [90 + math.atan(edge_length/((no_of_drones_per_edge-i)*10))
-                    for i in range(1, no_of_drones_per_edge+1)]
+                    for i in range(1, no_of_drones_per_edge)]
+    edge3_angles.append(180)
     edge4_displacements = [(no_of_drones_per_edge-i) *
                            10 for i in range(1, no_of_drones_per_edge)]
     edge4_angles = [180] * (no_of_drones_per_edge-1)
@@ -159,7 +160,8 @@ elif remainder_no_of_drones == 1:
     edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
         edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
     edge3_angles = [90 + math.atan(no_of_drones_per_edge/((no_of_drones_per_edge-i)))
-                    for i in range(1, no_of_drones_per_edge+1)]
+                    for i in range(1, no_of_drones_per_edge)]
+    edge3_angles.append(180)
     edge4_displacements = [(no_of_drones_per_edge-i)*(edge_length/no_of_drones_per_edge)
                            for i in range(1, no_of_drones_per_edge)]
     edge4_angles = [180] * (no_of_drones_per_edge-1)
@@ -175,7 +177,8 @@ elif remainder_no_of_drones == 2:
     edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
         edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
     edge3_angles = [90 + math.atan(no_of_drones_per_edge/((no_of_drones_per_edge-i)))
-                    for i in range(1, no_of_drones_per_edge+1)]
+                    for i in range(1, no_of_drones_per_edge)]
+    edge3_angles.append(180)
     edge4_displacements = [
         (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
     edge4_angles = [180] * (no_of_drones_per_edge)
@@ -191,7 +194,8 @@ else:
     edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i+1)*10) ** 2))
                            for i in range(1, no_of_drones_per_edge+2)]
     edge3_angles = [90 + math.atan(edge_length/((no_of_drones_per_edge-i+1)*10))
-                    for i in range(1, no_of_drones_per_edge+2)]
+                    for i in range(1, no_of_drones_per_edge+1)]
+    edge3_angles.append(180)
     edge4_displacements = [
         (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
     edge4_angles = [180] * (no_of_drones_per_edge)
@@ -213,7 +217,7 @@ for i in range(1, no_of_followers + 1):
     print(
         '{} - Sending immediate command to : {}.'.format(time.ctime(), followers[i-1]))
     CLIENT_send_immediate_command(
-        followers[i-1], 'takeoff_and_hover({})'.format(follower_hover_height[i]))
+        followers[i-1], 'takeoff_and_hover({})'.format(follower_hover_height[i-1]))
 
 # Wait for follower ready. Blocking function.
 wait_for_follower_ready(follower_host_tuple)
@@ -477,12 +481,12 @@ followers_distance_to_followee = list(itertools.chain(
 followers_azimuth_to_followee = list(itertools.chain(
     edge1_angles, edge2_angles, edge3_angles, edge4_angles))  # In meter
 
-#move followers.
+# move followers.
 
 for i in range(1, no_of_followers+1):
     print('{} - Sending command fly_follow() to follower {}.'.format(time.ctime(), i))
     CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(
-       follower_followee, follower_frame_to_followee, follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
+        follower_followee, follower_frame_to_followee, follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
     time.sleep(5)  # Give drone 5 seconds to get to its position.
 
 # Get leader current location.

@@ -1,0 +1,326 @@
+Tue Sep 24 19:40:52 2019 - This is a leader drone.
+Tue Sep 24 19:40:52 2019 - local_host = 192.168.1.70.
+Tue Sep 24 19:40:52 2019 - This drone is iris0
+Tue Sep 24 19:40:52 2019 - local_host = 192.168.1.70.
+Tue Sep 24 19:40:52 2019 - This drone is iris0
+Tue Sep 24 19:40:52 2019 - Connecting to vehicle...
+Tue Sep 24 19:41:03 2019 - Vehicle is connected!
+Tue Sep 24 19:41:06 2019 - SERVER_send_gps_coordinate() is started!
+ Tue Sep 24 19:41:06 2019 - Thread SERVER_send_gps_coordinate is started!
+Tue Sep 24 19:41:06 2019 - Thread SERVER_send_heading_direction is started!
+Tue Sep 24 19:41:06 2019 - SERVER_send_heading_direction() is started!
+Tue Sep 24 19:41:06 2019 - Thread SERVER_send_status has started!
+Tue Sep 24 19:41:06 2019 - SERVER_send_status() is started!
+ Tue Sep 24 19:41:06 2019 - CHECK_network_connection(192.168.1.1) is started.
+Tue Sep 24 19:41:07 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:41:09 2019 - Arming motors...
+Tue Sep 24 19:41:12 2019 - Vehicle mode is changed to GUIDED
+Tue Sep 24 19:41:12 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 19:41:15 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 19:41:17 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:41:18 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:18 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:41:18 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:18 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:41:22 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:22 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:41:25 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:25 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:41:25 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:41:25 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:41:25 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:41:25 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:41:25 2019 - Wait for 1 second.
+Tue Sep 24 19:41:27 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:41:29 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:29 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:41:32 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:32 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:41:37 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:37 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:41:37 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:37 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:41:37 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:41:37 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:41:37 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:41:37 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:41:37 2019 - Wait for 1 second.
+Tue Sep 24 19:41:37 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:41:42 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:42 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:41:45 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:45 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:41:47 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:41:49 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:49 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:41:52 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:52 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:41:52 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:41:52 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:41:52 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:41:52 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:41:52 2019 - Wait for 1 second.
+Tue Sep 24 19:41:57 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:41:57 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:41:57 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:42:03 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:03 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:42:06 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:06 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:42:07 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:42:09 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:09 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:42:09 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:42:09 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:42:09 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:42:09 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:42:09 2019 - Wait for 1 second.
+Tue Sep 24 19:42:17 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:17 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:42:17 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:17 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:42:17 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:42:20 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:20 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:42:25 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:25 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:42:25 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:42:25 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:42:25 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:42:25 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:42:25 2019 - Wait for 1 second.
+Tue Sep 24 19:42:27 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:42:29 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:29 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:42:32 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:32 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:42:35 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:35 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:42:37 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:42:38 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:38 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:42:38 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:42:38 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:42:38 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:42:38 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:42:38 2019 - Wait for 1 second.
+Tue Sep 24 19:42:42 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:42 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:42:45 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:45 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:42:47 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:42:48 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:48 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:42:49 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:49 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:42:49 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:42:49 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:42:49 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:42:49 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:42:49 2019 - Wait for 1 second.
+Tue Sep 24 19:42:53 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:53 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:42:57 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:42:57 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:42:57 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:43:00 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:00 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:43:03 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:03 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:43:03 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:43:03 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:43:03 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:43:03 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:43:03 2019 - Wait for 1 second.
+Tue Sep 24 19:43:07 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:43:07 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:07 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:43:12 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:12 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:43:15 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:15 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:43:17 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:43:19 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:19 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:43:19 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:43:19 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:43:19 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:43:19 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:43:19 2019 - Wait for 1 second.
+Tue Sep 24 19:43:23 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:23 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:43:27 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:27 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:43:27 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:43:30 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:30 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:43:37 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:37 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:43:37 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:43:37 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:43:37 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:43:37 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:43:37 2019 - Wait for 1 second.
+Tue Sep 24 19:43:37 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:43:38 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:38 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:43:45 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:45 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:43:45 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:45 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:43:47 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:43:48 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:48 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:43:48 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:43:48 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:43:48 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:43:48 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:43:48 2019 - Wait for 1 second.
+Tue Sep 24 19:43:52 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:52 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:43:57 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:57 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:43:57 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:43:57 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:43:57 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:44:02 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:02 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:44:02 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:44:02 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:44:02 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:44:02 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:44:02 2019 - Wait for 1 second.
+Tue Sep 24 19:44:07 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:07 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:44:07 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:44:10 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:10 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:44:13 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:13 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:44:17 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:17 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:44:17 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:44:17 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:44:17 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:44:17 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:44:17 2019 - Wait for 1 second.
+Tue Sep 24 19:44:17 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:44:18 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:18 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:44:21 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:21 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:44:25 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:25 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:44:27 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:44:28 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:28 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:44:28 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:44:28 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:44:28 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:44:28 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:44:28 2019 - Wait for 1 second.
+Tue Sep 24 19:44:32 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:32 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:44:35 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:35 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:44:37 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:44:38 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:38 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:44:41 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:41 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:44:41 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:44:41 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:44:41 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:44:41 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:44:41 2019 - Wait for 1 second.
+Tue Sep 24 19:44:45 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:45 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:44:47 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:44:48 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:48 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:44:51 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:51 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:44:56 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:56 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:44:56 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:44:56 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:44:56 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:44:56 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:44:56 2019 - Wait for 1 second.
+Tue Sep 24 19:44:57 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:44:57 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:44:57 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:45:01 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:01 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:45:01 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:01 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:45:05 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:05 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:45:05 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:45:05 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:45:05 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:45:05 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:45:05 2019 - Wait for 1 second.
+Tue Sep 24 19:45:07 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:45:09 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:09 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:45:12 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:12 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:45:17 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:17 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:45:17 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:45:20 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:20 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:45:20 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:45:20 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:45:20 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:45:20 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:45:20 2019 - Wait for 1 second.
+Tue Sep 24 19:45:27 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:27 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:45:27 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:45:30 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:30 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:45:33 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:33 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:45:36 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:36 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:45:36 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:45:36 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:45:36 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:45:36 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:45:36 2019 - Wait for 1 second.
+Tue Sep 24 19:45:37 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:45:41 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:41 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:45:47 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:47 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:45:47 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:45:50 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:50 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:45:54 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:54 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:45:54 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:45:54 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:45:54 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:45:54 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:45:54 2019 - Wait for 1 second.
+Tue Sep 24 19:45:55 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:55 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:45:57 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:45:58 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:45:58 2019 - CLIENT_request_status(192.168.172) is not executed!
+Tue Sep 24 19:46:02 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:46:02 2019 - CLIENT_request_status(192.168.173) is not executed!
+Tue Sep 24 19:46:07 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:46:07 2019 - CLIENT_request_status(192.168.174) is not executed!
+Tue Sep 24 19:46:07 2019 - Host 192.168.171 is not ready.
+Tue Sep 24 19:46:07 2019 - Host 192.168.172 is not ready.
+Tue Sep 24 19:46:07 2019 - Host 192.168.173 is not ready.
+Tue Sep 24 19:46:07 2019 - Host 192.168.174 is not ready.
+Tue Sep 24 19:46:07 2019 - Wait for 1 second.
+Tue Sep 24 19:46:07 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 19:46:08 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:46:08 2019 - CLIENT_request_status(192.168.171) is not executed!
+Tue Sep 24 19:46:11 2019 - Caught exception : [Errno 101] Network is unreachable
+Tue Sep 24 19:46:11 2019 - CLIENT_request_status(192.168.172) is not executed!

@@ -8,9 +8,10 @@ nextip(){
 IP=($(hostname -I))
 echo -n "Enter the no of Followers:"
 read noOfFollowers
-noOdDrones=$((noOfFollowers+1))
+noOfDrones=$((noOfFollowers+1))
 UDPPort=14551
 xterm -title "Leader Drone" -hold -e python formation_main_leader.py $IP $UDPPort $noOfDrones &
+UDPPort=$((UDPPort+1))
 IP=$(nextip $IP)
 for i in $(seq 1 $noOfFollowers)
 do
