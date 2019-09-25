@@ -1,0 +1,782 @@
+Tue Sep 24 23:29:03 2019 - This is a leader drone.
+Tue Sep 24 23:29:03 2019 - local_host = 192.168.1.70.
+Tue Sep 24 23:29:03 2019 - This drone is iris0
+Tue Sep 24 23:29:03 2019 - local_host = 192.168.1.70.
+Tue Sep 24 23:29:03 2019 - This drone is iris0
+Tue Sep 24 23:29:03 2019 - Connecting to vehicle...
+Tue Sep 24 23:29:09 2019 - Vehicle is connected!
+Tue Sep 24 23:29:12 2019 - Thread SERVER_send_gps_coordinate is started!
+Tue Sep 24 23:29:12 2019 - SERVER_send_gps_coordinate() is started!
+ Tue Sep 24 23:29:12 2019 - Thread SERVER_send_heading_direction is started!
+ Tue Sep 24 23:29:12 2019 - SERVER_send_heading_direction() is started!
+Tue Sep 24 23:29:12 2019 - Thread SERVER_send_status has started!
+ Tue Sep 24 23:29:12 2019 - SERVER_send_status() is started!
+Tue Sep 24 23:29:12 2019 - CHECK_network_connection(192.168.1.1) is started.
+Tue Sep 24 23:29:12 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:29:15 2019 - Arming motors...
+Tue Sep 24 23:29:18 2019 - Vehicle mode is changed to GUIDED
+Tue Sep 24 23:29:18 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 23:29:21 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 23:29:22 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:29:24 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:24 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:24 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:24 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:24 2019 - Wait for 1 second.
+Tue Sep 24 23:29:25 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:25 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:25 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:25 2019 - Wait for 1 second.
+Tue Sep 24 23:29:26 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:26 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:26 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:26 2019 - Wait for 1 second.
+Tue Sep 24 23:29:27 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:27 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:27 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:27 2019 - Wait for 1 second.
+Tue Sep 24 23:29:28 2019 - Home GPS coordinate :
+     leader_lat_home = -35.3632614
+     leader_lon_home = 149.1652324
+     leader_alt_home = 0.03 (relative)
+('Length of followers: ', 4)
+('Length of followers height: ', 4)
+('Length of followers distance: ', 3)
+('Length of followers azimuth: ', 3)
+
+
+Tue Sep 24 23:29:28 2019 - Executing takeoff_and_hover().
+ Tue Sep 24 23:29:28 2019 - Sending immediate command to : 192.168.1.71.
+Tue Sep 24 23:29:28 2019 - Current Altitude: 0.03 m
+Tue Sep 24 23:29:28 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632614, lon=149.1652324, alt(above sea leavel)=584.03
+     Global Location (relative altitude): lat=-35.3632614, lon=149.1652324, alt(relative)=0.03
+     Local Location(NED coordinate): north=-0.0508766770363, east=0.233788713813, down=-0.0332748517394
+     Attitude(radians): Pitch=0.00181956624147, Yaw=-0.125807315111, Roll=0.00478475634009
+     Velocity: Vx=-0.05, Vy=0.15, Vz=0.01
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.538V, current=3.48A, level=99%
+ Tue Sep 24 23:29:28 2019 - Sending immediate command to : 192.168.1.72.
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Tue Sep 24 23:29:28 2019 - Sending immediate command to : 192.168.1.73.
+Tue Sep 24 23:29:28 2019 - Sending immediate command to : 192.168.1.74.
+Tue Sep 24 23:29:28 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:28 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:28 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:28 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:28 2019 - Wait for 1 second.
+Tue Sep 24 23:29:29 2019 - Current Altitude: 0.05 m
+Tue Sep 24 23:29:29 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632616, lon=149.1652324, alt(above sea leavel)=584.05
+     Global Location (relative altitude): lat=-35.3632616, lon=149.1652324, alt(relative)=0.05
+     Local Location(NED coordinate): north=-0.0714723318815, east=0.230537712574, down=-0.050836019218
+     Attitude(radians): Pitch=-0.00220357440412, Yaw=-0.123036012053, Roll=0.00269590504467
+     Velocity: Vx=-0.05, Vy=0.12, Vz=0.01
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.341V, current=16.86A, level=99%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Tue Sep 24 23:29:29 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:29 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:29 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:29 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:29 2019 - Wait for 1 second.
+Tue Sep 24 23:29:30 2019 - Current Altitude: 0.26 m
+Tue Sep 24 23:29:30 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632614, lon=149.165232, alt(above sea leavel)=584.26
+     Global Location (relative altitude): lat=-35.3632614, lon=149.165232, alt(relative)=0.26
+     Local Location(NED coordinate): north=-0.0545762740076, east=0.196312755346, down=-0.263664841652
+     Attitude(radians): Pitch=0.00221000425518, Yaw=-0.124561965466, Roll=0.0109129790217
+     Velocity: Vx=-0.02, Vy=0.12, Vz=0.76
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.41A, level=99%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Tue Sep 24 23:29:30 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:30 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:30 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:30 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:30 2019 - Wait for 1 second.
+Tue Sep 24 23:29:31 2019 - Current Altitude: 1.5 m
+Tue Sep 24 23:29:31 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632611, lon=149.1652321, alt(above sea leavel)=585.5
+     Global Location (relative altitude): lat=-35.3632611, lon=149.1652321, alt(relative)=1.5
+     Local Location(NED coordinate): north=-0.0205129738897, east=0.206279009581, down=-1.51371157169
+     Attitude(radians): Pitch=0.00677979178727, Yaw=-0.124329850078, Roll=0.0065154209733
+     Velocity: Vx=-0.05, Vy=0.12, Vz=1.71
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=29.99A, level=99%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0999999940395 m/s
+     Airspeed: 0.0999999940395 m/s
+
+
+Tue Sep 24 23:29:31 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:31 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:31 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:31 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:31 2019 - Wait for 1 second.
+Tue Sep 24 23:29:32 2019 - Current Altitude: 2.86 m
+Tue Sep 24 23:29:32 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632611, lon=149.1652325, alt(above sea leavel)=586.86
+     Global Location (relative altitude): lat=-35.3632611, lon=149.1652325, alt(relative)=2.86
+     Local Location(NED coordinate): north=-0.0186073482037, east=0.237113967538, down=-2.86906719208
+     Attitude(radians): Pitch=0.00439363857731, Yaw=-0.131718054414, Roll=0.00359156774357
+     Velocity: Vx=-0.06, Vy=0.09, Vz=2.0
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.41A, level=99%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.119999997318 m/s
+     Airspeed: 0.119999997318 m/s
+
+
+Tue Sep 24 23:29:32 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:32 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:32 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:32 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:32 2019 - Wait for 1 second.
+Tue Sep 24 23:29:32 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:29:33 2019 - Current Altitude: 5.41 m
+Tue Sep 24 23:29:33 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632612, lon=149.1652332, alt(above sea leavel)=589.41
+     Global Location (relative altitude): lat=-35.3632612, lon=149.1652332, alt(relative)=5.41
+     Local Location(NED coordinate): north=-0.0230042543262, east=0.307234048843, down=-5.42295455933
+     Attitude(radians): Pitch=0.00340084265918, Yaw=-0.12088021636, Roll=-0.000779344583862
+     Velocity: Vx=-0.05, Vy=0.04, Vz=2.2
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.57A, level=98%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.119999997318 m/s
+     Airspeed: 0.119999997318 m/s
+
+
+Tue Sep 24 23:29:33 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:33 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:33 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:33 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:33 2019 - Wait for 1 second.
+Tue Sep 24 23:29:34 2019 - Current Altitude: 5.95 m
+Tue Sep 24 23:29:34 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632612, lon=149.1652334, alt(above sea leavel)=589.95
+     Global Location (relative altitude): lat=-35.3632612, lon=149.1652334, alt(relative)=5.95
+     Local Location(NED coordinate): north=-0.0267650149763, east=0.322012394667, down=-5.95773124695
+     Attitude(radians): Pitch=0.00231083366089, Yaw=-0.121869325638, Roll=-0.00363596878015
+     Velocity: Vx=-0.04, Vy=0.02, Vz=2.23
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.57A, level=98%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.119999997318 m/s
+     Airspeed: 0.119999997318 m/s
+
+
+Tue Sep 24 23:29:34 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:34 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:34 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:34 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:34 2019 - Wait for 1 second.
+Tue Sep 24 23:29:35 2019 - Current Altitude: 7.04 m
+Tue Sep 24 23:29:35 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632612, lon=149.1652337, alt(above sea leavel)=591.04
+     Global Location (relative altitude): lat=-35.3632612, lon=149.1652337, alt(relative)=7.04
+     Local Location(NED coordinate): north=-0.0318853147328, east=0.345806568861, down=-7.04857444763
+     Attitude(radians): Pitch=0.00153595895972, Yaw=-0.125881552696, Roll=-0.00311050564051
+     Velocity: Vx=-0.02, Vy=0.0, Vz=2.28
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.49A, level=98%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0999999940395 m/s
+     Airspeed: 0.0999999940395 m/s
+
+
+Tue Sep 24 23:29:35 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:35 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:35 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:35 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:35 2019 - Wait for 1 second.
+Tue Sep 24 23:29:36 2019 - Current Altitude: 9.26 m
+Tue Sep 24 23:29:36 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632614, lon=149.1652341, alt(above sea leavel)=593.26
+     Global Location (relative altitude): lat=-35.3632614, lon=149.1652341, alt(relative)=9.26
+     Local Location(NED coordinate): north=-0.0472536347806, east=0.38420343399, down=-9.27234840393
+     Attitude(radians): Pitch=0.00185216311365, Yaw=-0.130914390087, Roll=-0.0067707025446
+     Velocity: Vx=-0.02, Vy=-0.03, Vz=2.3
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=98%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0799999982119 m/s
+     Airspeed: 0.0799999982119 m/s
+
+
+Tue Sep 24 23:29:36 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:36 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:36 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:36 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:36 2019 - Wait for 1 second.
+Tue Sep 24 23:29:37 2019 - Current Altitude: 11.48 m
+Tue Sep 24 23:29:37 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632616, lon=149.1652343, alt(above sea leavel)=595.48
+     Global Location (relative altitude): lat=-35.3632616, lon=149.1652343, alt(relative)=11.48
+     Local Location(NED coordinate): north=-0.0741457641125, east=0.399752467871, down=-11.495306015
+     Attitude(radians): Pitch=-0.00183546973858, Yaw=-0.122544117272, Roll=-0.0048204776831
+     Velocity: Vx=0.0, Vy=-0.07, Vz=2.29
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=98%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Tue Sep 24 23:29:37 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:37 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:37 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:37 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:37 2019 - Wait for 1 second.
+Tue Sep 24 23:29:38 2019 - Current Altitude: 13.7 m
+Tue Sep 24 23:29:38 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632617, lon=149.1652342, alt(above sea leavel)=597.7
+     Global Location (relative altitude): lat=-35.3632617, lon=149.1652342, alt(relative)=13.7
+     Local Location(NED coordinate): north=-0.0880516692996, east=0.39860227704, down=-13.7149982452
+     Attitude(radians): Pitch=-0.00213364744559, Yaw=-0.125780194998, Roll=-0.00465123029426
+     Velocity: Vx=0.02, Vy=-0.08, Vz=2.29
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=98%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.019999999553 m/s
+     Airspeed: 0.019999999553 m/s
+
+
+Tue Sep 24 23:29:38 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:38 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:38 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:38 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:38 2019 - Wait for 1 second.
+Tue Sep 24 23:29:39 2019 - Current Altitude: 16.47 m
+Tue Sep 24 23:29:39 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632618, lon=149.165234, alt(above sea leavel)=600.47
+     Global Location (relative altitude): lat=-35.3632618, lon=149.165234, alt(relative)=16.47
+     Local Location(NED coordinate): north=-0.0998523309827, east=0.379770636559, down=-16.4814014435
+     Attitude(radians): Pitch=-0.00189547729678, Yaw=-0.125256165862, Roll=-0.00729636009783
+     Velocity: Vx=0.02, Vy=-0.09, Vz=2.24
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=28.66A, level=97%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0299999993294 m/s
+     Airspeed: 0.0299999993294 m/s
+
+
+Tue Sep 24 23:29:39 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:39 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:39 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:39 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:39 2019 - Wait for 1 second.
+Tue Sep 24 23:29:40 2019 - Current Altitude: 18.41 m
+Tue Sep 24 23:29:40 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363262, lon=149.1652337, alt(above sea leavel)=602.41
+     Global Location (relative altitude): lat=-35.363262, lon=149.1652337, alt(relative)=18.41
+     Local Location(NED coordinate): north=-0.112816900015, east=0.348738968372, down=-18.4156169891
+     Attitude(radians): Pitch=-0.0018496705452, Yaw=-0.125909641385, Roll=-0.00397080462426
+     Velocity: Vx=0.02, Vy=-0.09, Vz=1.6
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=25.25A, level=97%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Tue Sep 24 23:29:40 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 23:29:40 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 23:29:40 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 23:29:40 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 23:29:40 2019 - Wait for 1 second.
+Tue Sep 24 23:29:41 2019 - Current Altitude: 19.44 m
+Tue Sep 24 23:29:41 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632621, lon=149.1652333, alt(above sea leavel)=603.44
+     Global Location (relative altitude): lat=-35.3632621, lon=149.1652333, alt(relative)=19.44
+     Local Location(NED coordinate): north=-0.122475147247, east=0.316433697939, down=-19.4508953094
+     Attitude(radians): Pitch=-0.00496187293902, Yaw=-0.126135766506, Roll=-0.00239954609424
+     Velocity: Vx=0.03, Vy=-0.06, Vz=0.58
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=24.26A, level=97%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0299999993294 m/s
+     Airspeed: 0.0299999993294 m/s
+
+
+Tue Sep 24 23:29:41 2019 - Reached target altitude!
+
+Tue Sep 24 23:29:41 2019 - After taking off and hover, Leader's GPS coordinate : lat=-35.3632621, lon=149.1652333, alt_relative=19.44
+Tue Sep 24 23:29:41 2019 - Leader current heading is 352 degree.
+Tue Sep 24 23:29:41 2019 - Leader is going to pointA : (-35.3630836, 149.1652027)
+
+
+Tue Sep 24 23:29:41 2019 - Sending command fly_follow() to follower1
+Tue Sep 24 23:29:41 2019 - Calling goto_gps_location_relative(lat=-35.3630836, lon=149.1652027, alt=20, groundspeed=1).
+Tue Sep 24 23:29:41 2019 - Before calling goto_gps_location_relative(), vehicle state is:
+Tue Sep 24 23:29:41 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632621, lon=149.1652333, alt(above sea leavel)=603.44
+     Global Location (relative altitude): lat=-35.3632621, lon=149.1652333, alt(relative)=19.44
+ Tue Sep 24 23:29:41 2019 - Sending command fly_follow() to follower2
+     Local Location(NED coordinate): north=-0.122475147247, east=0.316433697939, down=-19.4508953094
+     Attitude(radians): Pitch=-0.00496187293902, Yaw=-0.126135766506, Roll=-0.00239954609424
+     Velocity: Vx=0.03, Vy=-0.06, Vz=0.58Tue Sep 24 23:29:41 2019 - Sending command fly_follow() to follower3
+ Tue Sep 24 23:29:41 2019 - Received GPS coordinate request from ('192.168.1.70', 47014).
+
+     GPS Info: fix_type=3, num_sat=10
+ Tue Sep 24 23:29:41 2019 - Received GPS coordinate request from ('192.168.1.70', 47016).
+Tue Sep 24 23:29:41 2019 - Sending command fly_follow() to follower4
+Tue Sep 24 23:29:41 2019 - Received heading direction request from ('192.168.1.70', 48096).
+     Battery: voltage=12.242V, current=24.26A, level=97%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0299999993294 m/s
+     Airspeed: 0.0299999993294 m/s
+Tue Sep 24 23:29:41 2019 - Received heading direction request from ('192.168.1.70', 48100).
+ Tue Sep 24 23:29:41 2019 - Received GPS coordinate request from ('192.168.1.70', 47022).
+Tue Sep 24 23:29:41 2019 - Received heading direction request from ('192.168.1.70', 48102).
+Tue Sep 24 23:29:42 2019 - Horizontal distance to destination: 19.9861423422 m.
+Tue Sep 24 23:29:42 2019 - Perpendicular distance to destination: -0.35 m.
+Tue Sep 24 23:29:42 2019 - Horizontal distance to destination: 19.9861423422 m.
+Tue Sep 24 23:29:42 2019 - Perpendicular distance to destination: -0.35 m.
+Tue Sep 24 23:29:42 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:29:43 2019 - Horizontal distance to destination: 19.9861423422 m.
+Tue Sep 24 23:29:43 2019 - Perpendicular distance to destination: -0.35 m.
+Tue Sep 24 23:29:43 2019 - Horizontal distance to destination: 19.9861423422 m.
+Tue Sep 24 23:29:43 2019 - Perpendicular distance to destination: -0.35 m.
+Tue Sep 24 23:29:44 2019 - Horizontal distance to destination: 19.9738957692 m.
+Tue Sep 24 23:29:44 2019 - Perpendicular distance to destination: -0.25 m.
+Tue Sep 24 23:29:44 2019 - Horizontal distance to destination: 19.8724893354 m.
+Tue Sep 24 23:29:44 2019 - Perpendicular distance to destination: -0.19 m.
+Tue Sep 24 23:29:45 2019 - Horizontal distance to destination: 19.6612025153 m.
+Tue Sep 24 23:29:45 2019 - Perpendicular distance to destination: -0.15 m.
+Tue Sep 24 23:29:45 2019 - Horizontal distance to destination: 19.3704859865 m.
+Tue Sep 24 23:29:45 2019 - Perpendicular distance to destination: -0.1 m.
+Tue Sep 24 23:29:46 2019 - Horizontal distance to destination: 19.0358237772 m.
+Tue Sep 24 23:29:46 2019 - Perpendicular distance to destination: -0.08 m.
+Tue Sep 24 23:29:46 2019 - Horizontal distance to destination: 18.6779251517 m.
+Tue Sep 24 23:29:46 2019 - Perpendicular distance to destination: -0.06 m.
+Tue Sep 24 23:29:47 2019 - Horizontal distance to destination: 18.1404436182 m.
+Tue Sep 24 23:29:47 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:47 2019 - Horizontal distance to destination: 17.7838217037 m.
+Tue Sep 24 23:29:47 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:48 2019 - Horizontal distance to destination: 17.417514903 m.
+Tue Sep 24 23:29:48 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:48 2019 - Horizontal distance to destination: 17.417514903 m.
+Tue Sep 24 23:29:48 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:49 2019 - Horizontal distance to destination: 17.0363736392 m.
+Tue Sep 24 23:29:49 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:49 2019 - Horizontal distance to destination: 16.8361133652 m.
+Tue Sep 24 23:29:49 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:50 2019 - Horizontal distance to destination: 16.6235799439 m.
+Tue Sep 24 23:29:50 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:50 2019 - Horizontal distance to destination: 16.6235799439 m.
+Tue Sep 24 23:29:50 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:51 2019 - Horizontal distance to destination: 16.4123480707 m.
+Tue Sep 24 23:29:51 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:51 2019 - Horizontal distance to destination: 15.9885974129 m.
+Tue Sep 24 23:29:51 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:52 2019 - Horizontal distance to destination: 15.3317145841 m.
+Tue Sep 24 23:29:52 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:52 2019 - Horizontal distance to destination: 14.886068421 m.
+Tue Sep 24 23:29:52 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:52 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:29:53 2019 - Horizontal distance to destination: 14.4390980688 m.
+Tue Sep 24 23:29:53 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:53 2019 - Horizontal distance to destination: 14.2046457291 m.
+Tue Sep 24 23:29:53 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:54 2019 - Horizontal distance to destination: 13.5342196851 m.
+Tue Sep 24 23:29:54 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:54 2019 - Horizontal distance to destination: 13.0776973376 m.
+Tue Sep 24 23:29:54 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:55 2019 - Horizontal distance to destination: 12.621220264 m.
+Tue Sep 24 23:29:55 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:55 2019 - Horizontal distance to destination: 12.1647935607 m.
+Tue Sep 24 23:29:55 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:56 2019 - Horizontal distance to destination: 11.6974685069 m.
+Tue Sep 24 23:29:56 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:56 2019 - Horizontal distance to destination: 11.2397068489 m.
+Tue Sep 24 23:29:56 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:57 2019 - Horizontal distance to destination: 11.0053628341 m.
+Tue Sep 24 23:29:57 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:57 2019 - Horizontal distance to destination: 11.0053628341 m.
+Tue Sep 24 23:29:57 2019 - Perpendicular distance to destination: -0.04 m.
+Tue Sep 24 23:29:58 2019 - Horizontal distance to destination: 10.5272469453 m.
+Tue Sep 24 23:29:58 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:58 2019 - Horizontal distance to destination: 10.0616988146 m.
+Tue Sep 24 23:29:58 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:59 2019 - Horizontal distance to destination: 9.34963551025 m.
+Tue Sep 24 23:29:59 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:29:59 2019 - Horizontal distance to destination: 8.87036974197 m.
+Tue Sep 24 23:29:59 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:30:00 2019 - Horizontal distance to destination: 8.38029473549 m.
+Tue Sep 24 23:30:00 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:00 2019 - Horizontal distance to destination: 7.90294270666 m.
+Tue Sep 24 23:30:00 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:01 2019 - Horizontal distance to destination: 7.43672384401 m.
+Tue Sep 24 23:30:01 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:01 2019 - Horizontal distance to destination: 6.95810551109 m.
+Tue Sep 24 23:30:01 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:02 2019 - Horizontal distance to destination: 6.47788872601 m.
+Tue Sep 24 23:30:02 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:02 2019 - Horizontal distance to destination: 5.99972442994 m.
+Tue Sep 24 23:30:02 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:02 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:30:03 2019 - Horizontal distance to destination: 5.76619010044 m.
+Tue Sep 24 23:30:03 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:03 2019 - Horizontal distance to destination: 5.53274416276 m.
+Tue Sep 24 23:30:03 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:04 2019 - Horizontal distance to destination: 5.04454442286 m.
+Tue Sep 24 23:30:04 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:04 2019 - Horizontal distance to destination: 4.55699040118 m.
+Tue Sep 24 23:30:04 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:05 2019 - Horizontal distance to destination: 4.07031414579 m.
+Tue Sep 24 23:30:05 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:05 2019 - Horizontal distance to destination: 3.58734914186 m.
+Tue Sep 24 23:30:05 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:06 2019 - Horizontal distance to destination: 3.11725692073 m.
+Tue Sep 24 23:30:06 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:06 2019 - Horizontal distance to destination: 2.65786445954 m.
+Tue Sep 24 23:30:06 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:07 2019 - Horizontal distance to destination: 2.19231381501 m.
+Tue Sep 24 23:30:07 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:07 2019 - Horizontal distance to destination: 1.72891925744 m.
+Tue Sep 24 23:30:07 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:08 2019 - Horizontal distance to destination: 1.29473549218 m.
+Tue Sep 24 23:30:08 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:08 2019 - Horizontal distance to destination: 0.907108344821 m.
+Tue Sep 24 23:30:08 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:09 2019 - Horizontal distance to destination: 0.669239079558 m.
+Tue Sep 24 23:30:09 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:09 2019 - Horizontal distance to destination: 0.622862721494 m.
+Tue Sep 24 23:30:09 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:10 2019 - Horizontal distance to destination: 0.622862721494 m.
+Tue Sep 24 23:30:10 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:10 2019 - Horizontal distance to destination: 0.622862721494 m.
+Tue Sep 24 23:30:10 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:11 2019 - Horizontal distance to destination: 0.640826020327 m.
+Tue Sep 24 23:30:11 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:11 2019 - Horizontal distance to destination: 0.66558346504 m.
+Tue Sep 24 23:30:11 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:12 2019 - Horizontal distance to destination: 0.68921515712 m.
+Tue Sep 24 23:30:12 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:12 2019 - Horizontal distance to destination: 0.71837427347 m.
+Tue Sep 24 23:30:12 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:12 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:30:13 2019 - Horizontal distance to destination: 0.731262507417 m.
+Tue Sep 24 23:30:13 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:13 2019 - Horizontal distance to destination: 0.738308808313 m.
+Tue Sep 24 23:30:13 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:14 2019 - Horizontal distance to destination: 0.724208272239 m.
+Tue Sep 24 23:30:14 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:14 2019 - Horizontal distance to destination: 0.703253899512 m.
+Tue Sep 24 23:30:14 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:15 2019 - Horizontal distance to destination: 0.697147977871 m.
+Tue Sep 24 23:30:15 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:15 2019 - Horizontal distance to destination: 0.691819695295 m.
+Tue Sep 24 23:30:15 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:16 2019 - Horizontal distance to destination: 0.678082970506 m.
+Tue Sep 24 23:30:16 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:16 2019 - Horizontal distance to destination: 0.678082970506 m.
+Tue Sep 24 23:30:16 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:17 2019 - Horizontal distance to destination: 0.678082970506 m.
+Tue Sep 24 23:30:17 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:17 2019 - Horizontal distance to destination: 0.658322773749 m.
+Tue Sep 24 23:30:17 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:18 2019 - Horizontal distance to destination: 0.640985860001 m.
+Tue Sep 24 23:30:18 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:18 2019 - Horizontal distance to destination: 0.638150331505 m.
+Tue Sep 24 23:30:18 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:19 2019 - Horizontal distance to destination: 0.638150331505 m.
+Tue Sep 24 23:30:19 2019 - Perpendicular distance to destination: 0.02 m.
+Tue Sep 24 23:30:19 2019 - Horizontal distance to destination: 0.64112127293 m.
+Tue Sep 24 23:30:19 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:20 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:20 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:20 2019 - Horizontal distance to destination: 0.636206529826 m.
+Tue Sep 24 23:30:20 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:21 2019 - Horizontal distance to destination: 0.636206529826 m.
+Tue Sep 24 23:30:21 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:21 2019 - Horizontal distance to destination: 0.647975239364 m.
+Tue Sep 24 23:30:21 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:30:22 2019 - Horizontal distance to destination: 0.651848672586 m.
+Tue Sep 24 23:30:22 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:22 2019 - Horizontal distance to destination: 0.66458814388 m.
+Tue Sep 24 23:30:22 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:22 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:30:23 2019 - Horizontal distance to destination: 0.673785345554 m.
+Tue Sep 24 23:30:23 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:23 2019 - Horizontal distance to destination: 0.673785345554 m.
+Tue Sep 24 23:30:23 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:24 2019 - Horizontal distance to destination: 0.673785345554 m.
+Tue Sep 24 23:30:24 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:24 2019 - Horizontal distance to destination: 0.673785345554 m.
+Tue Sep 24 23:30:24 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:25 2019 - Horizontal distance to destination: 0.670466459565 m.
+Tue Sep 24 23:30:25 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:25 2019 - Horizontal distance to destination: 0.654255433248 m.
+Tue Sep 24 23:30:25 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:26 2019 - Horizontal distance to destination: 0.654255433248 m.
+Tue Sep 24 23:30:26 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:26 2019 - Horizontal distance to destination: 0.646189144934 m.
+Tue Sep 24 23:30:26 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:27 2019 - Horizontal distance to destination: 0.638150331505 m.
+Tue Sep 24 23:30:27 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:30:27 2019 - Horizontal distance to destination: 0.619899028601 m.
+Tue Sep 24 23:30:27 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:28 2019 - Horizontal distance to destination: 0.606835291701 m.
+Tue Sep 24 23:30:28 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:28 2019 - Horizontal distance to destination: 0.606835291701 m.
+Tue Sep 24 23:30:28 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:29 2019 - Horizontal distance to destination: 0.610293279389 m.
+Tue Sep 24 23:30:29 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:29 2019 - Horizontal distance to destination: 0.610293279389 m.
+Tue Sep 24 23:30:29 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:30 2019 - Horizontal distance to destination: 0.62241678071 m.
+Tue Sep 24 23:30:30 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:30 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:30 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:31 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:31 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:31 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:31 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:32 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:32 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:32 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:30:32 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:32 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:33 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:33 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:33 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:33 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:34 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:34 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:34 2019 - Horizontal distance to destination: 0.639700677412 m.
+Tue Sep 24 23:30:34 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:35 2019 - Horizontal distance to destination: 0.652612797641 m.
+Tue Sep 24 23:30:35 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:35 2019 - Horizontal distance to destination: 0.652612797641 m.
+Tue Sep 24 23:30:35 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:36 2019 - Horizontal distance to destination: 0.656271329599 m.
+Tue Sep 24 23:30:36 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:36 2019 - Horizontal distance to destination: 0.660221201474 m.
+Tue Sep 24 23:30:36 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:37 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:30:37 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:37 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:30:37 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:38 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:30:38 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:38 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:30:38 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:39 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:30:39 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:39 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:30:39 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:40 2019 - Horizontal distance to destination: 0.64348622053 m.
+Tue Sep 24 23:30:40 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:40 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:30:40 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:41 2019 - Horizontal distance to destination: 0.651848672586 m.
+Tue Sep 24 23:30:41 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:41 2019 - Horizontal distance to destination: 0.647975239364 m.
+Tue Sep 24 23:30:41 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:42 2019 - Horizontal distance to destination: 0.652612797641 m.
+Tue Sep 24 23:30:42 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 23:30:42 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:30:42 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:42 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:43 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:43 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:43 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:43 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:44 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:44 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:44 2019 - Horizontal distance to destination: 0.657404899342 m.
+Tue Sep 24 23:30:44 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:45 2019 - Horizontal distance to destination: 0.66558346504 m.
+Tue Sep 24 23:30:45 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:45 2019 - Horizontal distance to destination: 0.670466459565 m.
+Tue Sep 24 23:30:45 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:46 2019 - Horizontal distance to destination: 0.670466459565 m.
+Tue Sep 24 23:30:46 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:46 2019 - Horizontal distance to destination: 0.670466459565 m.
+Tue Sep 24 23:30:46 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:47 2019 - Horizontal distance to destination: 0.670466459565 m.
+Tue Sep 24 23:30:47 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:47 2019 - Horizontal distance to destination: 0.670466459565 m.
+Tue Sep 24 23:30:47 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:48 2019 - Horizontal distance to destination: 0.670466459565 m.
+Tue Sep 24 23:30:48 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:48 2019 - Horizontal distance to destination: 0.657404899342 m.
+Tue Sep 24 23:30:48 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:49 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:49 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:49 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:49 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:50 2019 - Horizontal distance to destination: 0.639700677412 m.
+Tue Sep 24 23:30:50 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:50 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:50 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:51 2019 - Horizontal distance to destination: 0.635162648942 m.
+Tue Sep 24 23:30:51 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:51 2019 - Horizontal distance to destination: 0.63144849022 m.
+Tue Sep 24 23:30:51 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:52 2019 - Horizontal distance to destination: 0.636206529826 m.
+Tue Sep 24 23:30:52 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:30:52 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:30:52 2019 - Horizontal distance to destination: 0.636206529826 m.
+Tue Sep 24 23:30:52 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:53 2019 - Horizontal distance to destination: 0.636206529826 m.
+Tue Sep 24 23:30:53 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:53 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:53 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:54 2019 - Horizontal distance to destination: 0.644397788235 m.
+Tue Sep 24 23:30:54 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:54 2019 - Horizontal distance to destination: 0.657404899342 m.
+Tue Sep 24 23:30:54 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:55 2019 - Horizontal distance to destination: 0.66558346504 m.
+Tue Sep 24 23:30:55 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:55 2019 - Horizontal distance to destination: 0.662348191006 m.
+Tue Sep 24 23:30:55 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:56 2019 - Horizontal distance to destination: 0.657404899342 m.
+Tue Sep 24 23:30:56 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:56 2019 - Horizontal distance to destination: 0.66558346504 m.
+Tue Sep 24 23:30:56 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:57 2019 - Horizontal distance to destination: 0.66558346504 m.
+Tue Sep 24 23:30:57 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:57 2019 - Horizontal distance to destination: 0.66558346504 m.
+Tue Sep 24 23:30:57 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:58 2019 - Horizontal distance to destination: 0.660850672154 m.
+Tue Sep 24 23:30:58 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:58 2019 - Horizontal distance to destination: 0.647975239364 m.
+Tue Sep 24 23:30:58 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:59 2019 - Horizontal distance to destination: 0.656271329599 m.
+Tue Sep 24 23:30:59 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:30:59 2019 - Horizontal distance to destination: 0.656271329599 m.
+Tue Sep 24 23:30:59 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:31:00 2019 - Horizontal distance to destination: 0.660221201474 m.
+Tue Sep 24 23:31:00 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:31:00 2019 - Horizontal distance to destination: 0.660221201474 m.
+Tue Sep 24 23:31:00 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 23:31:01 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:31:01 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:31:01 2019 - Horizontal distance to destination: 0.647585910195 m.
+Tue Sep 24 23:31:01 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:31:02 2019 - Horizontal distance to destination: 0.660221201474 m.
+Tue Sep 24 23:31:02 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:31:02 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:31:02 2019 - Horizontal distance to destination: 0.672924909934 m.
+Tue Sep 24 23:31:02 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:31:03 2019 - Horizontal distance to destination: 0.689655407066 m.
+Tue Sep 24 23:31:03 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:31:03 2019 - Horizontal distance to destination: 0.689655407066 m.
+Tue Sep 24 23:31:03 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:31:04 2019 - Horizontal distance to destination: 0.694014505167 m.
+Tue Sep 24 23:31:04 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 23:31:04 2019 - Horizontal distance to destination: 0.694014505167 m.
+Tue Sep 24 23:31:04 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:05 2019 - Horizontal distance to destination: 0.698047772696 m.
+Tue Sep 24 23:31:05 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:05 2019 - Horizontal distance to destination: 0.689655407066 m.
+Tue Sep 24 23:31:05 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:06 2019 - Horizontal distance to destination: 0.694014505167 m.
+Tue Sep 24 23:31:06 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:06 2019 - Horizontal distance to destination: 0.694014505167 m.
+Tue Sep 24 23:31:06 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:07 2019 - Horizontal distance to destination: 0.694014505167 m.
+Tue Sep 24 23:31:07 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:07 2019 - Horizontal distance to destination: 0.694014505167 m.
+Tue Sep 24 23:31:08 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:08 2019 - Horizontal distance to destination: 0.681280897217 m.
+Tue Sep 24 23:31:08 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:09 2019 - Horizontal distance to destination: 0.672924909934 m.
+Tue Sep 24 23:31:09 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:09 2019 - Horizontal distance to destination: 0.656271329599 m.
+Tue Sep 24 23:31:09 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:10 2019 - Horizontal distance to destination: 0.647975239364 m.
+Tue Sep 24 23:31:10 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:10 2019 - Horizontal distance to destination: 0.639700677412 m.
+Tue Sep 24 23:31:10 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:11 2019 - Horizontal distance to destination: 0.623219568384 m.
+Tue Sep 24 23:31:11 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:11 2019 - Horizontal distance to destination: 0.618560639202 m.
+Tue Sep 24 23:31:11 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:12 2019 - Horizontal distance to destination: 0.623219568384 m.
+Tue Sep 24 23:31:12 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:12 2019 - Horizontal distance to destination: 0.623219568384 m.
+Tue Sep 24 23:31:12 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:12 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:31:13 2019 - Horizontal distance to destination: 0.623219568384 m.
+Tue Sep 24 23:31:13 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:13 2019 - Horizontal distance to destination: 0.615014839576 m.
+Tue Sep 24 23:31:13 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:14 2019 - Horizontal distance to destination: 0.623219568384 m.
+Tue Sep 24 23:31:14 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:14 2019 - Horizontal distance to destination: 0.639700677412 m.
+Tue Sep 24 23:31:14 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:15 2019 - Horizontal distance to destination: 0.647975239364 m.
+Tue Sep 24 23:31:15 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:15 2019 - Horizontal distance to destination: 0.647975239364 m.
+Tue Sep 24 23:31:15 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:16 2019 - Horizontal distance to destination: 0.647975239364 m.
+Tue Sep 24 23:31:16 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:16 2019 - Horizontal distance to destination: 0.651848672586 m.
+Tue Sep 24 23:31:16 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:17 2019 - Horizontal distance to destination: 0.660221201474 m.
+Tue Sep 24 23:31:17 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:17 2019 - Horizontal distance to destination: 0.672924909934 m.
+Tue Sep 24 23:31:17 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:18 2019 - Horizontal distance to destination: 0.681280897217 m.
+Tue Sep 24 23:31:18 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:18 2019 - Horizontal distance to destination: 0.681280897217 m.
+Tue Sep 24 23:31:18 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:19 2019 - Horizontal distance to destination: 0.689655407066 m.
+Tue Sep 24 23:31:19 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:19 2019 - Horizontal distance to destination: 0.694014505167 m.
+Tue Sep 24 23:31:19 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:20 2019 - Horizontal distance to destination: 0.698522634913 m.
+Tue Sep 24 23:31:20 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:20 2019 - Horizontal distance to destination: 0.690255714843 m.
+Tue Sep 24 23:31:20 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:21 2019 - Horizontal distance to destination: 0.682009695927 m.
+Tue Sep 24 23:31:21 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:21 2019 - Horizontal distance to destination: 0.690255714843 m.
+Tue Sep 24 23:31:21 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:22 2019 - Horizontal distance to destination: 0.690255714843 m.
+Tue Sep 24 23:31:22 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:22 2019 - Horizontal distance to destination: 0.694965377827 m.
+Tue Sep 24 23:31:22 2019 - Perpendicular distance to destination: 0.01 m.
+Tue Sep 24 23:31:22 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 23:31:23 2019 - Horizontal distance to destination: 0.694965377827 m.
+Tue Sep 24 23:31:23 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:23 2019 - Horizontal distance to destination: 0.703176930798 m.
+Tue Sep 24 23:31:23 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:24 2019 - Horizontal distance to destination: 0.703176930798 m.
+Tue Sep 24 23:31:24 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:24 2019 - Horizontal distance to destination: 0.68677590947 m.
+Tue Sep 24 23:31:24 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 23:31:25 2019 - Horizontal distance to destination: 0.683579348724 m.
+Tue Sep 24 23:31:25 2019 - Perpendicular distance to destination: 0.0 m.

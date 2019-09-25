@@ -16,5 +16,6 @@ for i in $(seq 0 $NUM); do
     $(sudo ifconfig wlp3s0:$i $IP netmask 255.255.255.0 up)
 done
 
-echo -n "$NUM virtual ip Addresses created successfully"
+NUMIP=$((NUM+1))
+echo -n "$NUMIP virtual ip Addresses created successfully"
 printf "\n"

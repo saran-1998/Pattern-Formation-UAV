@@ -1,0 +1,789 @@
+Tue Sep 24 22:27:53 2019 - This is a leader drone.
+Tue Sep 24 22:27:53 2019 - local_host = 192.168.0.104.
+Tue Sep 24 22:27:53 2019 - This drone is iris4
+Tue Sep 24 22:27:53 2019 - local_host = 192.168.0.104.
+Tue Sep 24 22:27:53 2019 - This drone is iris4
+Tue Sep 24 22:27:53 2019 - Connecting to vehicle...
+Tue Sep 24 22:28:02 2019 - Vehicle is connected!
+Tue Sep 24 22:28:05 2019 - Thread SERVER_send_gps_coordinate is started!
+Tue Sep 24 22:28:05 2019 - SERVER_send_gps_coordinate() is started!
+ Tue Sep 24 22:28:05 2019 - Thread SERVER_send_heading_direction is started!
+Tue Sep 24 22:28:05 2019 - SERVER_send_heading_direction() is started!
+Tue Sep 24 22:28:05 2019 - Thread SERVER_send_status has started!
+ Tue Sep 24 22:28:05 2019 - SERVER_send_status() is started!
+Tue Sep 24 22:28:05 2019 - CHECK_network_connection(192.168.1.1) is started.
+Tue Sep 24 22:28:08 2019 - Arming motors...
+Tue Sep 24 22:28:11 2019 - Vehicle mode is changed to GUIDED
+Tue Sep 24 22:28:11 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 22:28:14 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 22:28:15 2019 - Connection to router is DOWN for 1 times.
+Tue Sep 24 22:28:15 2019 - Check again in 1 seconds
+Tue Sep 24 22:28:17 2019 - Home GPS coordinate :
+     leader_lat_home = -35.3632612
+     leader_lon_home = 149.1652304
+     leader_alt_home = 0.0 (relative)
+
+Tue Sep 24 22:28:17 2019 - Sending immediate command to : 192.168.0.105.
+
+Tue Sep 24 22:28:17 2019 - Executing takeoff_and_hover().
+Tue Sep 24 22:28:17 2019 - Current Altitude: 0.0 m
+Tue Sep 24 22:28:17 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632612, lon=149.1652304, alt(above sea leavel)=584.0
+     Global Location (relative altitude): lat=-35.3632612, lon=149.1652304, alt(relative)=0.0
+     Local Location(NED coordinate): north=-0.03301031515, east=0.0509603098035, down=-0.00239451811649
+     Attitude(radians): Pitch=0.005176872015, Yaw=-0.121441632509, Roll=0.00530407158658
+     Velocity: Vx=-0.05, Vy=0.07, Vz=0.0
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.538V, current=3.48A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Tue Sep 24 22:28:17 2019 - Sending immediate command to : 192.168.0.106.
+Tue Sep 24 22:28:17 2019 - Sending immediate command to : 192.168.0.107.
+Tue Sep 24 22:28:17 2019 - Sending immediate command to : 192.168.0.108.
+Tue Sep 24 22:28:17 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:17 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:17 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:17 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:17 2019 - Wait for 1 second.
+Tue Sep 24 22:28:18 2019 - Current Altitude: 0.0 m
+Tue Sep 24 22:28:18 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632617, lon=149.1652312, alt(above sea leavel)=584.0
+     Global Location (relative altitude): lat=-35.3632617, lon=149.1652312, alt(relative)=0.0
+     Local Location(NED coordinate): north=-0.0848363488913, east=0.119132779539, down=-0.00404479587451
+     Attitude(radians): Pitch=-0.00910001993179, Yaw=-0.120036862791, Roll=-0.00855720695108
+     Velocity: Vx=-0.08, Vy=0.11, Vz=0.0
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.439V, current=11.05A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Tue Sep 24 22:28:18 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:18 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:18 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:18 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:18 2019 - Wait for 1 second.
+Tue Sep 24 22:28:19 2019 - Current Altitude: 0.14 m
+Tue Sep 24 22:28:19 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632617, lon=149.1652311, alt(above sea leavel)=584.14
+     Global Location (relative altitude): lat=-35.3632617, lon=149.1652311, alt(relative)=0.14
+     Local Location(NED coordinate): north=-0.085297614336, east=0.114906720817, down=-0.143892973661
+     Attitude(radians): Pitch=-0.00873747374862, Yaw=-0.118868306279, Roll=-0.00663269357756
+     Velocity: Vx=-0.01, Vy=0.03, Vz=0.62
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.41A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.159999996424 m/s
+     Airspeed: 0.159999996424 m/s
+
+
+Tue Sep 24 22:28:19 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:19 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:19 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:19 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:19 2019 - Wait for 1 second.
+Tue Sep 24 22:28:20 2019 - Current Altitude: 1.29 m
+Tue Sep 24 22:28:20 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363261, lon=149.16523, alt(above sea leavel)=585.29
+     Global Location (relative altitude): lat=-35.363261, lon=149.16523, alt(relative)=1.29
+     Local Location(NED coordinate): north=-0.00277455849573, east=0.0158410463482, down=-1.30177080631
+     Attitude(radians): Pitch=0.00755074806511, Yaw=-0.119773536921, Roll=0.0089414762333
+     Velocity: Vx=-0.06, Vy=0.09, Vz=1.64
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.16A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.229999989271 m/s
+     Airspeed: 0.229999989271 m/s
+
+
+Tue Sep 24 22:28:20 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:20 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:20 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:20 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:20 2019 - Wait for 1 second.
+Tue Sep 24 22:28:21 2019 - Current Altitude: 3.11 m
+Tue Sep 24 22:28:21 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632605, lon=149.1652292, alt(above sea leavel)=587.11
+     Global Location (relative altitude): lat=-35.3632605, lon=149.1652292, alt(relative)=3.11
+     Local Location(NED coordinate): north=0.0654823184013, east=-0.0661906003952, down=-3.12032580376
+     Attitude(radians): Pitch=0.00838536955416, Yaw=-0.160730570555, Roll=0.00558246346191
+     Velocity: Vx=-0.12, Vy=0.15, Vz=2.04
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.49A, level=99%
+     Sonar distance: None m
+     Heading: 350 (degrees from North)
+     Groundspeed: 0.119999997318 m/s
+     Airspeed: 0.119999997318 m/s
+
+
+Tue Sep 24 22:28:21 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:21 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:21 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:21 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:21 2019 - Wait for 1 second.
+Tue Sep 24 22:28:22 2019 - Current Altitude: 5.17 m
+Tue Sep 24 22:28:22 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632599, lon=149.1652284, alt(above sea leavel)=589.17
+     Global Location (relative altitude): lat=-35.3632599, lon=149.1652284, alt(relative)=5.17
+     Local Location(NED coordinate): north=0.125117361546, east=-0.143116369843, down=-5.17810058594
+     Attitude(radians): Pitch=0.0114617645741, Yaw=-0.152406588197, Roll=0.0114090759307
+     Velocity: Vx=-0.13, Vy=0.16, Vz=2.19
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.41A, level=98%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Tue Sep 24 22:28:22 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:22 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:22 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:22 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:22 2019 - Wait for 1 second.
+Tue Sep 24 22:28:23 2019 - Current Altitude: 7.34 m
+Tue Sep 24 22:28:23 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632597, lon=149.1652282, alt(above sea leavel)=591.34
+     Global Location (relative altitude): lat=-35.3632597, lon=149.1652282, alt(relative)=7.34
+     Local Location(NED coordinate): north=0.145748063922, east=-0.161567419767, down=-7.35032320023
+     Attitude(radians): Pitch=0.0101295141503, Yaw=-0.148584082723, Roll=0.0117605542764
+     Velocity: Vx=-0.15, Vy=0.19, Vz=2.27
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.33A, level=98%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.109999999404 m/s
+     Airspeed: 0.109999999404 m/s
+
+
+Tue Sep 24 22:28:23 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:23 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:23 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:23 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:23 2019 - Wait for 1 second.
+Tue Sep 24 22:28:24 2019 - Current Altitude: 9.54 m
+Tue Sep 24 22:28:24 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632599, lon=149.1652288, alt(above sea leavel)=593.54
+     Global Location (relative altitude): lat=-35.3632599, lon=149.1652288, alt(relative)=9.54
+     Local Location(NED coordinate): north=0.131994098425, east=-0.103793270886, down=-9.55428695679
+     Attitude(radians): Pitch=0.0095949228853, Yaw=-0.15466080606, Roll=0.00660299696028
+     Velocity: Vx=-0.14, Vy=0.12, Vz=2.27
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=98%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.199999988079 m/s
+     Airspeed: 0.199999988079 m/s
+
+
+Tue Sep 24 22:28:24 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:24 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:24 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:24 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:24 2019 - Wait for 1 second.
+Tue Sep 24 22:28:25 2019 - Current Altitude: 11.75 m
+Tue Sep 24 22:28:25 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632603, lon=149.1652299, alt(above sea leavel)=595.75
+     Global Location (relative altitude): lat=-35.3632603, lon=149.1652299, alt(relative)=11.75
+     Local Location(NED coordinate): north=0.084111019969, east=0.00654880236834, down=-11.7639932632
+     Attitude(radians): Pitch=0.00511682871729, Yaw=-0.150308698416, Roll=-0.000797118525952
+     Velocity: Vx=-0.11, Vy=0.08, Vz=2.28
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=98%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.25 m/s
+     Airspeed: 0.25 m/s
+
+
+Tue Sep 24 22:28:25 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:25 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:25 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:25 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:25 2019 - Wait for 1 second.
+Tue Sep 24 22:28:26 2019 - Connection to router is DOWN for 2 times.
+Tue Sep 24 22:28:26 2019 - Check again in 1 seconds
+Tue Sep 24 22:28:26 2019 - Current Altitude: 13.98 m
+Tue Sep 24 22:28:26 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632608, lon=149.1652311, alt(above sea leavel)=597.98
+     Global Location (relative altitude): lat=-35.3632608, lon=149.1652311, alt(relative)=13.98
+     Local Location(NED coordinate): north=0.0289201270789, east=0.11243762821, down=-13.9891853333
+     Attitude(radians): Pitch=0.000242555950535, Yaw=-0.156772464514, Roll=-0.00362509395927
+     Velocity: Vx=-0.06, Vy=-0.01, Vz=2.29
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.16A, level=98%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.209999993443 m/s
+     Airspeed: 0.209999993443 m/s
+
+
+Tue Sep 24 22:28:26 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:26 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:26 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:26 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:26 2019 - Wait for 1 second.
+Tue Sep 24 22:28:27 2019 - Current Altitude: 16.21 m
+Tue Sep 24 22:28:27 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632611, lon=149.1652321, alt(above sea leavel)=600.21
+     Global Location (relative altitude): lat=-35.3632611, lon=149.1652321, alt(relative)=16.21
+     Local Location(NED coordinate): north=-0.0208853092045, east=0.200947582722, down=-16.2205295563
+     Attitude(radians): Pitch=0.00366098759696, Yaw=-0.152029782534, Roll=-0.00347282993607
+     Velocity: Vx=-0.02, Vy=-0.05, Vz=2.27
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=28.91A, level=97%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.179999992251 m/s
+     Airspeed: 0.179999992251 m/s
+
+
+Tue Sep 24 22:28:27 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:27 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:27 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:27 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:27 2019 - Wait for 1 second.
+Tue Sep 24 22:28:28 2019 - Current Altitude: 18.23 m
+Tue Sep 24 22:28:28 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632616, lon=149.1652329, alt(above sea leavel)=602.23
+     Global Location (relative altitude): lat=-35.3632616, lon=149.1652329, alt(relative)=18.23
+     Local Location(NED coordinate): north=-0.0776178017259, east=0.276407063007, down=-18.2354812622
+     Attitude(radians): Pitch=-0.00425609806553, Yaw=-0.148025080562, Roll=-0.0105716986582
+     Velocity: Vx=-0.01, Vy=-0.13, Vz=1.71
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=25.92A, level=97%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.129999995232 m/s
+     Airspeed: 0.129999995232 m/s
+
+
+Tue Sep 24 22:28:28 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:28 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:28 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:28 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:28 2019 - Wait for 1 second.
+Tue Sep 24 22:28:29 2019 - Current Altitude: 19.38 m
+Tue Sep 24 22:28:29 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363262, lon=149.1652332, alt(above sea leavel)=603.38
+     Global Location (relative altitude): lat=-35.363262, lon=149.1652332, alt(relative)=19.38
+     Local Location(NED coordinate): north=-0.121119365096, east=0.308231949806, down=-19.391576767
+     Attitude(radians): Pitch=-0.00249091093428, Yaw=-0.150289431214, Roll=-0.00873785093427
+     Velocity: Vx=0.02, Vy=-0.15, Vz=0.66
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=24.17A, level=97%
+     Sonar distance: None m
+     Heading: 351 (degrees from North)
+     Groundspeed: 0.070000000298 m/s
+     Airspeed: 0.070000000298 m/s
+
+
+Tue Sep 24 22:28:29 2019 - Reached target altitude!
+
+Tue Sep 24 22:28:29 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:29 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:29 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:29 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:29 2019 - Wait for 1 second.
+Tue Sep 24 22:28:30 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:30 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:30 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:30 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:30 2019 - Wait for 1 second.
+Tue Sep 24 22:28:31 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:31 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:31 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:31 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:31 2019 - Wait for 1 second.
+Tue Sep 24 22:28:32 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:32 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:32 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:32 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:32 2019 - Wait for 1 second.
+Tue Sep 24 22:28:33 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:33 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:33 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:33 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:33 2019 - Wait for 1 second.
+Tue Sep 24 22:28:34 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:34 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:34 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:34 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:34 2019 - Wait for 1 second.
+Tue Sep 24 22:28:35 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:35 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:35 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:35 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:35 2019 - Wait for 1 second.
+Tue Sep 24 22:28:36 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:36 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:36 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:36 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:36 2019 - Wait for 1 second.
+Tue Sep 24 22:28:37 2019 - Connection to router is DOWN for 3 times.
+Tue Sep 24 22:28:37 2019 - Check again in 1 seconds
+Tue Sep 24 22:28:37 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:37 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:37 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:37 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:37 2019 - Wait for 1 second.
+Tue Sep 24 22:28:38 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:38 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:38 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:38 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:38 2019 - Wait for 1 second.
+Tue Sep 24 22:28:39 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:39 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:39 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:39 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:39 2019 - Wait for 1 second.
+Tue Sep 24 22:28:40 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:40 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:40 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:40 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:40 2019 - Wait for 1 second.
+Tue Sep 24 22:28:41 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:41 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:41 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:41 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:41 2019 - Wait for 1 second.
+Tue Sep 24 22:28:42 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:42 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:42 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:42 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:42 2019 - Wait for 1 second.
+Tue Sep 24 22:28:43 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:43 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:43 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:43 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:43 2019 - Wait for 1 second.
+Tue Sep 24 22:28:44 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:44 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:44 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:44 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:44 2019 - Wait for 1 second.
+Tue Sep 24 22:28:45 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:45 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:45 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:45 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:45 2019 - Wait for 1 second.
+Tue Sep 24 22:28:46 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:46 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:46 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:46 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:46 2019 - Wait for 1 second.
+Tue Sep 24 22:28:47 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:47 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:47 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:47 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:47 2019 - Wait for 1 second.
+Tue Sep 24 22:28:48 2019 - Connection to router is DOWN for 4 times.
+Tue Sep 24 22:28:48 2019 - Check again in 1 seconds
+Tue Sep 24 22:28:48 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:48 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:48 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:48 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:48 2019 - Wait for 1 second.
+Tue Sep 24 22:28:49 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:49 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:49 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:49 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:49 2019 - Wait for 1 second.
+Tue Sep 24 22:28:50 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:50 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:50 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:50 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:50 2019 - Wait for 1 second.
+Tue Sep 24 22:28:51 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:51 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:51 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:51 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:51 2019 - Wait for 1 second.
+Tue Sep 24 22:28:52 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:52 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:52 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:52 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:52 2019 - Wait for 1 second.
+Tue Sep 24 22:28:53 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:53 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:53 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:53 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:53 2019 - Wait for 1 second.
+Tue Sep 24 22:28:54 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:54 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:54 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:54 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:54 2019 - Wait for 1 second.
+Tue Sep 24 22:28:55 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:55 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:55 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:55 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:55 2019 - Wait for 1 second.
+Tue Sep 24 22:28:56 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:56 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:56 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:56 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:56 2019 - Wait for 1 second.
+Tue Sep 24 22:28:57 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:57 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:57 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:57 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:57 2019 - Wait for 1 second.
+Tue Sep 24 22:28:58 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:58 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:58 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:58 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:58 2019 - Wait for 1 second.
+Tue Sep 24 22:28:59 2019 - Connection to router is DOWN for 5 times.
+Tue Sep 24 22:28:59 2019 - Check again in 1 seconds
+Tue Sep 24 22:28:59 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:28:59 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:28:59 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:28:59 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:28:59 2019 - Wait for 1 second.
+Tue Sep 24 22:29:00 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:00 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:00 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:00 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:00 2019 - Wait for 1 second.
+Tue Sep 24 22:29:01 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:01 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:01 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:01 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:01 2019 - Wait for 1 second.
+Tue Sep 24 22:29:02 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:02 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:02 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:02 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:02 2019 - Wait for 1 second.
+Tue Sep 24 22:29:03 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:03 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:03 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:03 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:03 2019 - Wait for 1 second.
+Tue Sep 24 22:29:04 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:04 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:04 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:04 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:04 2019 - Wait for 1 second.
+Tue Sep 24 22:29:05 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:05 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:05 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:05 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:05 2019 - Wait for 1 second.
+Tue Sep 24 22:29:06 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:06 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:06 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:06 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:06 2019 - Wait for 1 second.
+Tue Sep 24 22:29:07 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:07 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:07 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:07 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:07 2019 - Wait for 1 second.
+Tue Sep 24 22:29:08 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:08 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:08 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:08 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:08 2019 - Wait for 1 second.
+Tue Sep 24 22:29:09 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:09 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:09 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:09 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:09 2019 - Wait for 1 second.
+Tue Sep 24 22:29:10 2019 - Connection to router is DOWN for 6 times.
+Tue Sep 24 22:29:10 2019 - Reached maximum down times.
+Tue Sep 24 22:29:10 2019 - Vehicle is returning home...
+Tue Sep 24 22:29:10 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:10 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:10 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:10 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:10 2019 - Wait for 1 second.
+Tue Sep 24 22:29:11 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:11 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:11 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:11 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:11 2019 - Wait for 1 second.
+Tue Sep 24 22:29:12 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:12 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:12 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:12 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:12 2019 - Wait for 1 second.
+Tue Sep 24 22:29:13 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:13 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:13 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:13 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:13 2019 - Wait for 1 second.
+Tue Sep 24 22:29:14 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:14 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:14 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:14 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:14 2019 - Wait for 1 second.
+Tue Sep 24 22:29:15 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:15 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:15 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:15 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:15 2019 - Wait for 1 second.
+Tue Sep 24 22:29:16 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:16 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:16 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:16 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:16 2019 - Wait for 1 second.
+Tue Sep 24 22:29:17 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:17 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:17 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:17 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:17 2019 - Wait for 1 second.
+Tue Sep 24 22:29:18 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:18 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:18 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:18 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:18 2019 - Wait for 1 second.
+Tue Sep 24 22:29:19 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:19 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:19 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:19 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:19 2019 - Wait for 1 second.
+Tue Sep 24 22:29:20 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:20 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:20 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:20 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:20 2019 - Wait for 1 second.
+Tue Sep 24 22:29:21 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:21 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:21 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:21 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:21 2019 - Wait for 1 second.
+Tue Sep 24 22:29:22 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:22 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:22 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:22 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:22 2019 - Wait for 1 second.
+Tue Sep 24 22:29:23 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:23 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:23 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:23 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:23 2019 - Wait for 1 second.
+Tue Sep 24 22:29:24 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:24 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:24 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:24 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:24 2019 - Wait for 1 second.
+Tue Sep 24 22:29:25 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:25 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:25 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:25 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:25 2019 - Wait for 1 second.
+Tue Sep 24 22:29:26 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:26 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:26 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:26 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:26 2019 - Wait for 1 second.
+Tue Sep 24 22:29:27 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:27 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:27 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:27 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:27 2019 - Wait for 1 second.
+Tue Sep 24 22:29:28 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:28 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:28 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:28 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:28 2019 - Wait for 1 second.
+Tue Sep 24 22:29:29 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:29 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:29 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:29 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:29 2019 - Wait for 1 second.
+Tue Sep 24 22:29:30 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:30 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:30 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:30 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:30 2019 - Wait for 1 second.
+Tue Sep 24 22:29:31 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:31 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:31 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:31 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:31 2019 - Wait for 1 second.
+Tue Sep 24 22:29:32 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:32 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:32 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:32 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:32 2019 - Wait for 1 second.
+Tue Sep 24 22:29:33 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:33 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:33 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:33 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:33 2019 - Wait for 1 second.
+Tue Sep 24 22:29:34 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:34 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:34 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:34 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:34 2019 - Wait for 1 second.
+Tue Sep 24 22:29:35 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:35 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:35 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:35 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:35 2019 - Wait for 1 second.
+Tue Sep 24 22:29:36 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:36 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:36 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:36 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:36 2019 - Wait for 1 second.
+Tue Sep 24 22:29:37 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:37 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:37 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:37 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:37 2019 - Wait for 1 second.
+Tue Sep 24 22:29:38 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:38 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:38 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:38 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:38 2019 - Wait for 1 second.
+Tue Sep 24 22:29:39 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:39 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:39 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:39 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:39 2019 - Wait for 1 second.
+Tue Sep 24 22:29:40 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:40 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:40 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:40 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:40 2019 - Wait for 1 second.
+Tue Sep 24 22:29:41 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:41 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:41 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:41 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:41 2019 - Wait for 1 second.
+Tue Sep 24 22:29:42 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:42 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:42 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:42 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:42 2019 - Wait for 1 second.
+Tue Sep 24 22:29:43 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:43 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:43 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:43 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:43 2019 - Wait for 1 second.
+Tue Sep 24 22:29:44 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:44 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:44 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:44 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:44 2019 - Wait for 1 second.
+Tue Sep 24 22:29:45 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:45 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:45 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:45 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:45 2019 - Wait for 1 second.
+Tue Sep 24 22:29:46 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:46 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:46 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:46 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:46 2019 - Wait for 1 second.
+Tue Sep 24 22:29:47 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:47 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:47 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:47 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:47 2019 - Wait for 1 second.
+Tue Sep 24 22:29:48 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:48 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:48 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:48 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:48 2019 - Wait for 1 second.
+Tue Sep 24 22:29:49 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:49 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:49 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:49 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:49 2019 - Wait for 1 second.
+Tue Sep 24 22:29:50 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:50 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:50 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:50 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:50 2019 - Wait for 1 second.
+Tue Sep 24 22:29:51 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:51 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:51 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:51 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:51 2019 - Wait for 1 second.
+Tue Sep 24 22:29:52 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:52 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:52 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:52 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:52 2019 - Wait for 1 second.
+Tue Sep 24 22:29:53 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:53 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:53 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:53 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:53 2019 - Wait for 1 second.
+Tue Sep 24 22:29:54 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:54 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:54 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:54 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:54 2019 - Wait for 1 second.
+Tue Sep 24 22:29:55 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:55 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:55 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:55 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:55 2019 - Wait for 1 second.
+Tue Sep 24 22:29:56 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:56 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:56 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:56 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:56 2019 - Wait for 1 second.
+Tue Sep 24 22:29:57 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:57 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:57 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:57 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:57 2019 - Wait for 1 second.
+Tue Sep 24 22:29:58 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:58 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:58 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:58 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:58 2019 - Wait for 1 second.
+Tue Sep 24 22:29:59 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:29:59 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:29:59 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:29:59 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:29:59 2019 - Wait for 1 second.
+Tue Sep 24 22:30:00 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:30:00 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:30:00 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:30:00 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:30:00 2019 - Wait for 1 second.
+Tue Sep 24 22:30:01 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:30:01 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:30:01 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:30:01 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:30:01 2019 - Wait for 1 second.
+Tue Sep 24 22:30:02 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:30:02 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:30:02 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:30:02 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:30:02 2019 - Wait for 1 second.
+Tue Sep 24 22:30:03 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:30:03 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:30:03 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:30:03 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:30:03 2019 - Wait for 1 second.
+Tue Sep 24 22:30:04 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:30:04 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:30:04 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:30:04 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:30:04 2019 - Wait for 1 second.
+Tue Sep 24 22:30:05 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:30:05 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:30:05 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:30:05 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:30:05 2019 - Wait for 1 second.
+Tue Sep 24 22:30:06 2019 - Host 192.168.0.105 is not ready.
+Tue Sep 24 22:30:06 2019 - Host 192.168.0.106 is not ready.
+Tue Sep 24 22:30:06 2019 - Host 192.168.0.107 is not ready.
+Tue Sep 24 22:30:06 2019 - Host 192.168.0.108 is not ready.
+Tue Sep 24 22:30:06 2019 - Wait for 1 second.

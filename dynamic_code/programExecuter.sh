@@ -15,9 +15,7 @@ UDPPort=$((UDPPort+1))
 IP=$(nextip $IP)
 for i in $(seq 1 $noOfFollowers)
 do
-    echo -n $IP
     xterm -title "Follower Drone $i" -hold -e python formation_main_follower.py $IP $UDPPort&
     UDPPort=$((UDPPort+1))
     IP=$(nextip $IP)
 done
-

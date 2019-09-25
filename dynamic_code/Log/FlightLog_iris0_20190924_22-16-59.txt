@@ -1,0 +1,478 @@
+Tue Sep 24 22:16:59 2019 - This is a leader drone.
+Tue Sep 24 22:16:59 2019 - local_host = 192.168.1.70.
+Tue Sep 24 22:16:59 2019 - This drone is iris0
+Tue Sep 24 22:16:59 2019 - local_host = 192.168.1.70.
+Tue Sep 24 22:16:59 2019 - This drone is iris0
+Tue Sep 24 22:16:59 2019 - Connecting to vehicle...
+Tue Sep 24 22:17:09 2019 - Vehicle is connected!
+Tue Sep 24 22:17:12 2019 - Thread SERVER_send_gps_coordinate is started!
+Tue Sep 24 22:17:12 2019 - SERVER_send_gps_coordinate() is started!
+Tue Sep 24 22:17:12 2019 - Thread SERVER_send_heading_direction is started!
+ Tue Sep 24 22:17:12 2019 - SERVER_send_heading_direction() is started!
+Tue Sep 24 22:17:12 2019 - Thread SERVER_send_status has started!
+Tue Sep 24 22:17:12 2019 - SERVER_send_status() is started!
+Tue Sep 24 22:17:12 2019 - CHECK_network_connection(192.168.1.1) is started.
+Tue Sep 24 22:17:12 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:17:15 2019 - Arming motors...
+Tue Sep 24 22:17:18 2019 - Vehicle mode is changed to GUIDED
+Tue Sep 24 22:17:18 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 22:17:21 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 22:17:22 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:17:24 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Sep 24 22:17:27 2019 - Home GPS coordinate :
+     leader_lat_home = -35.3632614
+     leader_lon_home = 149.1652337
+     leader_alt_home = 0.04 (relative)
+
+
+Tue Sep 24 22:17:27 2019 - Sending immediate command to : 192.168.1.71.
+ Tue Sep 24 22:17:27 2019 - Executing takeoff_and_hover().
+Tue Sep 24 22:17:27 2019 - Current Altitude: 0.04 m
+Tue Sep 24 22:17:27 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632614, lon=149.1652337, alt(above sea leavel)=584.11
+     Global Location (relative altitude): lat=-35.3632614, lon=149.1652337, alt(relative)=0.04
+     Local Location(NED coordinate): north=-0.0556072331965, east=0.353495270014, down=-0.112639650702
+     Attitude(radians): Pitch=0.00211163726635, Yaw=-0.123742617667, Roll=0.00690364884213
+     Velocity: Vx=-0.06, Vy=0.24, Vz=0.02
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.538V, current=3.48A, level=99%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Tue Sep 24 22:17:27 2019 - Sending immediate command to : 192.168.1.72.
+Tue Sep 24 22:17:27 2019 - Sending immediate command to : 192.168.1.73.
+Tue Sep 24 22:17:27 2019 - Sending immediate command to : 192.168.1.74.
+Tue Sep 24 22:17:28 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:28 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:28 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:28 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:28 2019 - Wait for 1 second.
+Tue Sep 24 22:17:28 2019 - Current Altitude: 0.06 m
+Tue Sep 24 22:17:28 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632617, lon=149.1652339, alt(above sea leavel)=584.13
+     Global Location (relative altitude): lat=-35.3632617, lon=149.1652339, alt(relative)=0.06
+     Local Location(NED coordinate): north=-0.0861379653215, east=0.367641031742, down=-0.133436486125
+     Attitude(radians): Pitch=-0.00322989071719, Yaw=-0.120257429779, Roll=0.00439717667177
+     Velocity: Vx=-0.07, Vy=0.2, Vz=0.02
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.439V, current=10.46A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Tue Sep 24 22:17:29 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:29 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:29 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:29 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:29 2019 - Wait for 1 second.
+Tue Sep 24 22:17:29 2019 - Current Altitude: 0.1 m
+Tue Sep 24 22:17:29 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632617, lon=149.1652335, alt(above sea leavel)=584.17
+     Global Location (relative altitude): lat=-35.3632617, lon=149.1652335, alt(relative)=0.1
+     Local Location(NED coordinate): north=-0.0849937796593, east=0.333802342415, down=-0.17057813704
+     Attitude(radians): Pitch=-0.0032129092142, Yaw=-0.119684770703, Roll=0.0133724529296
+     Velocity: Vx=-0.04, Vy=0.18, Vz=0.23
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=28.58A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0299999993294 m/s
+     Airspeed: 0.0299999993294 m/s
+
+
+Tue Sep 24 22:17:30 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:30 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:30 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:30 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:30 2019 - Wait for 1 second.
+Tue Sep 24 22:17:30 2019 - Current Altitude: 0.19 m
+Tue Sep 24 22:17:30 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632616, lon=149.1652334, alt(above sea leavel)=584.26
+     Global Location (relative altitude): lat=-35.3632616, lon=149.1652334, alt(relative)=0.19
+     Local Location(NED coordinate): north=-0.0762757062912, east=0.324616402388, down=-0.268196374178
+     Attitude(radians): Pitch=-0.000880854611751, Yaw=-0.119423881173, Roll=0.0154101895168
+     Velocity: Vx=-0.03, Vy=0.2, Vz=0.58
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.32A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Tue Sep 24 22:17:31 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:31 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:31 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:31 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:31 2019 - Wait for 1 second.
+Tue Sep 24 22:17:31 2019 - Current Altitude: 1.32 m
+Tue Sep 24 22:17:31 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632613, lon=149.1652334, alt(above sea leavel)=585.39
+     Global Location (relative altitude): lat=-35.3632613, lon=149.1652334, alt(relative)=1.32
+     Local Location(NED coordinate): north=-0.0385270938277, east=0.32667696476, down=-1.39898681641
+     Attitude(radians): Pitch=0.00713642593473, Yaw=-0.125897958875, Roll=0.0104874465615
+     Velocity: Vx=-0.07, Vy=0.19, Vz=1.64
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.91A, level=99%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.129999995232 m/s
+     Airspeed: 0.129999995232 m/s
+
+
+Tue Sep 24 22:17:32 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:32 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:32 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:32 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:32 2019 - Wait for 1 second.
+Tue Sep 24 22:17:32 2019 - Current Altitude: 3.12 m
+Tue Sep 24 22:17:32 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632611, lon=149.1652339, alt(above sea leavel)=587.19
+     Global Location (relative altitude): lat=-35.3632611, lon=149.1652339, alt(relative)=3.12
+     Local Location(NED coordinate): north=-0.0175165832043, east=0.363480865955, down=-3.198802948
+     Attitude(radians): Pitch=0.00275898817927, Yaw=-0.118932887912, Roll=0.0067257755436
+     Velocity: Vx=-0.06, Vy=0.13, Vz=2.03
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.57A, level=99%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.159999996424 m/s
+     Airspeed: 0.159999996424 m/s
+
+
+Tue Sep 24 22:17:33 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:17:33 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:33 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:33 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:33 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:33 2019 - Wait for 1 second.
+Tue Sep 24 22:17:33 2019 - Current Altitude: 5.16 m
+Tue Sep 24 22:17:33 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363261, lon=149.1652347, alt(above sea leavel)=589.23
+     Global Location (relative altitude): lat=-35.363261, lon=149.1652347, alt(relative)=5.16
+     Local Location(NED coordinate): north=-0.00515985954553, east=0.438495486975, down=-5.23853063583
+     Attitude(radians): Pitch=0.0066666607745, Yaw=-0.114042177796, Roll=0.000885209650733
+     Velocity: Vx=-0.08, Vy=0.09, Vz=2.2
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.57A, level=98%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.179999992251 m/s
+     Airspeed: 0.179999992251 m/s
+
+
+Tue Sep 24 22:17:34 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:34 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:34 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:34 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:34 2019 - Wait for 1 second.
+Tue Sep 24 22:17:34 2019 - Current Altitude: 7.33 m
+Tue Sep 24 22:17:34 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632611, lon=149.1652356, alt(above sea leavel)=591.4
+     Global Location (relative altitude): lat=-35.3632611, lon=149.1652356, alt(relative)=7.33
+     Local Location(NED coordinate): north=-0.0179737973958, east=0.521734952927, down=-7.40792226791
+     Attitude(radians): Pitch=0.000168609258253, Yaw=-0.123491071165, Roll=-0.00669050356373
+     Velocity: Vx=-0.05, Vy=0.0, Vz=2.3
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.41A, level=98%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.149999991059 m/s
+     Airspeed: 0.149999991059 m/s
+
+
+Tue Sep 24 22:17:35 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:35 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:35 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:35 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:35 2019 - Wait for 1 second.
+Tue Sep 24 22:17:35 2019 - Current Altitude: 10.1 m
+Tue Sep 24 22:17:36 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632614, lon=149.1652363, alt(above sea leavel)=594.17
+     Global Location (relative altitude): lat=-35.3632614, lon=149.1652363, alt(relative)=10.1
+     Local Location(NED coordinate): north=-0.0527564622462, east=0.586383998394, down=-10.1752634048
+     Attitude(radians): Pitch=-0.000507901131641, Yaw=-0.114371091127, Roll=-0.00717916898429
+     Velocity: Vx=-0.05, Vy=-0.05, Vz=2.29
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.49A, level=98%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0999999940395 m/s
+     Airspeed: 0.0999999940395 m/s
+
+
+Tue Sep 24 22:17:36 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:36 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:36 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:36 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:36 2019 - Wait for 1 second.
+Tue Sep 24 22:17:37 2019 - Current Altitude: 12.87 m
+Tue Sep 24 22:17:37 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632616, lon=149.1652364, alt(above sea leavel)=596.94
+     Global Location (relative altitude): lat=-35.3632616, lon=149.1652364, alt(relative)=12.87
+     Local Location(NED coordinate): north=-0.0717014446855, east=0.597803473473, down=-12.9409151077
+     Attitude(radians): Pitch=0.00240111141466, Yaw=-0.118535600603, Roll=-0.00702360924333
+     Velocity: Vx=0.0, Vy=-0.12, Vz=2.28
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.33A, level=98%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Tue Sep 24 22:17:37 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:37 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:37 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:37 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:37 2019 - Wait for 1 second.
+Tue Sep 24 22:17:38 2019 - Current Altitude: 15.08 m
+Tue Sep 24 22:17:38 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632618, lon=149.1652364, alt(above sea leavel)=599.15
+     Global Location (relative altitude): lat=-35.3632618, lon=149.1652364, alt(relative)=15.08
+     Local Location(NED coordinate): north=-0.0946447774768, east=0.595648944378, down=-15.1516656876
+     Attitude(radians): Pitch=0.000428653729614, Yaw=-0.115848191082, Roll=-0.00966386590153
+     Velocity: Vx=0.02, Vy=-0.11, Vz=2.29
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.33A, level=97%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.070000000298 m/s
+     Airspeed: 0.070000000298 m/s
+
+
+Tue Sep 24 22:17:38 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:38 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:38 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:38 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:38 2019 - Wait for 1 second.
+Tue Sep 24 22:17:39 2019 - Current Altitude: 17.25 m
+Tue Sep 24 22:17:39 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632621, lon=149.165236, alt(above sea leavel)=601.32
+     Global Location (relative altitude): lat=-35.3632621, lon=149.165236, alt(relative)=17.25
+     Local Location(NED coordinate): north=-0.131017446518, east=0.555028021336, down=-17.3240413666
+     Attitude(radians): Pitch=-0.00491640577093, Yaw=-0.121437199414, Roll=-0.00863866042346
+     Velocity: Vx=0.04, Vy=-0.15, Vz=2.11
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=27.91A, level=97%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0899999961257 m/s
+     Airspeed: 0.0899999961257 m/s
+
+
+Tue Sep 24 22:17:39 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:39 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:39 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:39 2019 - Host 192.168.1.74 is not ready.
+Tue Sep 24 22:17:39 2019 - Wait for 1 second.
+Tue Sep 24 22:17:40 2019 - Current Altitude: 18.91 m
+Tue Sep 24 22:17:40 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632623, lon=149.1652354, alt(above sea leavel)=602.98
+     Global Location (relative altitude): lat=-35.3632623, lon=149.1652354, alt(relative)=18.91
+     Local Location(NED coordinate): north=-0.151349261403, east=0.499844551086, down=-18.9871101379
+     Attitude(radians): Pitch=-0.00125402247068, Yaw=-0.123673304915, Roll=-0.00343410670757
+     Velocity: Vx=0.05, Vy=-0.11, Vz=1.2
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=24.34A, level=97%
+     Sonar distance: None m
+     Heading: 352 (degrees from North)
+     Groundspeed: 0.070000000298 m/s
+     Airspeed: 0.070000000298 m/s
+
+
+Tue Sep 24 22:17:40 2019 - Host 192.168.1.71 is not ready.
+Tue Sep 24 22:17:40 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:40 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:40 2019 - Wait for 1 second.
+Tue Sep 24 22:17:41 2019 - Current Altitude: 19.62 m
+Tue Sep 24 22:17:41 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632625, lon=149.165235, alt(above sea leavel)=603.69
+     Global Location (relative altitude): lat=-35.3632625, lon=149.165235, alt(relative)=19.62
+     Local Location(NED coordinate): north=-0.170173615217, east=0.465522527695, down=-19.6913070679
+     Attitude(radians): Pitch=-0.00458686286584, Yaw=-0.121998541057, Roll=-0.00367867411114
+     Velocity: Vx=0.07, Vy=-0.09, Vz=0.34
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=24.42A, level=97%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0399999991059 m/s
+     Airspeed: 0.0399999991059 m/s
+
+
+Tue Sep 24 22:17:41 2019 - Reached target altitude!
+
+Tue Sep 24 22:17:41 2019 - Host 192.168.1.72 is not ready.
+Tue Sep 24 22:17:41 2019 - Host 192.168.1.73 is not ready.
+Tue Sep 24 22:17:41 2019 - Wait for 1 second.
+Tue Sep 24 22:17:42 2019 - After taking off and hover, Leader's GPS coordinate : lat=-35.3632625, lon=149.1652347, alt_relative=19.8
+Tue Sep 24 22:17:42 2019 - Leader current heading is 353 degree.
+Tue Sep 24 22:17:42 2019 - Leader is going to pointA : (-35.3630836, 149.1652079)
+
+Tue Sep 24 22:17:42 2019 - Sending command fly_follow() to follower1
+
+Tue Sep 24 22:17:42 2019 - Calling goto_gps_location_relative(lat=-35.3630836, lon=149.1652079, alt=20, groundspeed=1).
+Tue Sep 24 22:17:42 2019 - Before calling goto_gps_location_relative(), vehicle state is:
+Tue Sep 24 22:17:42 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632625, lon=149.1652347, alt(above sea leavel)=603.87
+     Global Location (relative altitude): lat=-35.3632625, lon=149.1652347, alt(relative)=19.8
+ Tue Sep 24 22:17:42 2019 - Sending command fly_follow() to follower2
+     Local Location(NED coordinate): north=-0.174820065498, east=0.438162237406, down=-19.8746242523
+     Attitude(radians): Pitch=-0.00313103199005, Yaw=-0.118795141578, Roll=-0.00393810356036
+     Velocity: Vx=0.07, Vy=-0.08, Vz=0.1
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=25.5A, level=97%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.0299999993294 m/s
+     Airspeed: 0.0299999993294 m/s
+Tue Sep 24 22:17:42 2019 - Received GPS coordinate request from ('192.168.1.70', 42186).
+ Tue Sep 24 22:17:42 2019 - Sending command fly_follow() to follower3Tue Sep 24 22:17:42 2019 - Received heading direction request from ('192.168.1.70', 43266).
+ Tue Sep 24 22:17:42 2019 - Received GPS coordinate request from ('192.168.1.70', 42188).
+
+Tue Sep 24 22:17:42 2019 - Sending command fly_follow() to follower4
+Tue Sep 24 22:17:42 2019 - Received GPS coordinate request from ('192.168.1.70', 42196).
+Tue Sep 24 22:17:42 2019 - Received heading direction request from ('192.168.1.70', 43268).
+Tue Sep 24 22:17:42 2019 - Received heading direction request from ('192.168.1.70', 43274).
+Tue Sep 24 22:17:42 2019 - Horizontal distance to destination: 19.995139461 m.
+Tue Sep 24 22:17:42 2019 - Perpendicular distance to destination: -0.15 m.
+Tue Sep 24 22:17:43 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:17:43 2019 - Horizontal distance to destination: 19.995139461 m.
+Tue Sep 24 22:17:43 2019 - Perpendicular distance to destination: -0.15 m.
+Tue Sep 24 22:17:43 2019 - Horizontal distance to destination: 19.9940426974 m.
+Tue Sep 24 22:17:43 2019 - Perpendicular distance to destination: -0.12 m.
+Tue Sep 24 22:17:44 2019 - Horizontal distance to destination: 19.972014995 m.
+Tue Sep 24 22:17:44 2019 - Perpendicular distance to destination: -0.1 m.
+Tue Sep 24 22:17:44 2019 - Horizontal distance to destination: 19.972014995 m.
+Tue Sep 24 22:17:44 2019 - Perpendicular distance to destination: -0.1 m.
+Tue Sep 24 22:17:45 2019 - Horizontal distance to destination: 19.972014995 m.
+Tue Sep 24 22:17:45 2019 - Perpendicular distance to destination: -0.1 m.
+Tue Sep 24 22:17:45 2019 - Horizontal distance to destination: 19.8707001747 m.
+Tue Sep 24 22:17:45 2019 - Perpendicular distance to destination: -0.07 m.
+Tue Sep 24 22:17:46 2019 - Horizontal distance to destination: 19.7143154512 m.
+Tue Sep 24 22:17:46 2019 - Perpendicular distance to destination: -0.05 m.
+Tue Sep 24 22:17:46 2019 - Horizontal distance to destination: 19.4466966503 m.
+Tue Sep 24 22:17:46 2019 - Perpendicular distance to destination: -0.03 m.
+Tue Sep 24 22:17:47 2019 - Horizontal distance to destination: 18.9312992705 m.
+Tue Sep 24 22:17:47 2019 - Perpendicular distance to destination: -0.02 m.
+Tue Sep 24 22:17:47 2019 - Horizontal distance to destination: 18.5733807707 m.
+Tue Sep 24 22:17:47 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:48 2019 - Horizontal distance to destination: 18.2165531159 m.
+Tue Sep 24 22:17:48 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:48 2019 - Horizontal distance to destination: 17.8707416449 m.
+Tue Sep 24 22:17:48 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:49 2019 - Horizontal distance to destination: 17.500715366 m.
+Tue Sep 24 22:17:49 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:49 2019 - Horizontal distance to destination: 17.1097530862 m.
+Tue Sep 24 22:17:49 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:50 2019 - Horizontal distance to destination: 16.6956715909 m.
+Tue Sep 24 22:17:50 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:50 2019 - Horizontal distance to destination: 16.060209796 m.
+Tue Sep 24 22:17:50 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:51 2019 - Horizontal distance to destination: 15.8476606941 m.
+Tue Sep 24 22:17:51 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:51 2019 - Horizontal distance to destination: 15.8476606941 m.
+Tue Sep 24 22:17:51 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:52 2019 - Horizontal distance to destination: 15.8476606941 m.
+Tue Sep 24 22:17:52 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:52 2019 - Horizontal distance to destination: 15.6251946162 m.
+Tue Sep 24 22:17:52 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:53 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:17:53 2019 - Horizontal distance to destination: 15.3906182828 m.
+Tue Sep 24 22:17:53 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:53 2019 - Horizontal distance to destination: 14.9214658722 m.
+Tue Sep 24 22:17:53 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:54 2019 - Horizontal distance to destination: 14.4424078603 m.
+Tue Sep 24 22:17:54 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:54 2019 - Horizontal distance to destination: 13.9622467513 m.
+Tue Sep 24 22:17:54 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:55 2019 - Horizontal distance to destination: 13.4820869431 m.
+Tue Sep 24 22:17:55 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:55 2019 - Horizontal distance to destination: 12.7563449117 m.
+Tue Sep 24 22:17:55 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:56 2019 - Horizontal distance to destination: 12.2663077012 m.
+Tue Sep 24 22:17:56 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:56 2019 - Horizontal distance to destination: 11.7751507597 m.
+Tue Sep 24 22:17:56 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:57 2019 - Horizontal distance to destination: 11.2950047999 m.
+Tue Sep 24 22:17:57 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:57 2019 - Horizontal distance to destination: 10.8258681267 m.
+Tue Sep 24 22:17:57 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:58 2019 - Horizontal distance to destination: 10.3468812727 m.
+Tue Sep 24 22:17:58 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:58 2019 - Horizontal distance to destination: 10.3468812727 m.
+Tue Sep 24 22:17:58 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:59 2019 - Horizontal distance to destination: 10.1013134054 m.
+Tue Sep 24 22:17:59 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:17:59 2019 - Horizontal distance to destination: 9.62235734615 m.
+Tue Sep 24 22:17:59 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:00 2019 - Horizontal distance to destination: 8.91868698613 m.
+Tue Sep 24 22:18:00 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:00 2019 - Horizontal distance to destination: 8.4495795971 m.
+Tue Sep 24 22:18:00 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:01 2019 - Horizontal distance to destination: 7.97928267997 m.
+Tue Sep 24 22:18:01 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:01 2019 - Horizontal distance to destination: 7.49798689012 m.
+Tue Sep 24 22:18:01 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:02 2019 - Horizontal distance to destination: 7.01669115294 m.
+Tue Sep 24 22:18:02 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:02 2019 - Horizontal distance to destination: 6.53658969167 m.
+Tue Sep 24 22:18:02 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:03 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:18:03 2019 - Horizontal distance to destination: 6.06871433643 m.
+Tue Sep 24 22:18:03 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:03 2019 - Horizontal distance to destination: 5.35538388515 m.
+Tue Sep 24 22:18:03 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:04 2019 - Horizontal distance to destination: 4.8741008321 m.
+Tue Sep 24 22:18:04 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:04 2019 - Horizontal distance to destination: 4.38183655027 m.
+Tue Sep 24 22:18:04 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:05 2019 - Horizontal distance to destination: 3.91284283125 m.
+Tue Sep 24 22:18:05 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:05 2019 - Horizontal distance to destination: 3.6783616962 m.
+Tue Sep 24 22:18:05 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:06 2019 - Horizontal distance to destination: 3.6783616962 m.
+Tue Sep 24 22:18:06 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:06 2019 - Horizontal distance to destination: 3.6783616962 m.
+Tue Sep 24 22:18:06 2019 - Perpendicular distance to destination: 0.0 m.
+Tue Sep 24 22:18:07 2019 - Horizontal distance to destination: 2.96688785986 m.
+Tue Sep 24 22:18:07 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:07 2019 - Horizontal distance to destination: 2.48886237527 m.
+Tue Sep 24 22:18:07 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:08 2019 - Horizontal distance to destination: 2.00970647587 m.
+Tue Sep 24 22:18:08 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:08 2019 - Horizontal distance to destination: 1.52034101867 m.
+Tue Sep 24 22:18:08 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:09 2019 - Horizontal distance to destination: 1.04578638482 m.
+Tue Sep 24 22:18:09 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:09 2019 - Horizontal distance to destination: 0.582615907126 m.
+Tue Sep 24 22:18:09 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:10 2019 - Horizontal distance to destination: 0.226537667588 m.
+Tue Sep 24 22:18:10 2019 - Perpendicular distance to destination: -0.01 m.
+Tue Sep 24 22:18:10 2019 - After calling goto_gps_location_relative(), vehicle state is:
+Tue Sep 24 22:18:10 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3630847, lon=149.16521, alt(above sea leavel)=604.06
+     Global Location (relative altitude): lat=-35.3630847, lon=149.16521, alt(relative)=19.99
+     Local Location(NED coordinate): north=19.6264152527, east=-1.80858147144, down=-20.0679130554
+     Attitude(radians): Pitch=0.0367497578263, Yaw=-0.112148180604, Roll=-0.00183499918785
+     Velocity: Vx=0.62, Vy=-0.04, Vz=0.0
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=25.34A, level=92%
+     Sonar distance: None m
+     Heading: 353 (degrees from North)
+     Groundspeed: 0.949999988079 m/s
+     Airspeed: 0.949999988079 m/s
+Tue Sep 24 22:18:13 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:18:23 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:18:33 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:18:43 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:18:53 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:19:03 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:19:13 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:19:23 2019 - Connection to router is OK. Check again in 10 seconds
+Tue Sep 24 22:19:33 2019 - Connection to router is OK. Check again in 10 seconds

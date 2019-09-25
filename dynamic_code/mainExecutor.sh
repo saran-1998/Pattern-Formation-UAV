@@ -7,16 +7,15 @@ nextip(){
 }
 dronekitPort=5760
 UDPPort=14551
-echo -n "Enter the no of drones:"
+echo -n "Enter the no of drones: "
 read noOfDrones
 missionPlannerPort=$((UDPPort+noOfDrones))
-echo -n "Enter the IP address of Mission Planner"
+echo -n "Enter the IP address of Mission Planner: "
 read missionPlannerIPAddress
 noOfDronesLoopVariable=$((noOfDrones-1))
 IP=($(hostname -I))
 for i in $(seq 0 $noOfDronesLoopVariable); do
     indexValue=$((i+1))
-    printf "%s" ${IP}
     xterm -title "Dronekit $i" -hold -e dronekit-sitl copter3.0 -I$i &
     xterm -title "MavProxy $i" -hold -e mavproxy.py --master tcp:$IP:$dronekitPort --sitl 127.0.0.1:5501 --out $IP:$UDPPort --mav10 --source-system=$indexValue --out $missionPlannerIPAddress:$missionPlannerPort  &
     dronekitPort=$((dronekitPort+10))
