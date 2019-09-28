@@ -5,7 +5,7 @@ nextip(){
     NEXT_IP=$(printf '%d.%d.%d.%d\n' `echo $NEXT_IP_HEX | sed -r 's/(..)/0x\1 /g'`)
     echo "$NEXT_IP"
 }
-FIRST_IP=192.168.1.250
+
 echo -n "Enter the number of virtual IP addresses to be created: "
 read NUM
 NUM=$((NUM-1))
