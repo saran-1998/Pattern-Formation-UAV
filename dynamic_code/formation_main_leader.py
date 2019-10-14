@@ -264,7 +264,6 @@ for iter_follower in follower_host_tuple:
     print(iter_follower)
     CLIENT_send_immediate_command(iter_follower, 'air_break()')
 
-
 # ===================== Formation 2 (Diamond) =====================
 time.sleep(3)
 # Shape 2 definition(Diamond).
@@ -476,7 +475,7 @@ else:
         (edge_length ** 2)+((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+2)]
     edge3_angles = [180 + int(math.degrees(math.atan2(i,(no_of_drones_per_edge+1))))
                     for i in range(1, no_of_drones_per_edge+2)]
-    edge4_displacements = [(no_of_drones_per_edge-i+1)*1.414*(edge_length/no_of_drones_per_edge)
+    edge4_displacements = [(no_of_drones_per_edge-i+1)*1.414*10
                            for i in range(1, no_of_drones_per_edge+1)]
     edge4_angles = [225] * (no_of_drones_per_edge)
 
@@ -523,8 +522,7 @@ while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_rela
     for i in range(1, no_of_followers+1):
         print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
             time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
-    CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(
-        follower_followee, follower_frame_to_followee, follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
+        CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee, follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
     time.sleep(0.5)
 
 # When leader has reached destination, execute air_break().
@@ -532,7 +530,6 @@ while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_rela
 threading.Thread(target=air_break, args=()).start()
 for iter_follower in follower_host_tuple:
     CLIENT_send_immediate_command(iter_follower, 'air_break()')
-
 
 # ===================== Mission completed, leader and followers go home =====================
 # Wait for follower ready.

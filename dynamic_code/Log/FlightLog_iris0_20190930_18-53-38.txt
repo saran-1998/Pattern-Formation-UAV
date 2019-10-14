@@ -1,0 +1,1551 @@
+Mon Sep 30 18:53:38 2019 - This is a leader drone.
+Mon Sep 30 18:53:38 2019 - local_host = 192.168.1.70.
+Mon Sep 30 18:53:38 2019 - This drone is iris0
+Mon Sep 30 18:53:38 2019 - local_host = 192.168.1.70.
+Mon Sep 30 18:53:38 2019 - This drone is iris0
+Mon Sep 30 18:53:38 2019 - Connecting to vehicle...
+Mon Sep 30 18:53:43 2019 - Vehicle is connected!
+Mon Sep 30 18:53:46 2019 - SERVER_send_gps_coordinate() is started!
+ Mon Sep 30 18:53:46 2019 - Thread SERVER_send_gps_coordinate is started!
+Mon Sep 30 18:53:46 2019 - Thread SERVER_send_heading_direction is started!
+ Mon Sep 30 18:53:46 2019 - SERVER_send_heading_direction() is started!
+Mon Sep 30 18:53:46 2019 - Thread SERVER_send_status has started!
+Mon Sep 30 18:53:46 2019 - CHECK_network_connection(192.168.1.1) is started.
+Mon Sep 30 18:53:46 2019 - SERVER_send_status() is started!
+Mon Sep 30 18:53:46 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:53:49 2019 - Arming motors...
+Mon Sep 30 18:53:52 2019 - Vehicle mode is changed to GUIDED
+Mon Sep 30 18:53:52 2019 - Vehicle is not armed, try to arm vehicle again...
+Mon Sep 30 18:53:55 2019 - Vehicle is not armed, try to arm vehicle again...
+Mon Sep 30 18:53:56 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:53:58 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:53:58 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:53:58 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:53:58 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:53:58 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:53:58 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:53:58 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:53:58 2019 - Wait for 1 second.
+Mon Sep 30 18:53:59 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:53:59 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:53:59 2019 - Wait for 1 second.
+Mon Sep 30 18:54:00 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:00 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:00 2019 - Wait for 1 second.
+Mon Sep 30 18:54:01 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:01 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:01 2019 - Wait for 1 second.
+Mon Sep 30 18:54:02 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:02 2019 - Wait for 1 second.
+Mon Sep 30 18:54:03 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:03 2019 - Wait for 1 second.
+Mon Sep 30 18:54:04 2019 - Home GPS coordinate :
+     leader_lat_home = -35.3632619
+     leader_lon_home = 149.1652297
+     leader_alt_home = 0.09 (relative)
+('Length of followers: ', 7)
+('Length of followers height: ', 7)
+('Length of followers distance: ', 7)
+('Length of followers azimuth: ', 7)
+
+Mon Sep 30 18:54:04 2019 - Sending immediate command to : 192.168.1.71.
+
+Mon Sep 30 18:54:04 2019 - Executing takeoff_and_hover().
+Mon Sep 30 18:54:04 2019 - Current Altitude: 0.09 m
+Mon Sep 30 18:54:04 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632619, lon=149.1652297, alt(above sea leavel)=584.1
+     Global Location (relative altitude): lat=-35.3632619, lon=149.1652297, alt(relative)=0.09
+     Local Location(NED coordinate): north=-0.103208385408, east=-0.0240058116615, down=-0.102368339896
+     Attitude(radians): Pitch=-0.00355221470818, Yaw=-0.0783208161592, Roll=-0.00626336736605
+     Velocity: Vx=-0.01, Vy=-0.13, Vz=0.01
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.538V, current=3.48A, level=99%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Mon Sep 30 18:54:04 2019 - Sending immediate command to : 192.168.1.72.
+Mon Sep 30 18:54:04 2019 - Sending immediate command to : 192.168.1.73.
+Mon Sep 30 18:54:04 2019 - Sending immediate command to : 192.168.1.74.
+Mon Sep 30 18:54:04 2019 - Sending immediate command to : 192.168.1.75.
+Mon Sep 30 18:54:04 2019 - Sending immediate command to : 192.168.1.76.
+Mon Sep 30 18:54:04 2019 - Sending immediate command to : 192.168.1.77.
+Mon Sep 30 18:54:04 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:04 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:04 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:04 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:04 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:04 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:04 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:04 2019 - Wait for 1 second.
+Mon Sep 30 18:54:05 2019 - Current Altitude: 0.09 m
+Mon Sep 30 18:54:05 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632615, lon=149.165229, alt(above sea leavel)=584.1
+     Global Location (relative altitude): lat=-35.3632615, lon=149.165229, alt(relative)=0.09
+     Local Location(NED coordinate): north=-0.0609147660434, east=-0.0828322470188, down=-0.108186349273
+     Attitude(radians): Pitch=0.0122951259837, Yaw=-0.0766775682569, Roll=0.0174597576261
+     Velocity: Vx=0.01, Vy=-0.13, Vz=0.01
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.439V, current=11.13A, level=99%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.019999999553 m/s
+     Airspeed: 0.019999999553 m/s
+
+
+Mon Sep 30 18:54:05 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:05 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:05 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:05 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:05 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:05 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:05 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:05 2019 - Wait for 1 second.
+Mon Sep 30 18:54:06 2019 - Current Altitude: 0.22 m
+Mon Sep 30 18:54:06 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632615, lon=149.1652295, alt(above sea leavel)=584.23
+     Global Location (relative altitude): lat=-35.3632615, lon=149.1652295, alt(relative)=0.22
+     Local Location(NED coordinate): north=-0.0595249794424, east=-0.0371362417936, down=-0.232220098376
+     Attitude(radians): Pitch=0.00634709745646, Yaw=-0.0784606933594, Roll=-0.00387258897536
+     Velocity: Vx=-0.03, Vy=-0.03, Vz=0.58
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.41A, level=99%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.170000001788 m/s
+     Airspeed: 0.170000001788 m/s
+
+
+Mon Sep 30 18:54:06 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:54:06 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:06 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:06 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:06 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:06 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:06 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:06 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:06 2019 - Wait for 1 second.
+Mon Sep 30 18:54:07 2019 - Current Altitude: 1.34 m
+Mon Sep 30 18:54:07 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363262, lon=149.1652304, alt(above sea leavel)=585.35
+     Global Location (relative altitude): lat=-35.363262, lon=149.1652304, alt(relative)=1.34
+     Local Location(NED coordinate): north=-0.11435765028, east=0.0501059293747, down=-1.36100172997
+     Attitude(radians): Pitch=-0.00283573940396, Yaw=-0.0769531056285, Roll=-0.00868774019182
+     Velocity: Vx=0.0, Vy=-0.13, Vz=1.64
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.24A, level=99%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.159999996424 m/s
+     Airspeed: 0.159999996424 m/s
+
+
+Mon Sep 30 18:54:07 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:07 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:07 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:07 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:07 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:07 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:07 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:07 2019 - Wait for 1 second.
+Mon Sep 30 18:54:08 2019 - Current Altitude: 3.15 m
+Mon Sep 30 18:54:08 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632624, lon=149.165231, alt(above sea leavel)=587.16
+     Global Location (relative altitude): lat=-35.3632624, lon=149.165231, alt(relative)=3.15
+     Local Location(NED coordinate): north=-0.163414299488, east=0.105552263558, down=-3.16733360291
+     Attitude(radians): Pitch=-0.000300111132674, Yaw=-0.0756146237254, Roll=-0.003928006161
+     Velocity: Vx=0.02, Vy=-0.14, Vz=2.04
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.57A, level=99%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.119999997318 m/s
+     Airspeed: 0.119999997318 m/s
+
+
+Mon Sep 30 18:54:08 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:08 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:08 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:08 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:08 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:08 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:08 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:08 2019 - Wait for 1 second.
+Mon Sep 30 18:54:09 2019 - Current Altitude: 5.2 m
+Mon Sep 30 18:54:09 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632629, lon=149.1652315, alt(above sea leavel)=589.21
+     Global Location (relative altitude): lat=-35.3632629, lon=149.1652315, alt(relative)=5.2
+     Local Location(NED coordinate): north=-0.219897642732, east=0.148511096835, down=-5.2171421051
+     Attitude(radians): Pitch=-0.00733933411539, Yaw=-0.0780755057931, Roll=-0.0125851789489
+     Velocity: Vx=0.05, Vy=-0.19, Vz=2.2
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.49A, level=98%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0899999961257 m/s
+     Airspeed: 0.0899999961257 m/s
+
+
+Mon Sep 30 18:54:09 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:09 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:09 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:09 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:09 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:09 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:09 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:09 2019 - Wait for 1 second.
+Mon Sep 30 18:54:10 2019 - Current Altitude: 6.82 m
+Mon Sep 30 18:54:10 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363263, lon=149.1652315, alt(above sea leavel)=590.83
+     Global Location (relative altitude): lat=-35.363263, lon=149.1652315, alt(relative)=6.82
+     Local Location(NED coordinate): north=-0.231447443366, east=0.151632994413, down=-6.83935928345
+     Attitude(radians): Pitch=-0.00402733217925, Yaw=-0.0795806124806, Roll=-0.00411239871755
+     Velocity: Vx=0.1, Vy=-0.2, Vz=2.27
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.41A, level=98%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0299999993294 m/s
+     Airspeed: 0.0299999993294 m/s
+
+
+Mon Sep 30 18:54:10 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:10 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:10 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:10 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:10 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:10 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:10 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:10 2019 - Wait for 1 second.
+Mon Sep 30 18:54:11 2019 - Current Altitude: 9.03 m
+Mon Sep 30 18:54:11 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632632, lon=149.1652316, alt(above sea leavel)=593.04
+     Global Location (relative altitude): lat=-35.3632632, lon=149.1652316, alt(relative)=9.03
+     Local Location(NED coordinate): north=-0.254234999418, east=0.160984367132, down=-9.04681015015
+     Attitude(radians): Pitch=-0.00932829547673, Yaw=-0.0769341960549, Roll=-0.0114819984883
+     Velocity: Vx=0.08, Vy=-0.17, Vz=2.28
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=98%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.019999999553 m/s
+     Airspeed: 0.019999999553 m/s
+
+
+Mon Sep 30 18:54:11 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:11 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:11 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:11 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:11 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:11 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:11 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:11 2019 - Wait for 1 second.
+Mon Sep 30 18:54:12 2019 - Current Altitude: 11.23 m
+Mon Sep 30 18:54:12 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632632, lon=149.1652315, alt(above sea leavel)=595.24
+     Global Location (relative altitude): lat=-35.3632632, lon=149.1652315, alt(relative)=11.23
+     Local Location(NED coordinate): north=-0.2512370646, east=0.148655593395, down=-11.2548065186
+     Attitude(radians): Pitch=-0.005829741247, Yaw=-0.0780711770058, Roll=-0.00627509644255
+     Velocity: Vx=0.12, Vy=-0.17, Vz=2.27
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=98%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Mon Sep 30 18:54:12 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:12 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:12 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:12 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:12 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:12 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:12 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:12 2019 - Wait for 1 second.
+Mon Sep 30 18:54:13 2019 - Current Altitude: 13.45 m
+Mon Sep 30 18:54:13 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363263, lon=149.1652313, alt(above sea leavel)=597.46
+     Global Location (relative altitude): lat=-35.363263, lon=149.1652313, alt(relative)=13.45
+     Local Location(NED coordinate): north=-0.230989560485, east=0.130196943879, down=-13.4674901962
+     Attitude(radians): Pitch=-0.0034433840774, Yaw=-0.0754027664661, Roll=-0.00896032713354
+     Velocity: Vx=0.1, Vy=-0.15, Vz=2.27
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.24A, level=97%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Mon Sep 30 18:54:13 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:13 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:13 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:13 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:13 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:13 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:13 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:13 2019 - Wait for 1 second.
+Mon Sep 30 18:54:14 2019 - Current Altitude: 15.67 m
+Mon Sep 30 18:54:14 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632628, lon=149.1652309, alt(above sea leavel)=599.68
+     Global Location (relative altitude): lat=-35.3632628, lon=149.1652309, alt(relative)=15.67
+     Local Location(NED coordinate): north=-0.210244834423, east=0.0927073955536, down=-15.6881036758
+     Attitude(radians): Pitch=-0.00278070825152, Yaw=-0.0733427107334, Roll=-0.000837005674839
+     Velocity: Vx=0.12, Vy=-0.15, Vz=2.28
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.41A, level=97%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0599999986589 m/s
+     Airspeed: 0.0599999986589 m/s
+
+
+Mon Sep 30 18:54:14 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:14 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:14 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:14 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:14 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:14 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:14 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:14 2019 - Wait for 1 second.
+Mon Sep 30 18:54:15 2019 - Current Altitude: 17.79 m
+Mon Sep 30 18:54:15 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632627, lon=149.1652307, alt(above sea leavel)=601.8
+     Global Location (relative altitude): lat=-35.3632627, lon=149.1652307, alt(relative)=17.79
+     Local Location(NED coordinate): north=-0.193737313151, east=0.0731993615627, down=-17.809425354
+     Attitude(radians): Pitch=-0.0022842567414, Yaw=-0.0738197788596, Roll=-0.00863558705896
+     Velocity: Vx=0.09, Vy=-0.1, Vz=1.93
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=26.67A, level=97%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0299999993294 m/s
+     Airspeed: 0.0299999993294 m/s
+
+
+Mon Sep 30 18:54:15 2019 - Host 192.168.1.71 is not ready.
+Mon Sep 30 18:54:15 2019 - Host 192.168.1.72 is not ready.
+Mon Sep 30 18:54:15 2019 - Host 192.168.1.73 is not ready.
+Mon Sep 30 18:54:15 2019 - Host 192.168.1.74 is not ready.
+Mon Sep 30 18:54:15 2019 - Host 192.168.1.75 is not ready.
+Mon Sep 30 18:54:15 2019 - Host 192.168.1.76 is not ready.
+Mon Sep 30 18:54:15 2019 - Host 192.168.1.77 is not ready.
+Mon Sep 30 18:54:15 2019 - Wait for 1 second.
+Mon Sep 30 18:54:16 2019 - Current Altitude: 19.24 m
+Mon Sep 30 18:54:16 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632627, lon=149.1652304, alt(above sea leavel)=603.25
+     Global Location (relative altitude): lat=-35.3632627, lon=149.1652304, alt(relative)=19.24
+     Local Location(NED coordinate): north=-0.198463141918, east=0.0463631935418, down=-19.25740242
+     Attitude(radians): Pitch=-0.00553086213768, Yaw=-0.0750041902065, Roll=-0.00397235667333
+     Velocity: Vx=0.09, Vy=-0.1, Vz=0.84
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=24.09A, level=97%
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Mon Sep 30 18:54:16 2019 - Reached target altitude!
+
+Mon Sep 30 18:54:16 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:54:16 2019 - After taking off and hover, Leader's GPS coordinate : lat=-35.3632627, lon=149.1652304, alt_relative=19.24
+Mon Sep 30 18:54:16 2019 - Leader current heading is 355 degree.
+Mon Sep 30 18:54:16 2019 - Leader is going to pointA : (-35.3630831, 149.1652112)
+
+Mon Sep 30 18:54:16 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+
+Mon Sep 30 18:54:16 2019 - Calling goto_gps_location_relative(lat=-35.3630831, lon=149.1652112, alt=20, groundspeed=1).
+Mon Sep 30 18:54:16 2019 - Before calling goto_gps_location_relative(), vehicle state is:
+Mon Sep 30 18:54:16 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632627, lon=149.1652304, alt(above sea leavel)=603.25
+     Global Location (relative altitude): lat=-35.3632627, lon=149.1652304, alt(relative)=19.24
+     Local Location(NED coordinate): north=-0.198463141918, east=0.0463631935418, down=-19.25740242
+     Attitude(radians): Pitch=-0.00502335559577, Yaw=-0.0721114203334, Roll=-0.00297337304801
+     Velocity: Vx=0.09, Vy=-0.1, Vz=0.84
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=24.09A, level=97%
+ Mon Sep 30 18:54:16 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+     Sonar distance: None m
+     Heading: 355 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+Mon Sep 30 18:54:16 2019 - Received GPS coordinate request from ('192.168.1.70', 35618).
+Mon Sep 30 18:54:16 2019 - Received GPS coordinate request from ('192.168.1.70', 35622).
+ Mon Sep 30 18:54:16 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:16 2019 - Received heading direction request from ('192.168.1.70', 50174).
+Mon Sep 30 18:54:16 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:16 2019 - Received heading direction request from ('192.168.1.70', 50178).
+Mon Sep 30 18:54:16 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:16 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:16 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:16 2019 - Received GPS coordinate request from ('192.168.1.70', 35628).
+Mon Sep 30 18:54:16 2019 - Received heading direction request from ('192.168.1.70', 50198).
+Mon Sep 30 18:54:16 2019 - Received GPS coordinate request from ('192.168.1.70', 35638).
+Mon Sep 30 18:54:16 2019 - Received heading direction request from ('192.168.1.70', 50202).
+Mon Sep 30 18:54:16 2019 - Received GPS coordinate request from ('192.168.1.70', 35640).
+Mon Sep 30 18:54:16 2019 - Received GPS coordinate request from ('192.168.1.70', 35642).
+Mon Sep 30 18:54:16 2019 - Received GPS coordinate request from ('192.168.1.70', 35646).
+Mon Sep 30 18:54:16 2019 - Received heading direction request from ('192.168.1.70', 50204).
+Mon Sep 30 18:54:16 2019 - Received heading direction request from ('192.168.1.70', 50206).
+Mon Sep 30 18:54:16 2019 - Received heading direction request from ('192.168.1.70', 50208).
+Mon Sep 30 18:54:17 2019 - Horizontal distance to destination: 20.0008039579 m.
+Mon Sep 30 18:54:17 2019 - Perpendicular distance to destination: -0.43 m.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35664).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35666).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35668).
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+ Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50224).
+ Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35672).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50228).
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+ Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50230).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50234).
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35686).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35688).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50246).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50244).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35694).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50250).
+Mon Sep 30 18:54:17 2019 - Horizontal distance to destination: 19.9771346561 m.
+Mon Sep 30 18:54:17 2019 - Perpendicular distance to destination: -0.28 m.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35704).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35708).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50270).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50274).
+ Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35712).Mon Sep 30 18:54:17 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35714).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35718).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35726).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50284).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50286).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50288).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50290).
+Mon Sep 30 18:54:17 2019 - Received GPS coordinate request from ('192.168.1.70', 35728).
+Mon Sep 30 18:54:17 2019 - Received heading direction request from ('192.168.1.70', 50292).
+Mon Sep 30 18:54:18 2019 - Horizontal distance to destination: 19.8216008199 m.
+Mon Sep 30 18:54:18 2019 - Perpendicular distance to destination: -0.2 m.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35746).
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35748).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50304).
+
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35756).
+ Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35758).
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35760).
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35766).
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35768).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50324).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50326).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50328).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50330).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50332).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50334).
+Mon Sep 30 18:54:18 2019 - Horizontal distance to destination: 19.5555336054 m.
+Mon Sep 30 18:54:18 2019 - Perpendicular distance to destination: -0.14 m.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35788).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50348).
+ Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35792).
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35796).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50352).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50354).
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:18 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35808).
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35810).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50366).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50370).
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35814).
+Mon Sep 30 18:54:18 2019 - Received GPS coordinate request from ('192.168.1.70', 35818).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50374).
+Mon Sep 30 18:54:18 2019 - Received heading direction request from ('192.168.1.70', 50376).
+Mon Sep 30 18:54:19 2019 - Horizontal distance to destination: 19.2215809946 m.
+Mon Sep 30 18:54:19 2019 - Perpendicular distance to destination: -0.09 m.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35830).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50388).
+ Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35836).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35838).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35840).
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+ Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35852).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50398).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50400).
+ Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35856).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50404).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50408).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50412).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35862).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50418).
+Mon Sep 30 18:54:19 2019 - Horizontal distance to destination: 18.8765755151 m.
+Mon Sep 30 18:54:19 2019 - Perpendicular distance to destination: -0.06 m.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35874).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35876).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35880).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35882).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35886).
+ Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:19 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50438).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50442).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50444).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35900).
+Mon Sep 30 18:54:19 2019 - Received GPS coordinate request from ('192.168.1.70', 35902).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50448).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50450).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50458).
+Mon Sep 30 18:54:19 2019 - Received heading direction request from ('192.168.1.70', 50460).
+Mon Sep 30 18:54:20 2019 - Horizontal distance to destination: 18.5426232779 m.
+Mon Sep 30 18:54:20 2019 - Perpendicular distance to destination: -0.04 m.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35914).
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+ Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50474).Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35916).
+
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35922).
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35924).
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35938).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50480).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50482).
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35942).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50488).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50494).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50498).
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35946).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50502).
+Mon Sep 30 18:54:20 2019 - Horizontal distance to destination: 18.2197240288 m.
+Mon Sep 30 18:54:20 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35956).
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35958).
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35962).
+ Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50518).
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35970).
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:20 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35980).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50520).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50522).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50528).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50536).
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35984).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50540).
+Mon Sep 30 18:54:20 2019 - Received GPS coordinate request from ('192.168.1.70', 35988).
+Mon Sep 30 18:54:20 2019 - Received heading direction request from ('192.168.1.70', 50544).
+Mon Sep 30 18:54:21 2019 - Horizontal distance to destination: 17.8739314141 m.
+Mon Sep 30 18:54:21 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 35998).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36002).
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50560).
+ Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36008).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36014).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36018).
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+ Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50564).
+ Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36022).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50570).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50574).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50578).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50582).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36030).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50586).
+Mon Sep 30 18:54:21 2019 - Horizontal distance to destination: 17.5170876286 m.
+Mon Sep 30 18:54:21 2019 - Perpendicular distance to destination: -0.01 m.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36040).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36042).
+ Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50598).Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+
+ Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36046).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36054).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36058).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36060).
+ Mon Sep 30 18:54:21 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50610).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50616).
+Mon Sep 30 18:54:21 2019 - Received GPS coordinate request from ('192.168.1.70', 36072).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50618).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50622).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50624).
+Mon Sep 30 18:54:21 2019 - Received heading direction request from ('192.168.1.70', 50628).
+Mon Sep 30 18:54:22 2019 - Horizontal distance to destination: 17.1263055955 m.
+Mon Sep 30 18:54:22 2019 - Perpendicular distance to destination: -0.01 m.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36082).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36086).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36088).
+ Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36092).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36096).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36098).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36110).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50654).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50658).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50660).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50662).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50666).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50668).
+Mon Sep 30 18:54:22 2019 - Horizontal distance to destination: 16.7244773006 m.
+Mon Sep 30 18:54:22 2019 - Perpendicular distance to destination: -0.01 m.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+ Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36122).
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36124).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50682).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36134).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36136).
+ Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50686).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50692).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50698).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36142).
+Mon Sep 30 18:54:22 2019 - Received GPS coordinate request from ('192.168.1.70', 36148).
+Mon Sep 30 18:54:22 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50706).
+Mon Sep 30 18:54:22 2019 - Received heading direction request from ('192.168.1.70', 50708).
+Mon Sep 30 18:54:23 2019 - Horizontal distance to destination: 16.3013136762 m.
+Mon Sep 30 18:54:23 2019 - Perpendicular distance to destination: -0.01 m.
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50670).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36156).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50712).
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36170).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36174).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36178).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36180).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50736).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50738).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50740).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50742).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36190).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50746).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36194).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36196).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50752).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50754).
+Mon Sep 30 18:54:23 2019 - Horizontal distance to destination: 15.432108809 m.
+Mon Sep 30 18:54:23 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36208).
+ Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:23 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36212).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36214).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36220).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36222).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50778).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50780).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36228).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50784).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50786).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50790).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50792).
+Mon Sep 30 18:54:23 2019 - Received GPS coordinate request from ('192.168.1.70', 36240).
+Mon Sep 30 18:54:23 2019 - Received heading direction request from ('192.168.1.70', 50796).
+Mon Sep 30 18:54:24 2019 - Horizontal distance to destination: 14.9978902036 m.
+Mon Sep 30 18:54:24 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36250).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50806).
+ Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36254).
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36256).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50812).
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50816).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36266).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36268).
+
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50824).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50828).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36278).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36280).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50836).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50838).
+Mon Sep 30 18:54:24 2019 - Horizontal distance to destination: 14.5629087785 m.
+Mon Sep 30 18:54:24 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36288).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36294).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50862).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50864).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36296).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36304).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36306).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50868).
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36312).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50870).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50872).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50874).
+Mon Sep 30 18:54:24 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:24 2019 - Received GPS coordinate request from ('192.168.1.70', 36324).
+Mon Sep 30 18:54:24 2019 - Received heading direction request from ('192.168.1.70', 50880).
+Mon Sep 30 18:54:25 2019 - Horizontal distance to destination: 14.1279330418 m.
+Mon Sep 30 18:54:25 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36334).
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36338).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50906).
+ Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36340).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36346).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36350).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50908).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36358).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50910).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50914).
+ Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36366).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50916).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50918).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50922).
+Mon Sep 30 18:54:25 2019 - Horizontal distance to destination: 13.692963536 m.
+Mon Sep 30 18:54:25 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36372).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50930).
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36378).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36382).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36386).
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:25 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50944).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36400).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36402).
+Mon Sep 30 18:54:25 2019 - Received GPS coordinate request from ('192.168.1.70', 36404).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50946).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50950).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50960).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50962).
+Mon Sep 30 18:54:25 2019 - Received heading direction request from ('192.168.1.70', 50964).
+Mon Sep 30 18:54:26 2019 - Horizontal distance to destination: 13.2580008759 m.
+Mon Sep 30 18:54:26 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36416).
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36422).
+ Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 50974).
+ Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36430).
+ Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 50980).
+ Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36432).
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36438).
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36442).
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 50988).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 50992).
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36450).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 50998).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51000).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51006).
+Mon Sep 30 18:54:26 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:54:26 2019 - Horizontal distance to destination: 12.8230457548 m.
+Mon Sep 30 18:54:26 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36462).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51026).
+ Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36464).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51028).
+ Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36466).
+
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36468).
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36476).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51032).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51034).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51036).
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36486).
+ Mon Sep 30 18:54:26 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51044).
+Mon Sep 30 18:54:26 2019 - Received GPS coordinate request from ('192.168.1.70', 36492).
+Mon Sep 30 18:54:26 2019 - Received heading direction request from ('192.168.1.70', 51048).
+Mon Sep 30 18:54:27 2019 - Horizontal distance to destination: 12.3770398073 m.
+Mon Sep 30 18:54:27 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36502).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36508).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51064).
+ Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36514).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51066).
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51078).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36516).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36518).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36526).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51084).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51086).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51088).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36528).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51090).
+Mon Sep 30 18:54:27 2019 - Horizontal distance to destination: 11.7091276194 m.
+Mon Sep 30 18:54:27 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36542).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36546).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36552).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51110).
+Mon Sep 30 18:54:27 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+ Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51112).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36560).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36564).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51116).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51122).
+ Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36570).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51126).
+Mon Sep 30 18:54:27 2019 - Received GPS coordinate request from ('192.168.1.70', 36574).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51130).
+Mon Sep 30 18:54:27 2019 - Received heading direction request from ('192.168.1.70', 51132).
+Mon Sep 30 18:54:28 2019 - Horizontal distance to destination: 11.2520706292 m.
+Mon Sep 30 18:54:28 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36586).
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36590).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36596).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36598).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51158).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51162).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36602).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36606).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36614).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51164).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51166).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51170).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51172).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51174).
+Mon Sep 30 18:54:28 2019 - Horizontal distance to destination: 10.7943135544 m.
+Mon Sep 30 18:54:28 2019 - Perpendicular distance to destination: -0.04 m.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+ Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36624).
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+ Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51182).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36630).
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36634).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51190).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51194).
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:28 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+ Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36644).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36650).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36654).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51206).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51210).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51212).
+Mon Sep 30 18:54:28 2019 - Received GPS coordinate request from ('192.168.1.70', 36660).
+Mon Sep 30 18:54:28 2019 - Received heading direction request from ('192.168.1.70', 51216).
+Mon Sep 30 18:54:29 2019 - Horizontal distance to destination: 10.3262194288 m.
+Mon Sep 30 18:54:29 2019 - Perpendicular distance to destination: -0.04 m.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36670).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36674).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36676).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51232).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51234).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51236).
+ Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36684).
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51240).
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36694).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36696).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36698).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51254).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51256).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51258).
+Mon Sep 30 18:54:29 2019 - Horizontal distance to destination: 9.8691973113 m.
+Mon Sep 30 18:54:29 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+ Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36710).
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36714).
+ Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51270).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36718).
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:29 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36726).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36730).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36736).
+Mon Sep 30 18:54:29 2019 - Received GPS coordinate request from ('192.168.1.70', 36738).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51286).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51288).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51294).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51296).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51298).
+Mon Sep 30 18:54:29 2019 - Received heading direction request from ('192.168.1.70', 51300).
+Mon Sep 30 18:54:30 2019 - Horizontal distance to destination: 9.40112341792 m.
+Mon Sep 30 18:54:30 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36754).
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36762).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36764).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36768).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36770).
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36782).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51312).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51326).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51328).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51330).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51334).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51338).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36786).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51342).
+Mon Sep 30 18:54:30 2019 - Horizontal distance to destination: 8.9447960183 m.
+Mon Sep 30 18:54:30 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36796).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36800).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36802).
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51358).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36808).
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51364).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36818).
+Mon Sep 30 18:54:30 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36822).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51366).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51368).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51378).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51380).
+Mon Sep 30 18:54:30 2019 - Received GPS coordinate request from ('192.168.1.70', 36828).
+Mon Sep 30 18:54:30 2019 - Received heading direction request from ('192.168.1.70', 51384).
+Mon Sep 30 18:54:31 2019 - Horizontal distance to destination: 8.48846932728 m.
+Mon Sep 30 18:54:31 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36838).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36846).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36850).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36852).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36854).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36860).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36862).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51410).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51412).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51418).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51420).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51422).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51424).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51426).
+Mon Sep 30 18:54:31 2019 - Horizontal distance to destination: 8.02107883043 m.
+Mon Sep 30 18:54:31 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+ Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36880).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36884).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36886).
+ Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51444).Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36888).
+
+ Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51446).
+Mon Sep 30 18:54:31 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51448).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51452).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36902).
+Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36906).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51464).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51466).
+ Mon Sep 30 18:54:31 2019 - Received GPS coordinate request from ('192.168.1.70', 36908).
+Mon Sep 30 18:54:31 2019 - Received heading direction request from ('192.168.1.70', 51468).
+Mon Sep 30 18:54:32 2019 - Horizontal distance to destination: 7.54196150101 m.
+Mon Sep 30 18:54:32 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36928).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36932).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36934).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36936).
+ Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51494).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51496).
+ Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36938).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36944).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51500).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51502).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51504).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51508).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36952).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51510).
+Mon Sep 30 18:54:32 2019 - Horizontal distance to destination: 7.07392673066 m.
+Mon Sep 30 18:54:32 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36964).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36968).
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:32 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51530).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51532).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36970).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36972).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36984).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36986).
+Mon Sep 30 18:54:32 2019 - Received GPS coordinate request from ('192.168.1.70', 36988).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51544).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51546).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51548).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51550).
+Mon Sep 30 18:54:32 2019 - Received heading direction request from ('192.168.1.70', 51552).
+Mon Sep 30 18:54:33 2019 - Horizontal distance to destination: 6.60591379755 m.
+Mon Sep 30 18:54:33 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37006).
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37008).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51568).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51572).
+ Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37012).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51580).
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37016).
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37024).
+ Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51584).
+ Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37028).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51588).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51592).
+ Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37036).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51594).
+Mon Sep 30 18:54:33 2019 - Horizontal distance to destination: 6.14899780546 m.
+Mon Sep 30 18:54:33 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37048).
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37050).
+Mon Sep 30 18:54:33 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+ Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37054).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51618).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51620).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51622).
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37058).
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37062).
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37072).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51628).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51630).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51632).
+Mon Sep 30 18:54:33 2019 - Received GPS coordinate request from ('192.168.1.70', 37080).
+Mon Sep 30 18:54:33 2019 - Received heading direction request from ('192.168.1.70', 51636).
+Mon Sep 30 18:54:34 2019 - Horizontal distance to destination: 5.70261906381 m.
+Mon Sep 30 18:54:34 2019 - Perpendicular distance to destination: -0.03 m.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37090).
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51664).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37096).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37100).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51668).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51670).
+ Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37102).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37106).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37108).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37112).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51672).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51674).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51676).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51678).
+Mon Sep 30 18:54:34 2019 - Horizontal distance to destination: 5.25689381216 m.
+Mon Sep 30 18:54:34 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37132).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37136).
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+ Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37140).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37144).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51692).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51700).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51702).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37150).
+Mon Sep 30 18:54:34 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51708).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51710).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37160).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51716).
+Mon Sep 30 18:54:34 2019 - Received GPS coordinate request from ('192.168.1.70', 37164).
+Mon Sep 30 18:54:34 2019 - Received heading direction request from ('192.168.1.70', 51720).
+Mon Sep 30 18:54:35 2019 - Horizontal distance to destination: 4.81174617032 m.
+Mon Sep 30 18:54:35 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37174).
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37178).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51736).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51746).
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37186).
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37188).
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37190).
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37194).
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37198).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51754).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51756).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51758).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51762).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51764).
+Mon Sep 30 18:54:35 2019 - Horizontal distance to destination: 4.3666245817 m.
+Mon Sep 30 18:54:35 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+ Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37218).
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37220).
+ Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51778).
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37222).
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51782).
+Mon Sep 30 18:54:35 2019 - Received heading direction request from ('192.168.1.70', 51784).
+Mon Sep 30 18:54:35 2019 - Received GPS coordinate request from ('192.168.1.70', 37236).
+Mon Sep 30 18:54:35 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37238).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51796).
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37246).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51798).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51802).
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37250).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51806).
+Mon Sep 30 18:54:36 2019 - Horizontal distance to destination: 3.92108505 m.
+Mon Sep 30 18:54:36 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:36 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:36 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:36 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37258).
+ Mon Sep 30 18:54:36 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37264).
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37266).
+ Mon Sep 30 18:54:36 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+ Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51822).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51824).
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37274).
+Mon Sep 30 18:54:36 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+ Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51830).
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37278).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51834).
+Mon Sep 30 18:54:36 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51838).
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37288).
+Mon Sep 30 18:54:36 2019 - Received GPS coordinate request from ('192.168.1.70', 37290).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51846).
+Mon Sep 30 18:54:36 2019 - Received heading direction request from ('192.168.1.70', 51848).
+Mon Sep 30 18:54:36 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:54:36 2019 - Horizontal distance to destination: 3.46423718258 m.
+Mon Sep 30 18:54:36 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+ Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37306).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37310).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37312).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37314).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51872).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51876).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51878).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37316).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37326).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37328).
+ Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51884).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51886).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51888).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51890).
+Mon Sep 30 18:54:37 2019 - Horizontal distance to destination: 3.00833171124 m.
+Mon Sep 30 18:54:37 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+ Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37346).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37348).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51906).
+Mon Sep 30 18:54:37 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51912).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37354).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37362).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37364).
+ Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51922).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37366).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51924).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51926).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51928).
+Mon Sep 30 18:54:37 2019 - Received GPS coordinate request from ('192.168.1.70', 37376).
+Mon Sep 30 18:54:37 2019 - Received heading direction request from ('192.168.1.70', 51932).
+Mon Sep 30 18:54:37 2019 - Horizontal distance to destination: 2.33017560148 m.
+Mon Sep 30 18:54:37 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+ Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37388).
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37392).
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37394).
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37396).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51954).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51956).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51958).
+ Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37406).
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37414).
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37416).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51962).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51966).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51972).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51974).
+Mon Sep 30 18:54:38 2019 - Horizontal distance to destination: 1.88610305587 m.
+Mon Sep 30 18:54:38 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:38 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37430).
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37432).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 51998).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 52006).
+ Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37436).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 52008).
+ Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37440).
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37446).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 52010).
+ Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37448).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 52012).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 52014).
+Mon Sep 30 18:54:38 2019 - Received GPS coordinate request from ('192.168.1.70', 37450).
+Mon Sep 30 18:54:38 2019 - Received heading direction request from ('192.168.1.70', 52016).
+Mon Sep 30 18:54:38 2019 - Horizontal distance to destination: 1.43168098814 m.
+Mon Sep 30 18:54:38 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:39 2019 - Sending command fly_follow() to follower 1 with angle 90 and distance 10.
+Mon Sep 30 18:54:39 2019 - Sending command fly_follow() to follower 2 with angle 90 and distance 20.
+Mon Sep 30 18:54:39 2019 - Sending command fly_follow() to follower 3 with angle 116 and distance 22.360679775.
+Mon Sep 30 18:54:39 2019 - Received GPS coordinate request from ('192.168.1.70', 37470).
+ Mon Sep 30 18:54:39 2019 - Sending command fly_follow() to follower 4 with angle 135 and distance 28.2842712475.
+Mon Sep 30 18:54:39 2019 - Sending command fly_follow() to follower 5 with angle 153 and distance 22.360679775.Mon Sep 30 18:54:39 2019 - Received heading direction request from ('192.168.1.70', 52032).
+Mon Sep 30 18:54:39 2019 - Received GPS coordinate request from ('192.168.1.70', 37472).
+Mon Sep 30 18:54:39 2019 - Received GPS coordinate request from ('192.168.1.70', 37474).
+Mon Sep 30 18:54:39 2019 - Received GPS coordinate request from ('192.168.1.70', 37480).
+
+Mon Sep 30 18:54:39 2019 - Sending command fly_follow() to follower 6 with angle 180 and distance 20.0.
+Mon Sep 30 18:54:39 2019 - Sending command fly_follow() to follower 7 with angle 180 and distance 10.
+Mon Sep 30 18:54:39 2019 - Received heading direction request from ('192.168.1.70', 52036).
+Mon Sep 30 18:54:39 2019 - Received heading direction request from ('192.168.1.70', 52040).
+Mon Sep 30 18:54:39 2019 - Received heading direction request from ('192.168.1.70', 52044).
+Mon Sep 30 18:54:39 2019 - Received GPS coordinate request from ('192.168.1.70', 37494).
+Mon Sep 30 18:54:39 2019 - Received GPS coordinate request from ('192.168.1.70', 37496).
+Mon Sep 30 18:54:39 2019 - Received GPS coordinate request from ('192.168.1.70', 37498).
+Mon Sep 30 18:54:39 2019 - Received heading direction request from ('192.168.1.70', 52054).
+Mon Sep 30 18:54:39 2019 - Received heading direction request from ('192.168.1.70', 52056).
+Mon Sep 30 18:54:39 2019 - Received heading direction request from ('192.168.1.70', 52058).
+Mon Sep 30 18:54:39 2019 - Horizontal distance to destination: 0.979039107971 m.
+Mon Sep 30 18:54:39 2019 - Perpendicular distance to destination: -0.02 m.
+
+192.168.1.71
+
+Mon Sep 30 18:54:39 2019 - Calling function air_break().
+Mon Sep 30 18:54:39 2019 - Sending air break command first time.
+192.168.1.72
+192.168.1.73
+192.168.1.74
+192.168.1.75
+Mon Sep 30 18:54:39 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3630898, lon=149.1652102, alt(above sea leavel)=603.99
+     Global Location (relative altitude): lat=-35.3630898, lon=149.1652102, alt(relative)=19.98
+     Local Location(NED coordinate): north=19.0647945404, east=-1.7951015234, down=-19.9973907471
+     Attitude(radians): Pitch=-0.0573282539845, Yaw=-0.0903738662601, Roll=-0.00170870497823
+     Velocity: Vx=0.96, Vy=-0.05, Vz=0.01
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=25.92A, level=92%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.949999988079 m/s192.168.1.76
+192.168.1.77
+
+     Airspeed: 0.949999988079 m/s
+Mon Sep 30 18:54:39 2019 - Sending air break command once again.
+Mon Sep 30 18:54:39 2019 - Body Frame Velocity command is sent! Vx=0.96, Vy=-0.05, Vz=0.01
+Mon Sep 30 18:54:39 2019 - Mission completed. Return home.
+Mon Sep 30 18:54:39 2019 - Command follower 1 return home.
+Mon Sep 30 18:54:39 2019 - Horizontal distance to destination: 0.53466908123 m.
+Mon Sep 30 18:54:39 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:40 2019 - Horizontal distance to destination: 0.261355957031 m.
+Mon Sep 30 18:54:40 2019 - Perpendicular distance to destination: -0.02 m.
+Mon Sep 30 18:54:40 2019 - After calling goto_gps_location_relative(), vehicle state is:
+Mon Sep 30 18:54:40 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363085, lon=149.1652095, alt(above sea leavel)=603.99
+     Global Location (relative altitude): lat=-35.363085, lon=149.1652095, alt(relative)=19.98
+     Local Location(NED coordinate): north=19.5960788727, east=-1.85555660725, down=-19.9986820221
+     Attitude(radians): Pitch=0.132166311145, Yaw=-0.0934239551425, Roll=0.00132322032005
+     Velocity: Vx=0.3, Vy=0.0, Vz=0.01
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=24.76A, level=92%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.769999980927 m/s
+     Airspeed: 0.769999980927 m/s
+Mon Sep 30 18:54:40 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3630847, lon=149.1652094, alt(above sea leavel)=603.99
+     Global Location (relative altitude): lat=-35.3630847, lon=149.1652094, alt(relative)=19.98
+     Local Location(NED coordinate): north=19.629076004, east=-1.86178481579, down=-19.9990901947
+     Attitude(radians): Pitch=0.0203474760056, Yaw=-0.0888903662562, Roll=0.00457506859675
+     Velocity: Vx=0.03, Vy=0.03, Vz=0.01
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.242V, current=25.09A, level=92%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.189999997616 m/s
+     Airspeed: 0.189999997616 m/s
+
+
+Mon Sep 30 18:54:41 2019 - Command follower 2 return home.
+Mon Sep 30 18:54:43 2019 - Command follower 3 return home.
+Mon Sep 30 18:54:45 2019 - Command follower 4 return home.
+Mon Sep 30 18:54:46 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:54:47 2019 - Command follower 5 return home.
+Mon Sep 30 18:54:49 2019 - Command follower 6 return home.
+Mon Sep 30 18:54:51 2019 - Command follower 7 return home.
+Mon Sep 30 18:54:53 2019 - Followers have returned home, Leader is returning...
+
+
+Mon Sep 30 18:54:53 2019 - Returning home...
+Mon Sep 30 18:54:53 2019 - Changing vehicle mode to RTL...
+Mon Sep 30 18:54:56 2019 - Current vehicle mode is VehicleMode:RTL
+Mon Sep 30 18:54:56 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:54:56 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:54:57 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:54:58 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:54:59 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:00 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:01 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:02 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:03 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:04 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:05 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:06 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:06 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:55:07 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:08 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:09 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:10 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:11 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:12 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:13 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:14 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:15 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:16 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:16 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:55:17 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:18 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:19 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:20 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:21 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:22 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:23 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:24 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:25 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:26 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:26 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:55:27 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:28 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:29 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:30 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:31 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:32 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:33 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:34 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:35 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:36 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:36 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:55:37 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:38 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:39 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:40 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:41 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:42 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:43 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:44 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:45 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:46 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:46 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:55:47 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:48 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:49 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:50 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:51 2019 - Vehicle is returning, wait for 1 second.
+Mon Sep 30 18:55:52 2019 - Vehicle has returned home.
+Mon Sep 30 18:55:52 2019 - Leader has returned home.
+Mon Sep 30 18:55:56 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:56:06 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:56:16 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:56:26 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:56:36 2019 - Connection to router is OK. Check again in 10 seconds
+Mon Sep 30 18:56:46 2019 - Connection to router is OK. Check again in 10 seconds
