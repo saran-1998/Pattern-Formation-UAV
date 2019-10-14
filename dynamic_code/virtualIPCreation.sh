@@ -10,10 +10,13 @@ echo -n "Enter the number of virtual IP addresses to be created: "
 read NUM
 NUM=$((NUM-1))
 
+echo -n "Enter the interface name of the ip address: "
+read interface
+
 IP=$(hostname -I)
 for i in $(seq 0 $NUM); do
     IP=$(nextip $IP)
-    $(sudo ifconfig wlp3s0:$i $IP netmask 255.255.255.0 up)
+    $(sudo ifconfig $interface:$i $IP netmask 255.255.255.0 up)
 done
 
 NUMIP=$((NUM+1))
