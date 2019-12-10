@@ -17,6 +17,7 @@ import __builtin__
 # Get local host IP.
 local_host = sys.argv[1]
 port = sys.argv[2]
+routerIPAddress = sys.argv[3]
 host_specifier = local_host[-1]
 
 # Set log.
@@ -65,7 +66,7 @@ __builtin__.vehicle.parameters['BRD_SAFETYENABLE'] = 1 # Enable
 start_SERVER_service(is_leader, local_host)
 
 # Start connection checker. Drone will return home once lost connection.
-router_host = '192.168.1.1'
+router_host = routerIPAddress
 threading.Thread(target=CHECK_network_connection,args=(router_host,),kwargs={'wait_time':10}).start()
 
 # Self arm.

@@ -14,7 +14,17 @@ echo -n "Enter the IP address of Mission Planner: "
 read missionPlannerIPAddress
 noOfDronesLoopVariable=$((noOfDrones-1))
 IP=($(hostname -I))
-for i in $(seq 0 $noOfDronesLoopVariable); do
+xterm -title "Dronekit 0" -hold -e dronekit-sitl copter3.0 -I0 &
+xterm -title "MavProxy 0" -hold -e mavproxy.py --master tcp:$IP:$dronekitPort --sitl 127.0.0.1:5501 --out $IP:$UDPPort --mav10 --source-system=1 --out $missionPlannerIPAddress:$missionPlannerPort  &
+dronekitPort=$((dronekitPort+10))
+UDPPort=$((UDPPort+1))
+missionPlannerPort=$((missionPlannerPort+1))
+IP=$(nextip $IP)
+for i in $(seq 1 $noOfDronesLoopVariable); do
+    if [ $IP == $missionPlannerIPAddress ]
+    then
+        IP=$(nextip $IP)
+    fi
     indexValue=$((i+1))
     xterm -title "Dronekit $i" -hold -e dronekit-sitl copter3.0 -I$i &
     xterm -title "MavProxy $i" -hold -e mavproxy.py --master tcp:$IP:$dronekitPort --sitl 127.0.0.1:5501 --out $IP:$UDPPort --mav10 --source-system=$indexValue --out $missionPlannerIPAddress:$missionPlannerPort  &

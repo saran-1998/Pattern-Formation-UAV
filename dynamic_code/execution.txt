@@ -1,0 +1,39 @@
+***********IMPORTANT: Connect the program executing system to the router before the connecting the mission planner. Connect the mission planner computer only after the previous steps *************
+
+IP Address assigned to the execution computer: 192.168.0.100
+IP Address assigned to the mission planner computer: 192.168.0.101
+
+
+********** To be done on the executing computer ******************
+
+Step1: Execute the Virtual IP Creation code:
+Command: ./virtualIPCreation.sh
+Input: Enter the no of Virtual IP address to be created: 9
+       Enter the Interface of IP Address: wlp4s0
+       Enter the mission planner IP Address: 192.168.0.101
+       
+Verification: execute the ifconfig command in the executing computer after this command. There must be interfaces upto wlp4s0:9.
+
+
+*************** To be done on the executing computer *********************
+
+Step 2: Execute the main executor code:
+Command: ./mainExecutor.sh
+Input: Enter the no of drones: 10
+       Enter the ip address of mission planner: 192.168.0.101
+
+
+********************** To be done on the mission planner computer ******************
+
+Step 3: Connect the drones in the mission planner interface using the UDP Por numbers
+Port No starting no: 14561 
+Port No ending no: 14570 
+
+
+********************* To be done on the executing computer *****************************
+
+Step 4: Execute the program generator code:
+Command: ./programExecutor.sh
+Input: Enter the noo of Followers: 9 
+       Enter the IP addresss of the router: 192.168.0.1
+       Enter the IP address of the mission planner: 192.168.0.101

@@ -1,0 +1,293 @@
+Wed Nov 20 13:44:50 2019 - This is a leader drone.
+Wed Nov 20 13:44:50 2019 - local_host = 192.168.0.100.
+Wed Nov 20 13:44:50 2019 - This drone is iris0
+Wed Nov 20 13:44:50 2019 - local_host = 192.168.0.100.
+Wed Nov 20 13:44:50 2019 - This drone is iris0
+Wed Nov 20 13:44:50 2019 - Connecting to vehicle...
+Wed Nov 20 13:44:56 2019 - Vehicle is connected!
+Wed Nov 20 13:44:59 2019 - Thread SERVER_send_gps_coordinate is started!
+Wed Nov 20 13:44:59 2019 - SERVER_send_gps_coordinate() is started!
+ Wed Nov 20 13:44:59 2019 - Thread SERVER_send_heading_direction is started!
+Wed Nov 20 13:44:59 2019 - Thread SERVER_send_status has started! Wed Nov 20 13:44:59 2019 - SERVER_send_heading_direction() is started!
+
+Wed Nov 20 13:44:59 2019 - CHECK_network_connection(192.168.0.1) is started.
+ Wed Nov 20 13:44:59 2019 - SERVER_send_status() is started!
+Wed Nov 20 13:44:59 2019 - Connection to router is OK. Check again in 10 seconds
+Wed Nov 20 13:45:02 2019 - Arming motors...
+Wed Nov 20 13:45:05 2019 - Vehicle mode is changed to GUIDED
+Wed Nov 20 13:45:05 2019 - Vehicle is not armed, try to arm vehicle again...
+Wed Nov 20 13:45:08 2019 - Vehicle is not armed, try to arm vehicle again...
+Wed Nov 20 13:45:09 2019 - Connection to router is OK. Check again in 10 seconds
+Wed Nov 20 13:45:11 2019 - Vehicle is not armed, try to arm vehicle again...
+102
+103
+104
+105
+106
+107
+108
+109
+['192.168.0.102', '192.168.0.103', '192.168.0.104', '192.168.0.105', '192.168.0.106', '192.168.0.107', '192.168.0.108']
+Wed Nov 20 13:45:14 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:14 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:14 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:14 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:14 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:14 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:14 2019 - Wait for 1 second.
+Wed Nov 20 13:45:15 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:15 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:15 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:15 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:15 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:15 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:15 2019 - Wait for 1 second.
+Wed Nov 20 13:45:16 2019 - Home GPS coordinate :
+     leader_lat_home = -35.3632622
+     leader_lon_home = 149.1652329
+     leader_alt_home = 0.08 (relative)
+('Length of followers: ', 7)
+('Length of followers height: ', 7)
+('Length of followers distance: ', 7)
+('Length of followers azimuth: ', 7)
+
+Wed Nov 20 13:45:16 2019 - Sending immediate command to : 192.168.0.102.
+
+Wed Nov 20 13:45:16 2019 - Executing takeoff_and_hover().
+Wed Nov 20 13:45:16 2019 - Sending immediate command to : 192.168.0.103.
+Wed Nov 20 13:45:16 2019 - Sending immediate command to : 192.168.0.104.
+Wed Nov 20 13:45:16 2019 - Sending immediate command to : 192.168.0.105.
+Wed Nov 20 13:45:16 2019 - Sending immediate command to : 192.168.0.106.
+Wed Nov 20 13:45:16 2019 - Sending immediate command to : 192.168.0.107.
+Wed Nov 20 13:45:16 2019 - Sending immediate command to : 192.168.0.108.
+Wed Nov 20 13:45:16 2019 - Current Altitude: 0.08 m
+Wed Nov 20 13:45:16 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632622, lon=149.1652329, alt(above sea leavel)=584.14
+     Global Location (relative altitude): lat=-35.3632622, lon=149.1652329, alt(relative)=0.08
+     Local Location(NED coordinate): north=-0.141482070088, east=0.275626808405, down=-0.141967579722
+     Attitude(radians): Pitch=0.00247008027509, Yaw=-0.100059486926, Roll=-0.00279239425436
+     Velocity: Vx=-0.1, Vy=0.09, Vz=0.02
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.538V, current=3.48A, level=99%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Wed Nov 20 13:45:16 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:16 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:16 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:16 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:16 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:16 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:16 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:16 2019 - Wait for 1 second.
+Wed Nov 20 13:45:17 2019 - Current Altitude: 0.09 m
+Wed Nov 20 13:45:17 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632622, lon=149.1652322, alt(above sea leavel)=584.15
+     Global Location (relative altitude): lat=-35.3632622, lon=149.1652322, alt(relative)=0.09
+     Local Location(NED coordinate): north=-0.139134705067, east=0.214945808053, down=-0.151329860091
+     Attitude(radians): Pitch=0.0010013692081, Yaw=-0.0958820432425, Roll=0.00922056753188
+     Velocity: Vx=-0.09, Vy=0.04, Vz=0.02
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.489V, current=6.81A, level=99%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Wed Nov 20 13:45:17 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:17 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:17 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:17 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:17 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:17 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:17 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:17 2019 - Wait for 1 second.
+Wed Nov 20 13:45:18 2019 - Current Altitude: 0.09 m
+Wed Nov 20 13:45:18 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632621, lon=149.1652316, alt(above sea leavel)=584.15
+     Global Location (relative altitude): lat=-35.3632621, lon=149.1652316, alt(relative)=0.09
+     Local Location(NED coordinate): north=-0.1312533319, east=0.158704355359, down=-0.159536913037
+     Attitude(radians): Pitch=0.00397672737017, Yaw=-0.095668964088, Roll=0.0251249410212
+     Velocity: Vx=-0.07, Vy=0.03, Vz=0.02
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.39V, current=12.79A, level=99%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.0 m/s
+     Airspeed: 0.0 m/s
+
+
+Wed Nov 20 13:45:18 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:18 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:18 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:18 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:18 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:18 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:18 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:18 2019 - Wait for 1 second.
+Wed Nov 20 13:45:19 2019 - Connection to router is OK. Check again in 10 seconds
+Wed Nov 20 13:45:19 2019 - Current Altitude: 0.26 m
+Wed Nov 20 13:45:19 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363262, lon=149.1652318, alt(above sea leavel)=584.32
+     Global Location (relative altitude): lat=-35.363262, lon=149.1652318, alt(relative)=0.26
+     Local Location(NED coordinate): north=-0.117215573788, east=0.14742590487, down=-0.206745147705
+     Attitude(radians): Pitch=0.00784043967724, Yaw=-0.098100438714, Roll=0.0237233024091
+     Velocity: Vx=-0.07, Vy=0.15, Vz=0.69
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.41A, level=99%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.119999997318 m/s
+     Airspeed: 0.119999997318 m/s
+
+
+Wed Nov 20 13:45:19 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:19 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:19 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:19 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:19 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:19 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:19 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:19 2019 - Wait for 1 second.
+Wed Nov 20 13:45:20 2019 - Current Altitude: 1.46 m
+Wed Nov 20 13:45:20 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632621, lon=149.1652331, alt(above sea leavel)=585.52
+     Global Location (relative altitude): lat=-35.3632621, lon=149.1652331, alt(relative)=1.46
+     Local Location(NED coordinate): north=-0.123493120074, east=0.297478556633, down=-1.52624428272
+     Attitude(radians): Pitch=0.00369200482965, Yaw=-0.101192995906, Roll=-0.00693012587726
+     Velocity: Vx=-0.07, Vy=0.03, Vz=1.69
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.143V, current=30.16A, level=99%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.219999998808 m/s
+     Airspeed: 0.219999998808 m/s
+
+
+Wed Nov 20 13:45:20 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:20 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:20 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:20 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:20 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:20 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:20 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:20 2019 - Wait for 1 second.
+Wed Nov 20 13:45:21 2019 - Current Altitude: 3.29 m
+Wed Nov 20 13:45:21 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632623, lon=149.165234, alt(above sea leavel)=587.35
+     Global Location (relative altitude): lat=-35.3632623, lon=149.165234, alt(relative)=3.29
+     Local Location(NED coordinate): north=-0.154664471745, east=0.381370782852, down=-3.35761928558
+     Attitude(radians): Pitch=0.00107040384319, Yaw=-0.0975621938705, Roll=-0.00058477348648
+     Velocity: Vx=-0.04, Vy=-0.02, Vz=2.05
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.66A, level=99%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.149999991059 m/s
+     Airspeed: 0.149999991059 m/s
+
+
+Wed Nov 20 13:45:21 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:21 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:21 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:21 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:21 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:21 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:21 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:21 2019 - Wait for 1 second.
+Wed Nov 20 13:45:22 2019 - Current Altitude: 4.3 m
+Wed Nov 20 13:45:22 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632625, lon=149.1652345, alt(above sea leavel)=588.36
+     Global Location (relative altitude): lat=-35.3632625, lon=149.1652345, alt(relative)=4.3
+     Local Location(NED coordinate): north=-0.169308662415, east=0.425020724535, down=-4.36874914169
+     Attitude(radians): Pitch=0.00131133152172, Yaw=-0.0951833352447, Roll=-0.00433769775555
+     Velocity: Vx=-0.02, Vy=-0.03, Vz=2.14
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.66A, level=98%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.140000000596 m/s
+     Airspeed: 0.140000000596 m/s
+
+
+Wed Nov 20 13:45:22 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:22 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:22 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:22 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:22 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:22 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:22 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:22 2019 - Wait for 1 second.
+Wed Nov 20 13:45:23 2019 - Current Altitude: 4.82 m
+Wed Nov 20 13:45:23 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632625, lon=149.1652348, alt(above sea leavel)=588.88
+     Global Location (relative altitude): lat=-35.3632625, lon=149.1652348, alt(relative)=4.82
+     Local Location(NED coordinate): north=-0.177401289344, east=0.445435136557, down=-4.88915681839
+     Attitude(radians): Pitch=0.00217529456131, Yaw=-0.0946073457599, Roll=-0.00861215498298
+     Velocity: Vx=-0.02, Vy=-0.05, Vz=2.18
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.66A, level=98%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.140000000596 m/s
+     Airspeed: 0.140000000596 m/s
+
+
+Wed Nov 20 13:45:23 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:23 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:23 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:23 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:23 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:23 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:23 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:23 2019 - Wait for 1 second.
+Wed Nov 20 13:45:24 2019 - Current Altitude: 7.53 m
+Wed Nov 20 13:45:24 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.363263, lon=149.1652352, alt(above sea leavel)=591.59
+     Global Location (relative altitude): lat=-35.363263, lon=149.1652352, alt(relative)=7.53
+     Local Location(NED coordinate): north=-0.230908602476, east=0.481221437454, down=-7.60311555862
+     Attitude(radians): Pitch=-0.00439567910507, Yaw=-0.0935914441943, Roll=-0.00503139570355
+     Velocity: Vx=0.02, Vy=-0.12, Vz=2.29
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.57A, level=98%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.0799999982119 m/s
+     Airspeed: 0.0799999982119 m/s
+
+
+Wed Nov 20 13:45:24 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:24 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:24 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:24 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:24 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:24 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:24 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:24 2019 - Wait for 1 second.
+Wed Nov 20 13:45:25 2019 - Current Altitude: 9.75 m
+Wed Nov 20 13:45:25 2019 - Checking current Vehicle Status:
+     Global Location: lat=-35.3632632, lon=149.1652352, alt(above sea leavel)=593.81
+     Global Location (relative altitude): lat=-35.3632632, lon=149.1652352, alt(relative)=9.75
+     Local Location(NED coordinate): north=-0.254560887814, east=0.484679251909, down=-9.82357406616
+     Attitude(radians): Pitch=-0.00286556850187, Yaw=-0.0953231528401, Roll=-0.00841256044805
+     Velocity: Vx=0.05, Vy=-0.12, Vz=2.28
+     GPS Info: fix_type=3, num_sat=10
+     Battery: voltage=12.193V, current=29.41A, level=98%
+     Sonar distance: None m
+     Heading: 354 (degrees from North)
+     Groundspeed: 0.0499999970198 m/s
+     Airspeed: 0.0499999970198 m/s
+
+
+Wed Nov 20 13:45:25 2019 - Host 192.168.0.102 is not ready.
+Wed Nov 20 13:45:25 2019 - Host 192.168.0.103 is not ready.
+Wed Nov 20 13:45:25 2019 - Host 192.168.0.104 is not ready.
+Wed Nov 20 13:45:25 2019 - Host 192.168.0.105 is not ready.
+Wed Nov 20 13:45:25 2019 - Host 192.168.0.106 is not ready.
+Wed Nov 20 13:45:25 2019 - Host 192.168.0.107 is not ready.
+Wed Nov 20 13:45:25 2019 - Host 192.168.0.108 is not ready.
+Wed Nov 20 13:45:25 2019 - Wait for 1 second.

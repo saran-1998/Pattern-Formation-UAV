@@ -20,6 +20,8 @@ sys.path.append(os.getcwd())
 local_host = sys.argv[1]
 port = sys.argv[2]
 total_no_of_drones = int(sys.argv[3])
+routerIPAddress = sys.argv[4]
+missionPlannerIPAddress = sys.argv[5]
 host_specifier = local_host[-1]
 
 # Set log.
@@ -71,7 +73,7 @@ __builtin__.vehicle.parameters['BRD_SAFETYENABLE'] = 1  # Enable
 start_SERVER_service(is_leader, local_host)
 
 # Start connection checker. Drone will return home once lost connection.
-router_host = '192.168.1.1'
+router_host = routerIPAddress
 threading.Thread(target=CHECK_network_connection, args=(
     router_host,), kwargs={'wait_time': 10}).start()
 
@@ -80,13 +82,21 @@ arm_no_RC()
 
 # IP list:
 iris_host = list()
-drone_address_identifier = int(local_host.split('.')[-1])
 host_prefix = local_host[:10]
+drone_address_identifier = int(local_host.split('.')[-1])
+currentIPAddress = host_prefix + str(drone_address_identifier)
+
 for i in range(total_no_of_drones):
-    iris_host.append(host_prefix + str(drone_address_identifier))
+    iris_host.append(currentIPAddress)
     drone_address_identifier += 1
+    currentIPAddress = host_prefix + str(drone_address_identifier) 
+    if currentIPAddress == missionPlannerIPAddress:
+        drone_address_identifier += 1
+        currentIPAddress = host_prefix + str(drone_address_identifier)
+    print(drone_address_identifier)
 
 followers = iris_host[1:]
+print(followers)
 follower_host_tuple = tuple(followers)
 
 # Wait untill all followers are ready(armed).

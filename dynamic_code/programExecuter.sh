@@ -8,14 +8,22 @@ nextip(){
 IP=($(hostname -I))
 echo -n "Enter the no of Followers:"
 read noOfFollowers
+echo -n "Enter the router IP Address:"
+read routerIPAddress
+echo -n "Enter the IP address of Mission Planner: "
+read missionPlannerIPAddress
 noOfDrones=$((noOfFollowers+1))
 UDPPort=14551
-xterm -title "Leader Drone" -hold -e python formation_main_leader.py $IP $UDPPort $noOfDrones &
+xterm -title "Leader Drone" -hold -e python formation_main_leader.py $IP $UDPPort $noOfDrones $routerIPAddress $missionPlannerIPAddress &
 UDPPort=$((UDPPort+1))
 IP=$(nextip $IP)
 for i in $(seq 1 $noOfFollowers)
 do
-    xterm -title "Follower Drone $i" -hold -e python formation_main_follower.py $IP $UDPPort&
+    if [ $IP == $missionPlannerIPAddress ]
+    then
+        IP=$(nextip $IP)
+    fi
+    xterm -title "Follower Drone $i" -hold -e python formation_main_follower.py $IP $UDPPort $routerIPAddress &
     UDPPort=$((UDPPort+1))
     IP=$(nextip $IP)
 done

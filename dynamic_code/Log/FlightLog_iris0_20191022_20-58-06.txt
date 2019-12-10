@@ -1,0 +1,50 @@
+Tue Oct 22 20:58:06 2019 - This is a leader drone.
+Tue Oct 22 20:58:06 2019 - local_host = 192.168.0.100.
+Tue Oct 22 20:58:06 2019 - This drone is iris0
+Tue Oct 22 20:58:06 2019 - local_host = 192.168.0.100.
+Tue Oct 22 20:58:06 2019 - This drone is iris0
+Tue Oct 22 20:58:06 2019 - Connecting to vehicle...
+Tue Oct 22 20:58:14 2019 - Vehicle is connected!
+Tue Oct 22 20:58:17 2019 - SERVER_send_gps_coordinate() is started!
+Tue Oct 22 20:58:17 2019 - Thread SERVER_send_gps_coordinate is started!
+Tue Oct 22 20:58:17 2019 - Thread SERVER_send_heading_direction is started!
+Tue Oct 22 20:58:17 2019 - SERVER_send_heading_direction() is started!
+ Tue Oct 22 20:58:17 2019 - Thread SERVER_send_status has started!
+Tue Oct 22 20:58:17 2019 - SERVER_send_status() is started!
+Tue Oct 22 20:58:17 2019 - CHECK_network_connection(192.168.1.1) is started.
+Tue Oct 22 20:58:20 2019 - Arming motors...
+Tue Oct 22 20:58:23 2019 - Vehicle mode is changed to GUIDED
+Tue Oct 22 20:58:23 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Oct 22 20:58:26 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Oct 22 20:58:27 2019 - Connection to router is DOWN for 1 times.
+Tue Oct 22 20:58:27 2019 - Check again in 1 seconds
+Tue Oct 22 20:58:28 2019 - Connection to router is DOWN for 2 times.
+Tue Oct 22 20:58:28 2019 - Check again in 1 seconds
+Tue Oct 22 20:58:29 2019 - Vehicle is not armed, try to arm vehicle again...
+Tue Oct 22 20:58:29 2019 - Connection to router is DOWN for 3 times.
+Tue Oct 22 20:58:29 2019 - Check again in 1 seconds
+Tue Oct 22 20:58:30 2019 - Connection to router is DOWN for 4 times.
+Tue Oct 22 20:58:30 2019 - Check again in 1 seconds
+Tue Oct 22 20:58:31 2019 - Connection to router is DOWN for 5 times.
+Tue Oct 22 20:58:31 2019 - Check again in 1 seconds
+Tue Oct 22 20:58:32 2019 - Host 192.168.0.101 is not ready.
+Tue Oct 22 20:58:32 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:32 2019 - Host 192.168.0.104 is not ready.
+Tue Oct 22 20:58:32 2019 - Wait for 1 second.
+Tue Oct 22 20:58:32 2019 - Connection to router is DOWN for 6 times.
+Tue Oct 22 20:58:32 2019 - Reached maximum down times.
+Tue Oct 22 20:58:32 2019 - Vehicle is returning home...
+Tue Oct 22 20:58:33 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:33 2019 - Wait for 1 second.
+Tue Oct 22 20:58:34 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:34 2019 - Wait for 1 second.
+Tue Oct 22 20:58:35 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:35 2019 - Wait for 1 second.
+Tue Oct 22 20:58:36 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:36 2019 - Wait for 1 second.
+Tue Oct 22 20:58:37 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:37 2019 - Wait for 1 second.
+Tue Oct 22 20:58:38 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:38 2019 - Wait for 1 second.
+Tue Oct 22 20:58:39 2019 - Host 192.168.0.102 is not ready.
+Tue Oct 22 20:58:39 2019 - Wait for 1 second.

@@ -13,9 +13,18 @@ NUM=$((NUM-1))
 echo -n "Enter the interface name of the ip address: "
 read interface
 
+echo -n "Enter the ip address of the mission planner: "
+read missionPlannerIP
+
 IP=$(hostname -I)
+
+
 for i in $(seq 0 $NUM); do
     IP=$(nextip $IP)
+    if [ $IP == $missionPlannerIP ]
+    then
+        IP=$(nextip $IP)
+    fi       
     $(sudo ifconfig $interface:$i $IP netmask 255.255.255.0 up)
 done
 
