@@ -123,103 +123,6 @@ leader_aim_heading_direction = __builtin__.vehicle.heading
 follower_followee = '\''+leader_host+'\''  # The string must contain ''.
 follower_frame_to_followee = '\''+'body'+'\''  # 'body' or 'local'.
 
-# ===================== Formation 1 (square) =====================
-# When taking off, drones are already in this formation.
-
-no_of_followers = total_no_of_drones-1
-follower_hover_height = [20]*no_of_followers  # In meter
-no_of_drones_per_edge = total_no_of_drones // 4
-remainder_no_of_drones = total_no_of_drones % 4
-
-edge1_angles = list()
-edge1_displacements = list()
-edge2_angles = list()
-edge2_displacements = list()
-edge3_angles = list()
-edge3_displacements = list()
-edge4_angles = list()
-edge4_displacements = list()
-
-if remainder_no_of_drones == 0:
-    edge_length = 10 * no_of_drones_per_edge
-    edge1_displacements = [i*10 for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [90] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt(
-        (edge_length ** 2) + ((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
-    edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles = [90 + int(math.degrees(math.atan(edge_length/((no_of_drones_per_edge-i)*10))))
-                    for i in range(1, no_of_drones_per_edge)]
-    edge3_angles.append(180)
-    edge4_displacements = [(no_of_drones_per_edge-i) *
-                           10 for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [180] * (no_of_drones_per_edge-1)
-elif remainder_no_of_drones == 1:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [90] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
-        edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles = [90 + int(math.degrees(math.atan(no_of_drones_per_edge/((no_of_drones_per_edge-i)))))
-                    for i in range(1, no_of_drones_per_edge)]
-    edge3_angles.append(180)
-    edge4_displacements = [(no_of_drones_per_edge-i)*(edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [180] * (no_of_drones_per_edge-1)
-elif remainder_no_of_drones == 2:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [90] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
-        edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles = [90 + int(math.degrees(math.atan(no_of_drones_per_edge/((no_of_drones_per_edge-i)))))
-                    for i in range(1, no_of_drones_per_edge)]
-    edge3_angles.append(180)
-    edge4_displacements = [
-        (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
-    edge4_angles = [180] * (no_of_drones_per_edge)
-else:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [90] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i+1)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge3_angles = [90 + int(math.degrees(math.atan(edge_length/((no_of_drones_per_edge-i+1)*10))))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles.append(180)
-    edge4_displacements = [
-        (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
-    edge4_angles = [180] * (no_of_drones_per_edge)
-
-followers_distance_to_followee = list(itertools.chain(
-    edge1_displacements, edge2_displacements, edge3_displacements, edge4_displacements))  # In meter
-followers_azimuth_to_followee = list(itertools.chain(
-    edge1_angles, edge2_angles, edge3_angles, edge4_angles))  # In meter
-
-
-print("Length of followers: ", len(followers))
-print("Length of followers height: ", len(follower_hover_height))
-print("Length of followers distance: ", len(followers_distance_to_followee))
-print("Length of followers azimuth: ", len(followers_azimuth_to_followee))
-
-
 # When all members are ready.
 # Leader takeoff and hover (in square shape).
 threading.Thread(target=takeoff_and_hover, args=(leader_hover_height,)).start()
@@ -246,313 +149,450 @@ print('{} - After taking off and hover, Leader\'s GPS coordinate : lat={}, lon={
 leader_current_heading = __builtin__.vehicle.heading
 print('{} - Leader current heading is {} degree.'.format(time.ctime(),
                                                          leader_current_heading))
+#interrupt based handling
+#prelude for servo based programming
 
-# Generate a point, leader will fly to this point.
-# 0=Forward, 90=Right, 180=Backward, 270=Left.
-pointA = new_gps_coord_after_offset_inBodyFrame(
-    (leader_current_lat, leader_current_lon), leader_fly_distance, leader_current_heading, 0)
-print('{} - Leader is going to pointA : {}'.format(time.ctime(), pointA))
+some_condition_1 = 1        #For square pattern formation
+some_condition_2 = 0        #For diamond pattern formation
+some_condition_3 = 0        #For triangle pattern formation
+some_condition_4 = 0        #For return to home
 
-# Leader go to new location. Followers fly follow in square shape.
-threading.Thread(target=goto_gps_location_relative, args=(
-    pointA[0], pointA[1], leader_hover_height,), kwargs={'groundspeed': 1}).start()
-# When leader is not at destination location, keep sending follow fly command to followers.
-# You can use threading to reduce the delay.
-# Function prototype : fly_follow(followee_host, frame, height, radius_2D, azimuth)
-while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_relative_frame.lat, __builtin__.vehicle.location.global_relative_frame.lon), (pointA[0], pointA[1])) > 1.0) or (abs(__builtin__.vehicle.location.global_relative_frame.alt - leader_hover_height) > 0.3)):
-    for i in range(1, no_of_followers + 1):
-        print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
-            time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
-        CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
-                                                                                              follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
-    time.sleep(0.5)
+while(True):
+    
+    #input the shape ----temporary code will be changed to include the servo parameters -----
+    #accomodates 4 conditions for square, triangle, diamond, home
+    #once return to home is given the code owould exit and will not accept further inputs
+    #the conditional variable is set as 1 to form that particular pattern
 
-# When leader has reached destination, execute air_break().
-# At the same time, send air_break command to all followers immediately.
-threading.Thread(target=air_break, args=()).start()
-for iter_follower in follower_host_tuple:
-    print(iter_follower)
-    CLIENT_send_immediate_command(iter_follower, 'air_break()')
+    print('Please enter the character for the shape to be formed (s-square, d-diamond, t-triangle, r-return to home):')
+    shape = input()
+    if shape == 's':
+        some_condition_1 = 1
+        some_condition_2 = 0
+        some_condition_3 = 0
+        some_condition_4 = 0
+    elif shape == 'd':
+        some_condition_1 = 0
+        some_condition_2 = 1
+        some_condition_3 = 0
+        some_condition_4 = 0
+    elif shape == 't':
+        some_condition_1 = 0
+        some_condition_2 = 0
+        some_condition_3 = 1
+        some_condition_4 = 0
+    elif shape == 'r':
+        some_condition_1 = 0
+        some_condition_2 = 0
+        some_condition_3 = 0
+        some_condition_4 = 1
 
-# ===================== Formation 2 (Diamond) =====================
-time.sleep(3)
-# Shape 2 definition(Diamond).
-follower_hover_height = [20]*no_of_followers  # In meter
-no_of_drones_per_edge = total_no_of_drones // 4
-remainder_no_of_drones = total_no_of_drones % 4
+    #Based on the condition variables that are updated above the pattern would be changed
+    
+    if some_condition_1:
+        # ===================== Formation 1 (square) =====================
+        # When taking off, drones are already in this formation.
 
-edge1_angles = list()
-edge1_displacements = list()
-edge2_angles = list()
-edge2_displacements = list()
-edge3_angles = list()
-edge3_displacements = list()
-edge4_angles = list()
-edge4_displacements = list()
+        no_of_followers = total_no_of_drones-1
+        follower_hover_height = [20]*no_of_followers  # In meter
+        no_of_drones_per_edge = total_no_of_drones // 4
+        remainder_no_of_drones = total_no_of_drones % 4
 
-if remainder_no_of_drones == 0:
-    edge_length = 10 * no_of_drones_per_edge
-    edge1_displacements = [i*10 for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt(
-        (edge_length ** 2) + ((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
-    edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles = [225 - int(math.degrees(math.atan2(((no_of_drones_per_edge-i)*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge4_displacements = [(no_of_drones_per_edge-i) *
-                           10 for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [225] * (no_of_drones_per_edge-1)
-elif remainder_no_of_drones == 1:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
-        edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles = [225 - int(math.degrees(math.atan(((no_of_drones_per_edge-i)/no_of_drones_per_edge))))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge4_displacements = [(no_of_drones_per_edge-i)*(edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [225] * (no_of_drones_per_edge-1)
-elif remainder_no_of_drones == 2:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i+1)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge3_angles = [225 - int(math.degrees(math.atan2(((no_of_drones_per_edge-i+1)*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge4_displacements = [(no_of_drones_per_edge-i)*(edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [225] * (no_of_drones_per_edge-1)
-else:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i+1)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge3_angles = [225 - int(math.degrees(math.atan2(((no_of_drones_per_edge-i+1)*10), edge_length)))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge4_displacements = [
-        (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
-    edge4_angles = [225] * (no_of_drones_per_edge)
+        edge1_angles = list()
+        edge1_displacements = list()
+        edge2_angles = list()
+        edge2_displacements = list()
+        edge3_angles = list()
+        edge3_displacements = list()
+        edge4_angles = list()
+        edge4_displacements = list()
 
+        if remainder_no_of_drones == 0:
+            edge_length = 10 * no_of_drones_per_edge
+            edge1_displacements = [i*10 for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [90] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt(
+                (edge_length ** 2) + ((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
+            edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles = [90 + int(math.degrees(math.atan(edge_length/((no_of_drones_per_edge-i)*10))))
+                            for i in range(1, no_of_drones_per_edge)]
+            edge3_angles.append(180)
+            edge4_displacements = [(no_of_drones_per_edge-i) *
+                                10 for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [180] * (no_of_drones_per_edge-1)
+        elif remainder_no_of_drones == 1:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [90] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
+                edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles = [90 + int(math.degrees(math.atan(no_of_drones_per_edge/((no_of_drones_per_edge-i)))))
+                            for i in range(1, no_of_drones_per_edge)]
+            edge3_angles.append(180)
+            edge4_displacements = [(no_of_drones_per_edge-i)*(edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [180] * (no_of_drones_per_edge-1)
+        elif remainder_no_of_drones == 2:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [90] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
+                edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles = [90 + int(math.degrees(math.atan(no_of_drones_per_edge/((no_of_drones_per_edge-i)))))
+                            for i in range(1, no_of_drones_per_edge)]
+            edge3_angles.append(180)
+            edge4_displacements = [
+                (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
+            edge4_angles = [180] * (no_of_drones_per_edge)
+        else:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [90] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [90 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i+1)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge3_angles = [90 + int(math.degrees(math.atan(edge_length/((no_of_drones_per_edge-i+1)*10))))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles.append(180)
+            edge4_displacements = [
+                (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
+            edge4_angles = [180] * (no_of_drones_per_edge)
 
-followers_distance_to_followee = list(itertools.chain(
-    edge1_displacements, edge2_displacements, edge3_displacements, edge4_displacements))  # In meter
-followers_azimuth_to_followee = list(itertools.chain(
-    edge1_angles, edge2_angles, edge3_angles, edge4_angles))  # In meter
-
-
-# Change formation.
-for i in range(no_of_followers, 0, -1):
-    print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
-        time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
-    CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(
-        follower_followee, follower_frame_to_followee, follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
-    time.sleep(5)  # Give drone 5 seconds to get to its position.
-
-# Get leader current location.
-leader_current_gps = __builtin__.vehicle.location.global_relative_frame
-leader_current_lat = leader_current_gps.lat
-leader_current_lon = leader_current_gps.lon
-leader_current_alt = leader_current_gps.alt
-print('{} - In formation 2 (diamond), leader\'s GPS coordinate : lat={}, lon={}, alt_relative={}'.format(
-    time.ctime(), leader_current_lat, leader_current_lon, leader_current_alt))
-# Get leader current heading.
-leader_current_heading = __builtin__.vehicle.heading
-print('{} - Leader current heading is {} degree.'.format(time.ctime(),
-                                                         leader_current_heading))
-
-# Generate a point, leader will fly to this point.
-# 0=Forward, 90=Right, 180=Backward, 270=Left.
-pointA = new_gps_coord_after_offset_inBodyFrame(
-    (leader_current_lat, leader_current_lon), leader_fly_distance, leader_current_heading, 0)
-print('{} - Leader is going to pointA : {}'.format(time.ctime(), pointA))
-
-# Leader go to new location.
-threading.Thread(target=goto_gps_location_relative, args=(
-    pointA[0], pointA[1], leader_hover_height,), kwargs={'groundspeed': 1}).start()
-# When leader is not at destination location, keep sending follow fly command to followers.
-# You can use threading to reduce the delay.
-# Function prototype : fly_follow(followee_host, frame, height, radius_2D, azimuth)
-while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_relative_frame.lat, __builtin__.vehicle.location.global_relative_frame.lon), (pointA[0], pointA[1])) > 1.5) or (abs(__builtin__.vehicle.location.global_relative_frame.alt - leader_hover_height) > 0.3)):
-    for i in range(1, no_of_followers+1):
-        print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
-            time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
-        CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
-                                                                                              follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
-    time.sleep(0.5)
-
-# When leader has reached destination, execute air_break().
-# At the same time, send air_break command to all followers immediately.
-threading.Thread(target=air_break, args=()).start()
-for iter_follower in follower_host_tuple:
-    CLIENT_send_immediate_command(iter_follower, 'air_break()')
-
-# ===================== Formation 3 (triangle) =====================
-time.sleep(3)
-# Shape 3 (triangle).
-follower_hover_height = [20]*no_of_followers  # In meter
-no_of_drones_per_edge = total_no_of_drones // 4
-remainder_no_of_drones = total_no_of_drones % 4
-
-edge1_angles = list()
-edge1_displacements = list()
-edge2_angles = list()
-edge2_displacements = list()
-edge3_angles = list()
-edge3_displacements = list()
-edge4_angles = list()
-edge4_displacements = list()
-
-if remainder_no_of_drones == 0:
-    edge_length = 10 * no_of_drones_per_edge
-    edge1_displacements = [
-        i*10*1.414 for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i), no_of_drones_per_edge)))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge3_displacements = [math.sqrt(
-        (edge_length ** 2) + ((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles = [180 + int(math.degrees(math.atan2(i, no_of_drones_per_edge)))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge4_displacements = [(no_of_drones_per_edge-i) *
-                           10 * 1.414 for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [225] * (no_of_drones_per_edge-1)
-elif remainder_no_of_drones == 1:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * 1.414 * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + (((no_of_drones_per_edge-i+1)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i+1), (no_of_drones_per_edge+1))))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt((edge_length ** 2)+((i*(
-        edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
-    edge3_angles = [180 + int(math.degrees(math.atan2(i, no_of_drones_per_edge)))
-                    for i in range(1, no_of_drones_per_edge+1)]
-    edge4_displacements = [(no_of_drones_per_edge-i)*1.414*(edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [225] * (no_of_drones_per_edge-1)
-elif remainder_no_of_drones == 2:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * 1.414 * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + (((no_of_drones_per_edge-i+1)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i+1), (no_of_drones_per_edge+1))))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt(
-        (edge_length ** 2)+((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+2)]
-    edge3_angles = [180 + int(math.degrees(math.atan2(i, (no_of_drones_per_edge+1))))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge4_displacements = [(no_of_drones_per_edge-i)*1.414*(edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge)]
-    edge4_angles = [225] * (no_of_drones_per_edge-1)
-else:
-    edge_length = 10 * (no_of_drones_per_edge + 1)
-    edge1_displacements = [i * 1.414 * (edge_length/no_of_drones_per_edge)
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge1_angles = [135] * no_of_drones_per_edge
-    edge2_displacements = [math.sqrt((edge_length ** 2) + (((no_of_drones_per_edge-i+1)*10) ** 2))
-                           for i in range(1, no_of_drones_per_edge+2)]
-    edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i+1), (no_of_drones_per_edge+1))))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge3_displacements = [math.sqrt(
-        (edge_length ** 2)+((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+2)]
-    edge3_angles = [180 + int(math.degrees(math.atan2(i, (no_of_drones_per_edge+1))))
-                    for i in range(1, no_of_drones_per_edge+2)]
-    edge4_displacements = [(no_of_drones_per_edge-i+1)*1.414*10
-                           for i in range(1, no_of_drones_per_edge+1)]
-    edge4_angles = [225] * (no_of_drones_per_edge)
+        followers_distance_to_followee = list(itertools.chain(
+            edge1_displacements, edge2_displacements, edge3_displacements, edge4_displacements))  # In meter
+        followers_azimuth_to_followee = list(itertools.chain(
+            edge1_angles, edge2_angles, edge3_angles, edge4_angles))  # In meter
 
 
-followers_distance_to_followee = list(itertools.chain(
-    edge1_displacements, edge2_displacements, edge3_displacements, edge4_displacements))  # In meter
-followers_azimuth_to_followee = list(itertools.chain(
-    edge1_angles, edge2_angles, edge3_angles, edge4_angles))  # In meter
+        print("Length of followers: ", len(followers))
+        print("Length of followers height: ", len(follower_hover_height))
+        print("Length of followers distance: ", len(followers_distance_to_followee))
+        print("Length of followers azimuth: ", len(followers_azimuth_to_followee))
 
-# move followers.
+        # Generate a point, leader will fly to this point.
+        # 0=Forward, 90=Right, 180=Backward, 270=Left.
+        pointA = new_gps_coord_after_offset_inBodyFrame(
+            (leader_current_lat, leader_current_lon), leader_fly_distance, leader_current_heading, 0)
+        print('{} - Leader is going to pointA : {}'.format(time.ctime(), pointA))
 
-for i in range(1, no_of_followers+1):
-    print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
-        time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
-    CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
-                                                                                          follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
-    time.sleep(5)  # Give drone 5 seconds to get to its position.
+        # Leader go to new location. Followers fly follow in square shape.
+        threading.Thread(target=goto_gps_location_relative, args=(
+            pointA[0], pointA[1], leader_hover_height,), kwargs={'groundspeed': 1}).start()
+        # When leader is not at destination location, keep sending follow fly command to followers.
+        # You can use threading to reduce the delay.
+        # Function prototype : fly_follow(followee_host, frame, height, radius_2D, azimuth)
+        while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_relative_frame.lat, __builtin__.vehicle.location.global_relative_frame.lon), (pointA[0], pointA[1])) > 1.0) or (abs(__builtin__.vehicle.location.global_relative_frame.alt - leader_hover_height) > 0.3)):
+            for i in range(1, no_of_followers + 1):
+                print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
+                    time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
+                CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
+                                                                                                    follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
+            time.sleep(0.5)
 
-# Get leader current location.
-leader_current_gps = __builtin__.vehicle.location.global_relative_frame
-leader_current_lat = leader_current_gps.lat
-leader_current_lon = leader_current_gps.lon
-leader_current_alt = leader_current_gps.alt
-print('{} - In formation 3 (triangle), leader\'s GPS coordinate : lat={}, lon={}, alt_relative={}'.format(
-    time.ctime(), leader_current_lat, leader_current_lon, leader_current_alt))
-# Get leader current heading.
-leader_current_heading = __builtin__.vehicle.heading
-print('{} - Leader current heading is {} degree.'.format(time.ctime(),
-                                                         leader_current_heading))
+        # When leader has reached destination, execute air_break().
+        # At the same time, send air_break command to all followers immediately.
+        threading.Thread(target=air_break, args=()).start()
+        for iter_follower in follower_host_tuple:
+            print(iter_follower)
+            CLIENT_send_immediate_command(iter_follower, 'air_break()')
+    elif some_condition_2:
+        # ===================== Formation 2 (Diamond) =====================
+        time.sleep(3)
+        # Shape 2 definition(Diamond).
+        follower_hover_height = [20]*no_of_followers  # In meter
+        no_of_drones_per_edge = total_no_of_drones // 4
+        remainder_no_of_drones = total_no_of_drones % 4
 
-# Generate a point, leader will fly to this point.
-# 0=Forward, 90=Right, 180=Backward, 270=Left.
-pointA = new_gps_coord_after_offset_inBodyFrame(
-    (leader_current_lat, leader_current_lon), leader_fly_distance, leader_current_heading, 0)
-print('{} - Leader is going to pointA : {}'.format(time.ctime(), pointA))
+        edge1_angles = list()
+        edge1_displacements = list()
+        edge2_angles = list()
+        edge2_displacements = list()
+        edge3_angles = list()
+        edge3_displacements = list()
+        edge4_angles = list()
+        edge4_displacements = list()
 
-# Leader go to new location.
-threading.Thread(target=goto_gps_location_relative, args=(
-    pointA[0], pointA[1], leader_hover_height,), kwargs={'groundspeed': 1}).start()
-# When leader is not at destination location, keep sending follow fly command to followers.
-# You can use threading to reduce the delay.
-# Function prototype : fly_follow(followee_host, frame, height, radius_2D, azimuth)
-while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_relative_frame.lat, __builtin__.vehicle.location.global_relative_frame.lon), (pointA[0], pointA[1])) > 1.5) or (abs(__builtin__.vehicle.location.global_relative_frame.alt - leader_hover_height) > 0.3)):
-    for i in range(1, no_of_followers+1):
-        print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
-            time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
-        CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
-                                                                                              follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
-    time.sleep(0.5)
+        if remainder_no_of_drones == 0:
+            edge_length = 10 * no_of_drones_per_edge
+            edge1_displacements = [i*10 for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt(
+                (edge_length ** 2) + ((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
+            edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles = [225 - int(math.degrees(math.atan2(((no_of_drones_per_edge-i)*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge4_displacements = [(no_of_drones_per_edge-i) *
+                                10 for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [225] * (no_of_drones_per_edge-1)
+        elif remainder_no_of_drones == 1:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*(
+                edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles = [225 - int(math.degrees(math.atan(((no_of_drones_per_edge-i)/no_of_drones_per_edge))))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge4_displacements = [(no_of_drones_per_edge-i)*(edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [225] * (no_of_drones_per_edge-1)
+        elif remainder_no_of_drones == 2:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i+1)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge3_angles = [225 - int(math.degrees(math.atan2(((no_of_drones_per_edge-i+1)*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge4_displacements = [(no_of_drones_per_edge-i)*(edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [225] * (no_of_drones_per_edge-1)
+        else:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + ((i*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [135 + int(math.degrees(math.atan2((i*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i+1)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge3_angles = [225 - int(math.degrees(math.atan2(((no_of_drones_per_edge-i+1)*10), edge_length)))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge4_displacements = [
+                (no_of_drones_per_edge-i+1)*10 for i in range(1, no_of_drones_per_edge+1)]
+            edge4_angles = [225] * (no_of_drones_per_edge)
 
-# When leader has reached destination, execute air_break().
-# At the same time, send air_break command to all followers immediately.
-threading.Thread(target=air_break, args=()).start()
-for iter_follower in follower_host_tuple:
-    CLIENT_send_immediate_command(iter_follower, 'air_break()')
 
-# ===================== Mission completed, leader and followers go home =====================
-# Wait for follower ready.
-wait_for_follower_ready(follower_host_tuple)
-print('{} - Mission completed. Return home.'.format(time.ctime()))
+        followers_distance_to_followee = list(itertools.chain(
+            edge1_displacements, edge2_displacements, edge3_displacements, edge4_displacements))  # In meter
+        followers_azimuth_to_followee = list(itertools.chain(
+            edge1_angles, edge2_angles, edge3_angles, edge4_angles))  # In meter
 
-# Followers go home.
-for i in range(1, no_of_followers+1):
-    print('{} - Command follower {} return home.'.format(time.ctime(), i))
-    CLIENT_send_immediate_command(followers[i-1], 'return_to_launch()')
-    time.sleep(2)
 
-# Leader drone go home.
-print('{} - Followers have returned home, Leader is returning...'.format(time.ctime()))
-return_to_launch()
-print('{} - Leader has returned home.'.format(time.ctime()))
+        # Change formation.
+        for i in range(no_of_followers, 0, -1):
+            print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
+                time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
+            CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(
+                follower_followee, follower_frame_to_followee, follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
+            time.sleep(5)  # Give drone 5 seconds to get to its position.
+
+        # Get leader current location.
+        leader_current_gps = __builtin__.vehicle.location.global_relative_frame
+        leader_current_lat = leader_current_gps.lat
+        leader_current_lon = leader_current_gps.lon
+        leader_current_alt = leader_current_gps.alt
+        print('{} - In formation 2 (diamond), leader\'s GPS coordinate : lat={}, lon={}, alt_relative={}'.format(
+            time.ctime(), leader_current_lat, leader_current_lon, leader_current_alt))
+        # Get leader current heading.
+        leader_current_heading = __builtin__.vehicle.heading
+        print('{} - Leader current heading is {} degree.'.format(time.ctime(),
+                                                                leader_current_heading))
+
+        # Generate a point, leader will fly to this point.
+        # 0=Forward, 90=Right, 180=Backward, 270=Left.
+        pointA = new_gps_coord_after_offset_inBodyFrame(
+            (leader_current_lat, leader_current_lon), leader_fly_distance, leader_current_heading, 0)
+        print('{} - Leader is going to pointA : {}'.format(time.ctime(), pointA))
+
+        # Leader go to new location.
+        threading.Thread(target=goto_gps_location_relative, args=(
+            pointA[0], pointA[1], leader_hover_height,), kwargs={'groundspeed': 1}).start()
+        # When leader is not at destination location, keep sending follow fly command to followers.
+        # You can use threading to reduce the delay.
+        # Function prototype : fly_follow(followee_host, frame, height, radius_2D, azimuth)
+        while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_relative_frame.lat, __builtin__.vehicle.location.global_relative_frame.lon), (pointA[0], pointA[1])) > 1.5) or (abs(__builtin__.vehicle.location.global_relative_frame.alt - leader_hover_height) > 0.3)):
+            for i in range(1, no_of_followers+1):
+                print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
+                    time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
+                CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
+                                                                                                    follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
+            time.sleep(0.5)
+
+        # When leader has reached destination, execute air_break().
+        # At the same time, send air_break command to all followers immediately.
+        threading.Thread(target=air_break, args=()).start()
+        for iter_follower in follower_host_tuple:
+            CLIENT_send_immediate_command(iter_follower, 'air_break()')
+    elif some_condition_3:
+        # ===================== Formation 3 (triangle) =====================
+        time.sleep(3)
+        # Shape 3 (triangle).
+        follower_hover_height = [20]*no_of_followers  # In meter
+        no_of_drones_per_edge = total_no_of_drones // 4
+        remainder_no_of_drones = total_no_of_drones % 4
+
+        edge1_angles = list()
+        edge1_displacements = list()
+        edge2_angles = list()
+        edge2_displacements = list()
+        edge3_angles = list()
+        edge3_displacements = list()
+        edge4_angles = list()
+        edge4_displacements = list()
+
+        if remainder_no_of_drones == 0:
+            edge_length = 10 * no_of_drones_per_edge
+            edge1_displacements = [
+                i*10*1.414 for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2)+(((no_of_drones_per_edge-i)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i), no_of_drones_per_edge)))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge3_displacements = [math.sqrt(
+                (edge_length ** 2) + ((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles = [180 + int(math.degrees(math.atan2(i, no_of_drones_per_edge)))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge4_displacements = [(no_of_drones_per_edge-i) *
+                                10 * 1.414 for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [225] * (no_of_drones_per_edge-1)
+        elif remainder_no_of_drones == 1:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * 1.414 * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + (((no_of_drones_per_edge-i+1)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i+1), (no_of_drones_per_edge+1))))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt((edge_length ** 2)+((i*(
+                edge_length/no_of_drones_per_edge)) ** 2)) for i in range(1, no_of_drones_per_edge+1)]
+            edge3_angles = [180 + int(math.degrees(math.atan2(i, no_of_drones_per_edge)))
+                            for i in range(1, no_of_drones_per_edge+1)]
+            edge4_displacements = [(no_of_drones_per_edge-i)*1.414*(edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [225] * (no_of_drones_per_edge-1)
+        elif remainder_no_of_drones == 2:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * 1.414 * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + (((no_of_drones_per_edge-i+1)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i+1), (no_of_drones_per_edge+1))))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt(
+                (edge_length ** 2)+((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+2)]
+            edge3_angles = [180 + int(math.degrees(math.atan2(i, (no_of_drones_per_edge+1))))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge4_displacements = [(no_of_drones_per_edge-i)*1.414*(edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge)]
+            edge4_angles = [225] * (no_of_drones_per_edge-1)
+        else:
+            edge_length = 10 * (no_of_drones_per_edge + 1)
+            edge1_displacements = [i * 1.414 * (edge_length/no_of_drones_per_edge)
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge1_angles = [135] * no_of_drones_per_edge
+            edge2_displacements = [math.sqrt((edge_length ** 2) + (((no_of_drones_per_edge-i+1)*10) ** 2))
+                                for i in range(1, no_of_drones_per_edge+2)]
+            edge2_angles = [180 - int(math.degrees(math.atan2((no_of_drones_per_edge-i+1), (no_of_drones_per_edge+1))))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge3_displacements = [math.sqrt(
+                (edge_length ** 2)+((i*10) ** 2)) for i in range(1, no_of_drones_per_edge+2)]
+            edge3_angles = [180 + int(math.degrees(math.atan2(i, (no_of_drones_per_edge+1))))
+                            for i in range(1, no_of_drones_per_edge+2)]
+            edge4_displacements = [(no_of_drones_per_edge-i+1)*1.414*10
+                                for i in range(1, no_of_drones_per_edge+1)]
+            edge4_angles = [225] * (no_of_drones_per_edge)
+
+
+        followers_distance_to_followee = list(itertools.chain(
+            edge1_displacements, edge2_displacements, edge3_displacements, edge4_displacements))  # In meter
+        followers_azimuth_to_followee = list(itertools.chain(
+            edge1_angles, edge2_angles, edge3_angles, edge4_angles))  # In meter
+
+        # move followers.
+
+        for i in range(1, no_of_followers+1):
+            print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
+                time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
+            CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
+                                                                                                follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
+            time.sleep(5)  # Give drone 5 seconds to get to its position.
+
+        # Get leader current location.
+        leader_current_gps = __builtin__.vehicle.location.global_relative_frame
+        leader_current_lat = leader_current_gps.lat
+        leader_current_lon = leader_current_gps.lon
+        leader_current_alt = leader_current_gps.alt
+        print('{} - In formation 3 (triangle), leader\'s GPS coordinate : lat={}, lon={}, alt_relative={}'.format(
+            time.ctime(), leader_current_lat, leader_current_lon, leader_current_alt))
+        # Get leader current heading.
+        leader_current_heading = __builtin__.vehicle.heading
+        print('{} - Leader current heading is {} degree.'.format(time.ctime(),
+                                                                leader_current_heading))
+
+        # Generate a point, leader will fly to this point.
+        # 0=Forward, 90=Right, 180=Backward, 270=Left.
+        pointA = new_gps_coord_after_offset_inBodyFrame(
+            (leader_current_lat, leader_current_lon), leader_fly_distance, leader_current_heading, 0)
+        print('{} - Leader is going to pointA : {}'.format(time.ctime(), pointA))
+
+        # Leader go to new location.
+        threading.Thread(target=goto_gps_location_relative, args=(
+            pointA[0], pointA[1], leader_hover_height,), kwargs={'groundspeed': 1}).start()
+        # When leader is not at destination location, keep sending follow fly command to followers.
+        # You can use threading to reduce the delay.
+        # Function prototype : fly_follow(followee_host, frame, height, radius_2D, azimuth)
+        while ((distance_between_two_gps_coord((__builtin__.vehicle.location.global_relative_frame.lat, __builtin__.vehicle.location.global_relative_frame.lon), (pointA[0], pointA[1])) > 1.5) or (abs(__builtin__.vehicle.location.global_relative_frame.alt - leader_hover_height) > 0.3)):
+            for i in range(1, no_of_followers+1):
+                print('{} - Sending command fly_follow() to follower {} with angle {} and distance {}.'.format(
+                    time.ctime(), i, followers_azimuth_to_followee[i-1], followers_distance_to_followee[i-1]))
+                CLIENT_send_immediate_command(followers[i-1], 'fly_follow({}, {}, {}, {}, {})'.format(follower_followee, follower_frame_to_followee,
+                                                                                                    follower_hover_height[i-1], followers_distance_to_followee[i-1], followers_azimuth_to_followee[i-1]))
+            time.sleep(0.5)
+
+        # When leader has reached destination, execute air_break().
+        # At the same time, send air_break command to all followers immediately.
+        threading.Thread(target=air_break, args=()).start()
+        for iter_follower in follower_host_tuple:
+            CLIENT_send_immediate_command(iter_follower, 'air_break()')
+    elif some_condition_4:
+        # ===================== Mission completed, leader and followers go home =====================
+        # Wait for follower ready.
+        wait_for_follower_ready(follower_host_tuple)
+        print('{} - Mission completed. Return home.'.format(time.ctime()))
+
+        # Followers go home.
+        for i in range(1, no_of_followers+1):
+            print('{} - Command follower {} return home.'.format(time.ctime(), i))
+            CLIENT_send_immediate_command(followers[i-1], 'return_to_launch()')
+            time.sleep(2)
+
+        # Leader drone go home.
+        print('{} - Followers have returned home, Leader is returning...'.format(time.ctime()))
+        return_to_launch()
+        print('{} - Leader has returned home.'.format(time.ctime()))
+        break
