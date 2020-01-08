@@ -159,37 +159,37 @@ some_condition_4 = 0        #For return to home
 
 while(True):
     
-    #input the shape ----temporary code will be changed to include the servo parameters -----
-    #accomodates 4 conditions for square, triangle, diamond, home
-    #once return to home is given the code owould exit and will not accept further inputs
-    #the conditional variable is set as 1 to form that particular pattern
+    # #input the shape ----temporary code will be changed to include the servo parameters -----
+    # #accomodates 4 conditions for square, triangle, diamond, home
+    # #once return to home is given the code owould exit and will not accept further inputs
+    # #the conditional variable is set as 1 to form that particular pattern
 
-    print('Please enter the character for the shape to be formed (s-square, d-diamond, t-triangle, r-return to home):')
-    shape = input()
-    if shape == 's':
-        some_condition_1 = 1
-        some_condition_2 = 0
-        some_condition_3 = 0
-        some_condition_4 = 0
-    elif shape == 'd':
-        some_condition_1 = 0
-        some_condition_2 = 1
-        some_condition_3 = 0
-        some_condition_4 = 0
-    elif shape == 't':
-        some_condition_1 = 0
-        some_condition_2 = 0
-        some_condition_3 = 1
-        some_condition_4 = 0
-    elif shape == 'r':
-        some_condition_1 = 0
-        some_condition_2 = 0
-        some_condition_3 = 0
-        some_condition_4 = 1
+    # print('Please enter the character for the shape to be formed (s-square, d-diamond, t-triangle, r-return to home):')
+    # shape = input()
+    # if shape == 's':
+    #     some_condition_1 = 1
+    #     some_condition_2 = 0
+    #     some_condition_3 = 0
+    #     some_condition_4 = 0
+    # elif shape == 'd':
+    #     some_condition_1 = 0
+    #     some_condition_2 = 1
+    #     some_condition_3 = 0
+    #     some_condition_4 = 0
+    # elif shape == 't':
+    #     some_condition_1 = 0
+    #     some_condition_2 = 0
+    #     some_condition_3 = 1
+    #     some_condition_4 = 0
+    # elif shape == 'r':
+    #     some_condition_1 = 0
+    #     some_condition_2 = 0
+    #     some_condition_3 = 0
+    #     some_condition_4 = 1
 
-    #Based on the condition variables that are updated above the pattern would be changed
-    
-    if some_condition_1:
+    # #Based on the condition variables that are updated above the pattern would be changed
+
+    if __builtin__.vehicle.parameters['RC5_FUNCTION'] == 1:
         # ===================== Formation 1 (square) =====================
         # When taking off, drones are already in this formation.
 
@@ -312,7 +312,7 @@ while(True):
         for iter_follower in follower_host_tuple:
             print(iter_follower)
             CLIENT_send_immediate_command(iter_follower, 'air_break()')
-    elif some_condition_2:
+    elif __builtin__.vehicle.parameters['RC6_FUNCTION'] == 1:
         # ===================== Formation 2 (Diamond) =====================
         time.sleep(3)
         # Shape 2 definition(Diamond).
@@ -445,7 +445,7 @@ while(True):
         threading.Thread(target=air_break, args=()).start()
         for iter_follower in follower_host_tuple:
             CLIENT_send_immediate_command(iter_follower, 'air_break()')
-    elif some_condition_3:
+    elif __builtin__.vehicle.parameters['RC7_FUNCTION'] == 1:
         # ===================== Formation 3 (triangle) =====================
         time.sleep(3)
         # Shape 3 (triangle).
@@ -579,7 +579,7 @@ while(True):
         threading.Thread(target=air_break, args=()).start()
         for iter_follower in follower_host_tuple:
             CLIENT_send_immediate_command(iter_follower, 'air_break()')
-    elif some_condition_4:
+    elif __builtin__.vehicle.parameters['RC8_FUNCTION'] == 1:
         # ===================== Mission completed, leader and followers go home =====================
         # Wait for follower ready.
         wait_for_follower_ready(follower_host_tuple)
