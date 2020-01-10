@@ -15,6 +15,7 @@ from dronekit import mavutil
 import os
 import sys
 sys.path.append(os.getcwd())
+import zmq
 
 # Get local host IP.
 local_host = sys.argv[1]
@@ -152,10 +153,10 @@ print('{} - Leader current heading is {} degree.'.format(time.ctime(),
 #interrupt based handling
 #prelude for servo based programming
 
-some_condition_1 = 1        #For square pattern formation
-some_condition_2 = 0        #For diamond pattern formation
-some_condition_3 = 0        #For triangle pattern formation
-some_condition_4 = 0        #For return to home
+# some_condition_1 = 1        #For square pattern formation
+# some_condition_2 = 0        #For diamond pattern formation
+# some_condition_3 = 0        #For triangle pattern formation
+# some_condition_4 = 0        #For return to home
 
 while(True):
     

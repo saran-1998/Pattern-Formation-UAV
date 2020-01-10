@@ -13,11 +13,14 @@ import os, sys
 sys.path.append(os.getcwd())
 from formation_function import *
 import __builtin__
+import zmq
 
 # Get local host IP.
 local_host = sys.argv[1]
 port = sys.argv[2]
 routerIPAddress = sys.argv[3]
+totalNoOfDrones = sys.argv[4]
+followerUniqueID = sys.argv[5]
 host_specifier = local_host[-1]
 
 # Set log.
@@ -76,3 +79,4 @@ arm_no_RC() # Blocking call.
 __builtin__.status_waitForCommand = True
 print('{} - __builtin__.status_waitForCommand = {}'.format(time.ctime(), __builtin__.status_waitForCommand))
 print('{} - Follower is armed!'.format(time.ctime()))
+
